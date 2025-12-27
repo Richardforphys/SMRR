@@ -1,7 +1,7 @@
-# SMRR
-Folder for "Simulazioni Montecarlo di Rivelatori di Radiazione" course
+# SMRR - Folder for "Simulazioni Montecarlo di Rivelatori di Radiazione" course
 
-
-### To run 
-any programm use the following command line
+To run any programm use the following command line
 gdb -batch -ex "run" ./test1
+---
+
+## Folder Structure
