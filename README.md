@@ -23,4 +23,4 @@ $ make -j4 VERBOSE=1
 \\
 ---
 ### LaBr3
-Folder for Bromuro di Lantanio simulation
+Folder for Bromuro di Lantanio 
