@@ -14,7 +14,7 @@ class G4Material;
 class DetectorMessenger;// questa classe e le precedenti sono incluse all'interno di G4VUserDetectorConstruction.hh
 
 /*Ora costruiamo la classe DetectorConstruction che serve per costruire il rilevatore*/
-class DetectorConstruction: public G4VUserDetectorConstruction //deve avere lo stesso nome del file, : vuol dire "derivata da" quello che segue
+class DetectorConstruction: public G4VUserDetectorConstruction //deve avere lo stesso nome del file, ":" vuol dire "derivata da" quello che segue
 { 
     public: 
         DetectorConstruction(); //costruttore
