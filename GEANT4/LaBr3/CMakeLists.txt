@@ -41,3 +41,23 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh) #cerca tutti i file all'in
 add_executable(exampleLaBr3 LaBr3.cc ${sources} ${headers})
 target_link_libraries(exampleLaBr3 ${Geant4_LIBRARIES} ${ROOT_LIBRARIES})
 
+#------------------------------------------------------------------------------------------------
+#Copy all scripts to the build directory, i.e. the directory in which we build LaBr3; we can thus run the executable directly because 
+#it relies on the scripts being in the curret wokig directoy
+
+set(EXAMPLELABR3_SCRIPTS
+    vis.mac
+    visQT.mac
+    ) # sto legando al nome EXAMPLELABR3_SCRIPTS i file vis.max e visQT.mac
+
+foreach(_script ${EXAMPLELABR3_SCRIPTS}
+            configure_file(
+                ${PROJECT_SOURCE_DIR}/${_script}
+                COPYONLY
+            )
+            )
+endforeach() #copia tutti file nella cartella sorgente EXAMPLELABR3_SCRIPTS all'interno dell cartella che usiamo per costruire l'eseguibile
+
+#------------------------------------------------------------------------------------------------
+#install the executable to bi directory under CMAKE_INSTALL_PREFIX
+install(TARGETS exampleLaBr3 DESTINATION bin)
