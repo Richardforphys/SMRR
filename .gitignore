@@ -1,13 +1,6 @@
-/GEANT4/exercises/task1
-/GEANT4/exercises/task2
-/GEANT4/exercises/task3
-/GEANT4/exercises/task4
-/GEANT4/exercises/task5
-/GEANT4/exercises/task6
-/GEANT4/exercises/task7
 /GEANT4/geant4
 /GEANT4/geant4_build
 /GEANT4/geant4_install
-
 /build
 /ROOT
+/GEANT4/Tasks/task1b_build

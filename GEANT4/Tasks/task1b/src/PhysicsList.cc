@@ -13,6 +13,9 @@
 #include "G4ProcessManager.hh"
 #include "G4ParticleTypes.hh"
 
+#include "G4SystemOfUnits.hh"
+#include "G4PhysicalConstants.hh"
+
 PhysicsList::PhysicsList():  G4VUserPhysicsList()
 {
   defaultCutValue = 10.0*um;
@@ -37,20 +40,20 @@ void PhysicsList::ConstructParticle()
   // define gamma, e+, e- and some charged Hadrons
   emPhysicsList->ConstructParticle();
 
-  /*
-// gamma
-  G4Gamma::Gamma();
+  
+  // gamma
+  //G4Gamma::Gamma();
 
-// leptons
-  G4Electron::Electron();
-  G4Positron::Positron();
+  // leptons
+  //G4Electron::Electron();
+  //G4Positron::Positron();
   G4MuonPlus::MuonPlus();
   G4MuonMinus::MuonMinus();
-  */
+  
 
   // mesons
-  //  G4PionPlus::PionPlusDefinition();
-  //  G4PionMinus::PionMinusDefinition();
+  G4PionPlus::PionPlusDefinition();
+  G4PionMinus::PionMinusDefinition();
 
 }
 

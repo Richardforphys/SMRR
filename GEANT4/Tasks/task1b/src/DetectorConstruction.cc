@@ -13,6 +13,8 @@
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4PVReplica.hh"
+#include "G4SystemOfUnits.hh"
+#include "G4PhysicalConstants.hh"
 
 #include "G4GeometryTolerance.hh"
 #include "G4GeometryManager.hh"
@@ -64,7 +66,7 @@ void DetectorConstruction::ComputeParameters()
 	//of the geometry construction
 
 	// ** world **
-	halfWorldLength = 5* m;
+	halfWorldLength = 5*m;
 
 	// ** em calo **
 	emCaloCentralCrystalWidth = 22*mm;
@@ -139,7 +141,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		white(1.0,1.0,1.0);
 
 	logicWorld -> SetVisAttributes(new G4VisAttributes(white));
-	logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
+	logicWorld->SetVisAttributes(G4VisAttributes::GetInvisible());
     
 	//always return the physical World
 	//
@@ -297,13 +299,13 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	//The dimensions are the same as the hadCaloSolid except the
 	//half dimension in Z: it is now hadCaloLArThickness/2
 	//We now make layers of LAr and add them to the hadronic calo logic
+	
 	G4Tubs* hadLayerSolid = new G4Tubs( "HadCaloLayerSolid", //its name
-	                                    EDITME:innerradius ,
-	                                    EDITME:outerradius ,
-	                                    EDITME:length,
-	                                    EDITME:start_angle,
-	                                    EDITME:end_angle);
-
+	                                    0,
+	                                    hadCaloRadius,
+	                                    hadCaloLArThickness/2,
+	                                    0,
+	                                    CLHEP::twopi);											
 
 	//-------------------------
 	//Exercise 2 of task1b
@@ -311,8 +313,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	//We need now to create the logical volume.
 	//A logical volume is build with a pointer to a solid
 	//a pointer to a material and a name
-	G4LogicalVolume* hadLayerLogic = new G4LogicalVolume(EDITME:solid_pointer,
-														 EDITME:material,
+	G4LogicalVolume* hadLayerLogic = new G4LogicalVolume(hadLayerSolid,
+														 lar,
 														 "HadLayerLogic");//its name
 
 	//-------------------------
@@ -322,7 +324,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	//We do it with a for-loop making several placements.
 	//Remember: when you create a placement you need to specify the positions in the mother volume
 	//coordinate frame. In this case the mother wolume is the hadCaloLogic logical volume
-	//The postion is parametrized depending on the layer number, we create some variables to help these
+	//The position is parametrized depending on the layer number, we create some variables to help these
 	//placements
 	//Translation of one Layer with respect previous Layer
 	G4ThreeVector absorberLayer(0,0,hadCaloFeThickness);
@@ -332,11 +334,11 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	{
 		G4ThreeVector position = (layerIdx+1)*absorberLayer + (layerIdx+0.5)*activeLayer;
 		position -= G4ThreeVector(0,0,halfHadCaloHalfZ);//Position is w.r.t. center of mother volume: the hadCaloLogic
-		new G4PVPlacement(EDITME:rotation,
+		new G4PVPlacement(0,
 						  position, //position, do not change this, already done for you
-						  EDITME:logical_volume,
+						  hadLayerLogic,
 						  "HadCaloLayer",//a name
-						  EDITME:mother_logical_volume,
+						  hadCaloLogic,
 						  false, //leave this like this: not used
 						  ++layerCopyNum);//The unique number, it will be 1001+layerIndex
 	}

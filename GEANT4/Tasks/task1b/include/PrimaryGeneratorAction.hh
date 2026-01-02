@@ -24,6 +24,7 @@ Geant4 provides a number of predefined primary particle generator, to be utilise
 
 \sa GeneratePrimaries()
  */
+
 class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 {
 public:
