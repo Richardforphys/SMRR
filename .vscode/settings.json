@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/wsl.localhost/Ubuntu/home/ricca/SMRR/GEANT4/LaBr3"
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "cmake.sourceDirectory": "/home/ricca/SMRR/GEANT4/geant4"
 }

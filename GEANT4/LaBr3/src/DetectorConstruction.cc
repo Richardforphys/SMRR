@@ -76,7 +76,7 @@ void DetectorConstruction::DefineMaterials()
         if(!LaBr3_Mat) 
             { G4cout << "Error in creating LaBr3 Material!" << G4endl;}
     }
-/*================================================== CONSTRUCT METHOD ==================================================*/
+/*================================================== DETECTOR CONSTRUCT METHOD ==================================================*/
 void DetectorConstruction::ComputeParameters()
     {
         //Compute LaBr3 Detector Cylinder
@@ -127,3 +127,33 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
         return physiWorld; //Always return Physical world, which is of type G4PhysicalVolume
 
     }
+
+/*================================================== PHYSICAL VOLUMES ==================================================*/
+
+G4PhysicalVolume* DetectorConstruction::Construct_LaBr3Detector()
+{
+    G4Color 
+            green   (0.0, 1.0, 0.0),
+            blue    (0.0, 0.0, 1.0),
+            white   (1.0, 1.0, 1.0),
+            brown   (0.6, 0.4, 0.2);
+
+
+    /*Create the LaBr3 detector*/
+
+    G4Tubs* solidLaBr3Det = new G4Tubs("solidLaBr3Det", 0, RadiusLaBr3Det, halfLaBr3Det_z,0*deg,360*deg); //solid
+
+    logicalLaBr3 = new G4LogicalVolume(solidLaBr3Det, LaBr3_Mat, "logical_LaBr3"); //logical
+
+    G4int LaBr3_copynum = 1; //how many?
+
+    physicalLaBr3 = new G4PVPlacement(0, G4ThreeVector(0,0,0), logicalLaBr3, "physi_LaBr3", logicWorld, false, LaBr3_copynum); //physical
+    logicalLaBr3->SetVisAttributes(new G4VisAttributes(green));
+
+    
+
+
+}
+
+
+
