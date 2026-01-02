@@ -13,6 +13,7 @@
 #include "G4NistManager.hh"            //per accedere ai materiali definiti da NIST
 #include "G4VisAttributes.hh"          //per definire gli attributi di visualizzazione
 #include "G4Colour.hh"                 //per definire i colori
+#include "G4VPhysicalVolume.hh"
 
 /*
 #include "G4SensitiveDetector.hh"   //per i rivelatori sensibili
@@ -49,14 +50,10 @@ void DetectorConstruction::DefineMaterials()
         G4NistManager* man = G4NistManager::Instance(); //ottengo l'istanza del gestore NIST
         man->SetVerbose(3); //imposto la verbosità a 3
 
-        //Define Vacuum
-        vacuum = man->FindOrBuildMaterial("G4_Galactic"); //definisco il materiale vuoto
-
         //Define LaBr3 Material
         //LaBr3_Mat = man->FindOrBuildMaterial("G4_LANTHANUM_BROMIDE"); //definisco il materiale del rilevatore LaBr3
         /// Lanthanum
         G4int Lanthanum_Z = 57;
-        G4int Lanthanum_A = 138;
         G4Element* L = man->FindOrBuildElement(Lanthanum_Z);
             if (L) {G4cout << "Element Lanthanum found: " << L->GetName() << G4endl;}
             else {G4cout << "Element Lanthanum not found!" << G4endl;}
@@ -75,6 +72,9 @@ void DetectorConstruction::DefineMaterials()
 
         if(!LaBr3_Mat) 
             { G4cout << "Error in creating LaBr3 Material!" << G4endl;}
+
+        //Define Vacuum
+        vacuum = man->FindOrBuildMaterial("G4_Galactic"); //definisco il materiale vuoto
     }
 /*================================================== DETECTOR CONSTRUCT METHOD ==================================================*/
 void DetectorConstruction::ComputeParameters()
@@ -149,11 +149,6 @@ G4PhysicalVolume* DetectorConstruction::Construct_LaBr3Detector()
 
     physicalLaBr3 = new G4PVPlacement(0, G4ThreeVector(0,0,0), logicalLaBr3, "physi_LaBr3", logicWorld, false, LaBr3_copynum); //physical
     logicalLaBr3->SetVisAttributes(new G4VisAttributes(green));
-
-    
-
-
 }
-
 
 
