@@ -1,7 +1,9 @@
-CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: \
- /home/ubuntu/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc \
+CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o: \
+ /home/ubuntu/SMRR/GEANT4/LaBr3/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/GEANT4/LaBr3/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/GEANT4/LaBr3/include/SensitiveDetector.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4CollectionNameVector.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Types.hh \
@@ -225,19 +227,91 @@ CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/globals.hh \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4HCofThisEvent.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Allocator.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4AllocatorPool.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VHitsCollection.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Step.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/geomdefs.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4RotationMatrix.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationX.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4GeomSplitter.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/geomwdefs.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4AutoLock.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Threading.hh \
+ /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/future \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/bits/atomic_futex.h /usr/include/c++/13/atomic \
+ /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4StepPoint.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SteppingControl.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4StepStatus.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TouchableHandle.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VTouchable.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TouchableHistory.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4AffineTransform.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Transform3D.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4AffineTransform.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationLevel.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationLevel.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NavigationHistory.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Region.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Region.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4LogicalVolume.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TouchableHistory.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Material.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Element.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ElementTable.hh \
@@ -265,92 +339,34 @@ CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4OrderedTable.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4DataVector.hh \
  /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4DataVector.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /usr/include/assert.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Box.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4GeomTypes.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4GeomConfig.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4CSGSolid.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VSolid.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/geomdefs.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VSolid.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Polyhedron.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/HepPolyhedron.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TwoVector.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Point3D.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Normal3D.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Transform3D.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Visible.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Visible.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Box.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Tubs.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Tubs.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/concurrence.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Region.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4GeomSplitter.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/geomwdefs.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4AutoLock.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Threading.hh \
- /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
- /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
- /usr/include/c++/13/atomic /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Region.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4RotationMatrix.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4LogicalVolume.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4PVPlacement.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4GeometryTolerance.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4GeometryManager.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SmartVoxelStat.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NistManager.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Material.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NistElementBuilder.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Pow.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Exp.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VisAttributes.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/graphics_reps_defs.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Colour.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Color.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VisAttributes.icc \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Colour.hh \
- /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VPhysicalVolume.hh
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4StepPoint.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TrackVector.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Step.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Track.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/trkdefs.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4DynamicParticle.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/pwdefs.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4LorentzVector.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ParticleDefinition.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/13/stdlib.h \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ParticleDefinition.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4ParticleMomentum.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4DynamicParticle.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TrackStatus.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Track.icc \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VHit.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VSDFilter.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4Step.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4HCofThisEvent.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SDManager.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4HCtable.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4SDStructure.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ubuntu/SMRR/GEANT4/geant4_install/include/Geant4/G4TouchableHistory.hh

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ricca/SMRR/GEANT4/LaBr3
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/GEANT4/LaBr3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ricca/SMRR/GEANT4/LaBr3_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/GEANT4/LaBr3_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleLaBr3.dir/depend.make
@@ -70,52 +70,67 @@ include CMakeFiles/exampleLaBr3.dir/progress.make
 include CMakeFiles/exampleLaBr3.dir/flags.make
 
 CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o: CMakeFiles/exampleLaBr3.dir/flags.make
-CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o: /home/ricca/SMRR/GEANT4/LaBr3/LaBr3.cc
+CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o: /home/ubuntu/SMRR/GEANT4/LaBr3/LaBr3.cc
 CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o: CMakeFiles/exampleLaBr3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o -MF CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o.d -o CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o -c /home/ricca/SMRR/GEANT4/LaBr3/LaBr3.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o -MF CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o.d -o CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o -c /home/ubuntu/SMRR/GEANT4/LaBr3/LaBr3.cc
 
 CMakeFiles/exampleLaBr3.dir/LaBr3.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleLaBr3.dir/LaBr3.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/GEANT4/LaBr3/LaBr3.cc > CMakeFiles/exampleLaBr3.dir/LaBr3.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/GEANT4/LaBr3/LaBr3.cc > CMakeFiles/exampleLaBr3.dir/LaBr3.cc.i
 
 CMakeFiles/exampleLaBr3.dir/LaBr3.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleLaBr3.dir/LaBr3.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/GEANT4/LaBr3/LaBr3.cc -o CMakeFiles/exampleLaBr3.dir/LaBr3.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/GEANT4/LaBr3/LaBr3.cc -o CMakeFiles/exampleLaBr3.dir/LaBr3.cc.s
 
 CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampleLaBr3.dir/flags.make
-CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: /home/ricca/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc
+CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc
 CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampleLaBr3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o -c /home/ricca/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc
 
 CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc > CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc > CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc -o CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc -o CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleLaBr3.dir/flags.make
-CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o: /home/ricca/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc
+CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleLaBr3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o -c /home/ricca/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.s
+
+CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampleLaBr3.dir/flags.make
+CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o: /home/ubuntu/SMRR/GEANT4/LaBr3/src/SensitiveDetector.cc
+CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampleLaBr3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o -c /home/ubuntu/SMRR/GEANT4/LaBr3/src/SensitiveDetector.cc
+
+CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/GEANT4/LaBr3/src/SensitiveDetector.cc > CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.i
+
+CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/GEANT4/LaBr3/src/SensitiveDetector.cc -o CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.s
 
 # Object files for target exampleLaBr3
 exampleLaBr3_OBJECTS = \
 "CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o" \
 "CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o" \
-"CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o"
+"CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o" \
+"CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o"
 
 # External object files for target exampleLaBr3
 exampleLaBr3_EXTERNAL_OBJECTS =
@@ -123,65 +138,66 @@ exampleLaBr3_EXTERNAL_OBJECTS =
 exampleLaBr3: CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o
 exampleLaBr3: CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o
 exampleLaBr3: CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o
+exampleLaBr3: CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o
 exampleLaBr3: CMakeFiles/exampleLaBr3.dir/build.make
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4Tree.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4FR.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4GMocren.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4RayTracer.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4VRML.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4ToolsSG.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4vis_management.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4modeling.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4interfaces.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4mctruth.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4geomtext.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4analysis.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4error_propagation.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4readout.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4physicslists.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4run.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4event.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4tracking.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4parmodels.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libCore.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libImt.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libRIO.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libNet.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libHist.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libGraf.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libGraf3d.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libGpad.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libROOTDataFrame.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libTree.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libTreePlayer.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libRint.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libPostscript.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libMatrix.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libPhysics.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libMathCore.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libThread.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libMultiProc.so
-exampleLaBr3: /home/ricca/SMRR/ROOT/root_install/lib/libROOTVecOps.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4Tree.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4FR.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4GMocren.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4RayTracer.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4VRML.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4ToolsSG.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4vis_management.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4modeling.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4interfaces.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4mctruth.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4geomtext.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4analysis.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4error_propagation.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4readout.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4physicslists.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4run.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4event.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4tracking.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4parmodels.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libCore.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libImt.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libRIO.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libNet.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libHist.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libGraf.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libGraf3d.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libGpad.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libROOTDataFrame.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libTree.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libTreePlayer.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libRint.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libPostscript.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libMatrix.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libPhysics.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libMathCore.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libThread.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libMultiProc.so
+exampleLaBr3: /home/ubuntu/SMRR/ROOT/root_install/lib/libROOTVecOps.so
 exampleLaBr3: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 exampleLaBr3: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 exampleLaBr3: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 exampleLaBr3: /usr/lib/x86_64-linux-gnu/libGL.so
 exampleLaBr3: /usr/lib/x86_64-linux-gnu/libexpat.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4processes_hadronic.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4processes_core.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4digits_hits.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4track.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4particles.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4geometry.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4graphics_reps.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4materials.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4intercoms.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4global.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4clhep.so
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4ptl.so.3.0.0
-exampleLaBr3: /home/ricca/SMRR/GEANT4/geant4_install/lib/libG4zlib.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4processes_hadronic.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4processes_core.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4digits_hits.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4track.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4particles.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4geometry.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4graphics_reps.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4materials.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4intercoms.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4global.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4clhep.so
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4ptl.so.3.0.0
+exampleLaBr3: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4zlib.so
 exampleLaBr3: CMakeFiles/exampleLaBr3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ricca/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable exampleLaBr3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable exampleLaBr3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleLaBr3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -193,6 +209,6 @@ CMakeFiles/exampleLaBr3.dir/clean:
 .PHONY : CMakeFiles/exampleLaBr3.dir/clean
 
 CMakeFiles/exampleLaBr3.dir/depend:
-	cd /home/ricca/SMRR/GEANT4/LaBr3_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ricca/SMRR/GEANT4/LaBr3 /home/ricca/SMRR/GEANT4/LaBr3 /home/ricca/SMRR/GEANT4/LaBr3_build /home/ricca/SMRR/GEANT4/LaBr3_build /home/ricca/SMRR/GEANT4/LaBr3_build/CMakeFiles/exampleLaBr3.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/GEANT4/LaBr3_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/GEANT4/LaBr3 /home/ubuntu/SMRR/GEANT4/LaBr3 /home/ubuntu/SMRR/GEANT4/LaBr3_build /home/ubuntu/SMRR/GEANT4/LaBr3_build /home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles/exampleLaBr3.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/exampleLaBr3.dir/depend
 

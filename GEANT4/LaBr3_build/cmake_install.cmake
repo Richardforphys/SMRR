@@ -1,4 +1,4 @@
-# Install script for directory: /home/ricca/SMRR/GEANT4/LaBr3
+# Install script for directory: /home/ubuntu/SMRR/GEANT4/LaBr3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleLaBr3"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ricca/SMRR/GEANT4/LaBr3_build/exampleLaBr3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/SMRR/GEANT4/LaBr3_build/exampleLaBr3")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleLaBr3" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleLaBr3")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleLaBr3"
-         OLD_RPATH "/home/ricca/SMRR/GEANT4/geant4_install/lib:/home/ricca/SMRR/ROOT/root_install/lib:"
+         OLD_RPATH "/home/ubuntu/SMRR/GEANT4/geant4_install/lib:/home/ubuntu/SMRR/ROOT/root_install/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleLaBr3")
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ricca/SMRR/GEANT4/LaBr3_build/CMakeFiles/exampleLaBr3.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/ubuntu/SMRR/GEANT4/LaBr3_build/CMakeFiles/exampleLaBr3.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -74,5 +74,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ricca/SMRR/GEANT4/LaBr3_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/SMRR/GEANT4/LaBr3_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o.d"
   "CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o"
   "CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o"
+  "CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o.d"
   "exampleLaBr3"
   "exampleLaBr3.pdb"
 )

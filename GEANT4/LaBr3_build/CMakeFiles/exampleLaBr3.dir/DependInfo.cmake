@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ricca/SMRR/GEANT4/LaBr3/LaBr3.cc" "CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o.d"
-  "/home/ricca/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc" "CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o.d"
-  "/home/ricca/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "/home/ubuntu/SMRR/GEANT4/LaBr3/LaBr3.cc" "CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/LaBr3.cc.o.d"
+  "/home/ubuntu/SMRR/GEANT4/LaBr3/src/DetectorConstruction.cc" "CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/src/DetectorConstruction.cc.o.d"
+  "/home/ubuntu/SMRR/GEANT4/LaBr3/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "/home/ubuntu/SMRR/GEANT4/LaBr3/src/SensitiveDetector.cc" "CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/exampleLaBr3.dir/src/SensitiveDetector.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
