@@ -17,8 +17,8 @@
 #include "PrimaryGeneratorAction.hh" // includo lib per interazione
 #include "QGSP_BERT_HP.hh"  // QUARK GLUO SYMMETRY...
 
-#include "EventAction.hh"
-#include "RunAction.hh"
+//#include "EventAction.hh"
+//#include "RunAction.hh"
 
 int main (int argc, char** argv){
     //Choose the andom GEnerator Engine
@@ -42,10 +42,10 @@ int main (int argc, char** argv){
     runManager->SetUserAction(gen_action);
 
     /*====================Optional USer Action Classes====================*/
-    EventAction* event_action = new EventAction();
-    RunAction* run_action = new RunAction(event_action);
-    runManager->SetUserAction(event_action);
-    runManager->SetUserAction(run_action);
+    //EventAction* event_action = new EventAction();
+    //RunAction* run_action = new RunAction(event_action);
+    //runManager->SetUserAction(event_action);
+    //runManager->SetUserAction(run_action);
 
     /*====================Initialize the G4 Kernel====================*/
     runManager->Initialize();
