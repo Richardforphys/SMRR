@@ -54,7 +54,7 @@ G4bool SensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory *) {
 
     /*----------------Customization End-------------------*/
 
-    hitMap_t::iterator it = hitMap.find(LaBr3Index) //it is the iterator index
+    hitMap_t::iterator it = hitMap.find(LaBr3Index); //it is the iterator index
     LaBr3Hit* aHit = 0;
 
     if (it != hitMap.end()) {
@@ -69,4 +69,47 @@ G4bool SensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory *) {
     }
 
     aHit->AddEdep(edep);
+
+    trackMap_t::iterator itt = trackMap.find(thistrackID);
+    if (itt != trackMap.end()) 
+    //If there's track with ID thistrackID which is not the last one
+        {
+            if (LaBr3Index == 1) //And I'm looking at the SD of interest
+                {
+                    TParticle=itt->second;
+                    TParticle->TRackAddEdep(edep); //Add energy deposit
+                }
+        }
+    else   //We are at the end of the map's iterator, the hit does not exist thus we have to create it 
+        {
+            if(LaBr3Index==1)
+                {
+                    TParticle->SetEdep(edep);
+                }
+            else    
+                {
+                    TParticle->SetEdep(0);
+                }
+            trackMap.insert(std::make_pair(thistrackID, TParticle));
+        }
+
+    return true;
+}
+
+void SensitiveDetector::Initialize(G4HCofThisEvent* HCE){
+    //Create the hit collection of this event 
+    //CollectionName[0] is defined in the constructor, thus is derived from the base class
+
+    hitCollection = new LaBr3HitCollection(GetName, collectionName[0]);
+    G4int HCID = -1;
+    if (HCID<0) {HCID = GetCollectionID(0)};
+    HCE->AddHitsCollection(HCID, hitCollection);
+    hitMap.clear();
+    trackMap.clear();
+}
+
+
+void SensitiveDetector::EndOfEvent(G4HCofThisEvent*){
+
+    hitCollection->PrintAllHits();
 }

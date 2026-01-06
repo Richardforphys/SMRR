@@ -151,7 +151,17 @@ G4VPhysicalVolume* DetectorConstruction::Construct_LaBr3Detector()
     physiLaBr3 = new G4PVPlacement(0, G4ThreeVector(0,0,0), LogicLaBr3, "physi_LaBr3", LogicWorld, false, LaBr3_copynum); //physical
     LogicLaBr3->SetVisAttributes(new G4VisAttributes(green));
 
+    //Define LaBr3 detector as a SD
+    SensitiveDetector* sensitive = 0;
+    if (!sensitive) {
+        G4cout << "DECLARING SENSITIVE DETECTOR" << G4endl;
+        sensitive = new SEnsitiveDetector("mydet/LaBr3");
+        //Register the SD with the manager
+        G4SDManager::GetSDMPointer()->AddNewDetector(sensitive);
+        G4cout << "Sensitive Detector added! " << G4endl;
+    }
+
+    LogicLaBr3->SetSensitiveDetector(sensitive);
+
     return physiLaBr3;
 }
-
-
