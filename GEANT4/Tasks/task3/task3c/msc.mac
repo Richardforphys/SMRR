@@ -1,0 +1,27 @@
+# compare electron with muon
+/run/setCut  1 mm
+/gps/particle e-
+/gps/energy 0.2 GeV
+/run/beamOn 10
+/gps/particle mu-
+/run/beamOn 10
+
+# switch of muon msc
+/particle/select mu-
+/particle/process/dump
+/process/inactivate muMsc
+/particle/process/dump
+/run/beamOn 10
+
+# switch of electron msc
+/gps/particle e-
+/process/inactivate msc
+/particle/select mu-
+/particle/process/dump
+/run/beamOn 100
+
+# switch on both msc
+/process/activate msc
+/process/activate muMsc
+/run/beamOn 100
+
