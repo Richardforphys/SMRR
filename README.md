@@ -47,7 +47,7 @@ Follow this --> https://geant4.web.cern.ch/documentation/pipelines/master/bfad_h
 $ mkdir example_build
 $ cd example_build
 $ cmake -DCMAKE_PREFIX_PATH=/home/ricca/SMRR/GEANT4/geant4_install  /home/ricca/SMRR/GEANT4/geant4/examples/basic/B1
-$ make -j4 VERBOSE=1
+$ make -j$(nproc) VERBOSE=1
 ```
 
 Nel caso in cui in fase di compilazione dovesse apparire il fatal error "ENSDATA.dat not found", 
@@ -90,8 +90,8 @@ If it prints something sensible → ✅ done.
 ### To compile with ROOT
 ```bash
 $ cmake -DCMAKE_PREFIX_PATH="/home/ubuntu/SMRR/GEANT4/geant4_install;/home/ubuntu/SMRR/ROOT/root_install" \
-      /home/ubuntu/SMRR/GEANT4/LABR3/LaBr3
-$ make
+      /home/ubuntu/SMRR/GEANT4/geant4/examples/basic/B1
+$ make -j$(nproc) VERBOSE=1
 ```
 
 ---
