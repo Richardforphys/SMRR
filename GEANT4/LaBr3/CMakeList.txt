@@ -1,0 +1,31 @@
+$id: CMakeList.txt
+
+#-----------------------------------------------------------------
+# Setup the project
+
+cmake_minimun_required (VERSION 2.6 FATAL ERROR)
+project(LaBr3)
+
+#-----------------------------------------------------------------
+# Find Geant4 package, activate all available UI and Vis drivers by defalut
+# You can set WITH_GEANT4_UIVIS to OFF via the command line or cmake/cmake-gui to build a batch mode only executable
+
+option(WITH_GEANT4_UIVIS "Build example with Geant4 UI and Vis drivers" ON)
+option(G4ANALYSIS_USE "use root" ON)
+
+if(WITH_GEANT4_UIVIS)
+    find_package(Geant4 REQUIRED ui_all vis_all)
+else() 
+    find_package(Geant4 REQUIRED)
+endif()
+
+set(G4NEUTRONHP_USE_ONLY_PHOTONEVAPORATION ON)
+
+# Find root as a required package
+find_package(ROOT REQUIRED)
+
+#-----------------------------------------------------------------
+
+include_directories(${PROJECT_SOURCE_DIR}/include
+                    ${GEANT4_INCLUDE_DIR}
+                    ${ROOT_INCLUDE_DIR})
