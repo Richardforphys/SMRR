@@ -44,8 +44,8 @@ Follow this --> https://geant4.web.cern.ch/documentation/pipelines/master/bfad_h
 ```bash
 $ mkdir example_build
 $ cd example_build
-$ cmake -DCMAKE_PREFIX_PATH=/home/ricca/SMRR/GEANT4/geant4_install  /home/ricca/SMRR/GEANT4/geant4/examples/basic/B1
-$ make -j4 VERBOSE=1
+$ cmake -DCMAKE_PREFIX_PATH=/home/beppuozz/SMRR/GEANT4/geant4_install  /home/beppuozz/SMRR/GEANT4/geant4/examples/basic/B1
+$ make -j$(nproc) VERBOSE=1
 ```
 
 Nel caso in cui in fase di compilazione dovesse apparire il fatal error "ENSDATA.dat not found", 
@@ -62,7 +62,7 @@ $ export G4LEDATA=/home/ubuntu/SMRR/GEANT4/geant4_install/share/Geant4/data/G4EM
 ---
 ### How to execute
 ```bash
-$ source /home/ricca/SMRR/GEANT4/geant4_install/bin/geant4.sh
+$ source /home/beppuozz/SMRR/GEANT4/geant4_install/bin/geant4.sh
 $ ./example
 ```
 You can make Geant4’s environment load automatically, so you don’t have to type "source /home/ricca/SMRR/GEANT4/geant4_install/bin/geant4.sh" every time.
@@ -71,7 +71,7 @@ You can make Geant4’s environment load automatically, so you don’t have to t
 ```bash
 $ nano ~/.bashrc
 ```
-2. Add this line at the end of the file "source /home/ricca/SMRR/GEANT4/geant4_install/bin/geant4.sh"
+2. Add this line at the end of the file " source /home/beppuozz/SMRR/GEANT4/geant4_install/bin/geant4.sh"
 3. Save and exit (CTRL+O,ENTER,CTRL+X)
 4. Reload it
 ```bash
@@ -87,9 +87,9 @@ If it prints something sensible → ✅ done.
 
 ### To compile with ROOT
 ```bash
-$ cmake -DCMAKE_PREFIX_PATH="/home/ubuntu/SMRR/GEANT4/geant4_install;/home/ubuntu/SMRR/ROOT/root_install" \
-      /home/ubuntu/SMRR/GEANT4/LABR3/LaBr3
-$ make
+$ cmake -DCMAKE_PREFIX_PATH="/home/beppuozz/SMRR/GEANT4/geant4_install;/home/beppuozz/root" \
+      /home/beppuozz/SMRR/GEANT4/geant4/examples/basic/B1
+$ make -j$(nproc) VERBOSE=1
 ```
 
 ---
