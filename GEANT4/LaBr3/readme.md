@@ -1,1 +1,1 @@
-# Simulazione detector bromuro di lantanio
+# Simulazione detector Bromuro di Lantanio
