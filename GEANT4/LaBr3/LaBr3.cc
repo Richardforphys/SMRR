@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
     runManager->SetUserIitialization(physics);
 
     //3.
-    G4VUSerPrimaryGeneratorAction* gen_action = new PraimaryGeneratorAction();
+    G4VUSerPrimaryGeneratorAction* gen_action = new PrimaryGeneratorAction();
     runManager->SetUserAction(gen_action);
 
     //Optional User Action Classes

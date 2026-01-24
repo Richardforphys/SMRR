@@ -50,10 +50,10 @@ void DetectorConstruction::DefineMaterials() {
     G4cout << "Building LaBr3 material" << G4endl;
     G4double LaBr3_density = 5.08*g/cm3;
 
-    G4int LaBr3_comp_Atoms =2;
+    G4int LaBr3_comp_Atoms = 2;
     G4int n_La_Atoms = 1;
     G4int n_Br_Atoms = 3;
-    LaBr3_Mat = new G4Material("LaBr3_Mat", LaBr3_density, LaBr3, LaBr3_comp_Atoms);
+    LaBr3_Mat = new G4Material("LaBr3_Mat", LaBr3_density, LaBr3_comp_Atoms);
 
     if(!LaBr3_Mat) G4cout << "Problems making LaBr3 Material" << G4endl;
 

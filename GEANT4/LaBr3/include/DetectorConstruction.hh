@@ -5,8 +5,8 @@
 #include "G4VUserDetectorConstruction.hh" //classe virtuale da cui derivo il detector
 #include "G4ThreeVector.hh"               //per definire i vettori 3D
 #include "G4SystemOfUnits.hh"             //per usare le unità di misura di Geant4
-/*================================================== CLASSES ==================================================*/
 
+/*================================================== CLASSES ==================================================*/
 class G4LogicalVolume;
 class G4VPhysicalVolume;
 class G4Material; 
