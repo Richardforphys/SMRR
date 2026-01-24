@@ -19,7 +19,7 @@
 
 DetectorConstruction::DetectorConstruction() 
     //Initializer list to set member pointers to null and default values
-    :vacuum(0), 
+    : vacuum(0), 
     LaBr3_Mat(0),
     logicWorld(0),
     halfWorldLength(0.5*km)
@@ -61,8 +61,8 @@ void DetectorConstruction::DefineMaterials() {
     G4cout << "Building LaBr3 material" << G4endl;
     G4double LaBr3_density = 5.08 * g/cm3;
     G4int LaBr3_Comp_Atoms = 2;
-    G4int n_La_Atoms = 1;
-    G4int n_Br_Atoms = 3;
+    G4int n_La_Atoms = 1;   //I suppose we will need this later
+    G4int n_Br_Atoms = 3;   //I suppose we will need this later
     LaBr3_Mat = new G4Material("LaBr3Mat", LaBr3_density, LaBr3_Comp_Atoms);
     if (!LaBr3_Mat) G4cout << "Error in LaBr3 material definition!" << G4endl;
 
@@ -76,7 +76,8 @@ void DetectorConstruction::ComputeParameters() {
 }
 
 G4VPhysicalVolume* DetectorConstruction::Construct() { //Method called by the run manager to construct the detector geometry
-    //World Solid, Logical Volume and Physical Volume
+    
+    //Solids, Logical Volumes and Physical Volumes
     G4GeometryManager::GetInstance()->SetWorldMaximumExtent(2*halfWorldLength);
     G4cout << "Computed tolerance = " << G4GeometryTolerance::GetInstance()->GetSurfaceTolerance()/mm << " mm" << G4endl;
     G4Box* solidWorld = new G4Box("World", halfWorldLength, halfWorldLength, halfWorldLength); //Create the world box
