@@ -1,0 +1,43 @@
+#include "G4VHit.hh"
+#include "G4Allocator.hh"
+#include "G4THitsCollection.hh"
+#include "TFile.h"
+#include "TH1F.h"
+
+class LaBr3Hit : public G4VHit {
+
+    public:
+        LaBr3Hit(const G4int layer);
+        ~LaBr3Hit();
+        void Print();
+
+    public:
+        inline void *operator new(size_t);
+        inline void operator delete(void * ahit);
+
+    public:
+        void AddEdep(const double e){
+            eDep += e;
+        }
+        G4double GetEdep() const {return eDep;}
+        G4int GetLayerNumber() const {return layerNumber;}
+
+    private:
+        const G4int layerNumber;
+        G4double eDep;
+}
+
+//Define the "hit collection" using the template class G4THitsCollection.hh
+
+typedef G4THitsCollection<LaBr3Hit> LaBr3HitCollection;
+extern G4Allocator<LaBr3Hit> LaBr3Allocator; //extern means we are using the memory, allocator is like malloc of C
+
+inline void* LaBr3::operator new(size_t) {
+    void aHit;
+    aHit = (void*) LaBr3HitAllocator.MallocSingle(); //Define the amount of memory necessary to store a hit
+    return aHit;
+}
+
+inline void LaBr3::operator delete(void* aHit) {
+    LaBr3HitAllocator.FreeSingle((LaBr3*) aHit);
+}

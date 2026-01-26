@@ -1,0 +1,28 @@
+#include "RunAction.hh"
+#include "EventAction.hh"
+#include "G4Run.hh"
+
+RunAction::RunAction(EventAction* theEventAction) : eventAction(theEventAction){
+    //eventAction is one of the members of RunAction objects.
+    //We are initializing this member with the argument of the constructor
+    //eventAction->SetRootSaver(&saver);
+}
+
+void RunAction::BeginOfRunAction(const G4Run* aRun) {
+    G4cout << "Starting Run: " << aRun->GetRunID() <<  G4endl;
+    G4cout << "Creating ROOT TTree: " <<  G4endl;
+
+    saver.CreateTree();
+    out_root_f = new TFile("histoEnergy.root", "RECREATE");
+    hrun = new TH1F("EnDis", "Energy Distribution", 1000, 0, 1000);
+    hrun->GetXaxis()->SetTitle("Deposited Energy (keV)");
+    eventAction->AssignHisto(hrun);
+}
+
+void RunAction::EndOfRunAction(const G4Run* aRun){
+    G4cout << "Ending Run: " << aRun->GetRunID() <<  G4endl;
+    G4cout << "Number of Events : " << Run->GetNumberOfEvent() << G4endl;
+
+    hrun->Write();
+    out_root_f->Close();
+}
