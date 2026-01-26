@@ -1,0 +1,4 @@
+/run/verbose 0
+/gps/particle mu-
+/gps/energy 20 GeV
+/run/beamOn 1

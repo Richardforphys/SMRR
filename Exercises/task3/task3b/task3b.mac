@@ -1,0 +1,25 @@
+
+/particle/list
+#
+/particle/select mu-
+/particle/property/dump
+#
+/particle/select mu-
+/particle/process/dump
+
+
+/gps/particle mu-
+/run/beamOn 1000
+
+
+/gps/energy 1. GeV
+/gps/position 0. 0. 0. m
+/gps/direction 0. 0. 1.
+
+/run/setCut 1 km
+
+#/run/beamOn 10000
+
+/gps/polarization 0. 0. 1.
+/run/beamOn 10000
+

@@ -1,0 +1,21 @@
+// $Id: main.doxy 118 2010-02-03 15:02:48Z gunter $
+
+/**  
+ \mainpage Task 1
+
+ \section Objective
+  Learn how to build the detector: Geometry and Materials
+  - How to create a material mixture
+  - Costruction of a sub-detector through simple placements
+  - Exporting and importing geometry description through GDML
+  - Definition of a magnetic field
+
+ \section Exercises
+
+  -  <a class="el" href="task1a/index.html"> Geant4 Materials</a>
+  -  <a class="el" href="task1b/index.html"> Geant4 Geometry:solids and
+  		placements </a>
+  -  <a class="el" href="task1c/index.html"> Exercsies on GDML</a>
+  -  <a class="el" href="task1d/index.html"> Geant4 Field</a>
+
+*/

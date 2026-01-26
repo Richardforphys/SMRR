@@ -1,0 +1,260 @@
+// $Id: .Readme-Questions 116 2010-01-29 07:32:37Z schaelic $
+
+/*! 
+\file
+\brief Exercise Task 1.2
+
+\mainpage Task 1.2
+
+\section s1 OBJECTIVES
+    - Understand the EventAction role.
+    - Understand difference between hits and digits.
+
+\section s2 GEOMETRY
+
+    The beam telescope consists of three silicon sensor planes distributed along the z-axis with z = { 0.2 m, 0.6 m, 1.0 m}.
+    Each sensor plane contains 48 strips (length 10mm, pitch 20 um, width 300 um).
+
+    The central plane can be replaced with a "device under test" (DUT), e.g. a sensor plane containing 48 strips (length 10mm, <b>pitch 50 um</b>, width 300 um).
+
+    A Pion beam of 2 GeV is focused in positive z-direction. At z= -1000 mm, the position spread is 0.1 mm, and the angular spread amounts to 0.1 mrad.
+
+\section s3 READOUT
+
+    In this exercise the readout and the simulation of the electronics is implemented.
+
+    The true energy deposits (Hits) are converted to readout quantities (Digits): the output of the electronics circuit reading the sensors.
+    The energy deposits in the sensitive (MeV) are converted to charge (in units of elementary charge). Gaussian noise (plus a pedestal) 
+    and charge sharing are also implemented. 
+
+    Digits (together with some quantities from Hits) are stored in a ROOT TTree.
+
+    With respect to <a href="../task1">Task 1</a>, several new classes have been added:
+      - SensitiveDetector : it handles the creation of hits
+      - SiDigitizer : it simulates readout electronics
+      - EventAction : it is used at each event to digitze hits
+      - RunAction : each time a /run/beamOn command is applied it creates a new ROOT File
+      - SiHit : hits class (represents interaction of particles in strip)
+      - SiDigi : digit class (represents output of each strip)
+      - CrosstalkGenerator : handles charge sharing
+      - NoiseGenerator : gaussian electronic noise smearing
+      - MeV2ChargeConverter : a simple conversion class
+      - RootSaver : it stores information in ROOT files (TFile)
+
+\section s4 HOW
+
+  - unpack the code for Task1.2 into your working directory:
+\verbatim
+	% cd ~/g4course2010
+	% tar xzf ~school01/public/task2.tgz
+\endverbatim
+
+  - the important code changes are in task2.cc (main) and the classes 
+	SensitiveDetector, SiHit, SiDigitizer, SiDigi, EventAction, RunAction
+        (consult the \subpage diagram for details)
+
+  - this exercise makes use of non-Geant4 code: ROOT.
+	Take a look at the <a href="GNUmakefile-source.html">GNUmakefile</a> and understand how to instruct the compilation
+	to use external headers and libraries.
+
+  - compile and generate an executable: 
+\verbatim
+        % gmake
+\endverbatim
+
+  - execute task2 in interactive mode with visualization:
+\verbatim
+        % $G4WORKDIR/bin/$G4SYSTEM/task2
+        ....
+        Idle> # type your commands. example:
+
+        Idle> /run/beamOn 1
+        ....
+        Idle> exit
+\endverbatim
+\note that one ROOT file has been created. Instructions on how to check the content of the ROOT file with <a href="#s6sub2">ROOT macro</a> are given <a href="#s6sub2">below</a>.
+
+\section s5 PRACTICE
+
+  For background information see 
+          <a href="http://cern.ch/geant4/UserDocumentation/UsersGuides/ForApplicationDeveloper/html">User's Guide for Application Developers</a>
+
+\subsection s5sub1 Exercise 1.2.1: Understand how the different parts collaborate
+
+    Take a look at the main() function, see the new UserActions that have been added.
+    
+    - What is G4UserEventAction is for?
+
+    - What is G4UserRunAction is for?
+
+    Now look at the relevant methods for these classes and see what they do.
+    In particular, be sure to understand the different steps involved in
+    EventAction::EndOfEventAction(const G4Event* anEvent) function
+
+    - How many hits are recorded in one event? What is their content?
+
+    To answer this question you can modify the EndOfEventAction (file: <a href="EventAction_8cc-source.html#l00074">src/EventAction.cc</a>), at the end of the code (just before rootStaver->AddEvent(...) ), Print out information on the hits adding the following lines:
+\verbatim
+	G4cout<<"Number of hits:"<<hits->entries()<<G4endl;
+	for ( G4int index = 0 ; index < hits->entries() ; ++index )
+	{
+	   hits->GetHit(index)->Print();
+	}
+\endverbatim
+or alternatively
+\verbatim
+	G4cout<<"Number of hits:"<<hits->entries()<<G4endl;
+	hits->PrintAllHits();
+\endverbatim
+	Recompile the code and run with one event
+
+    - What about digits? Similar methods are available. Verify with one event that the results from hits and digits are consistent (i.e. same strip with signal)
+    
+
+\subsection s5sub2 Exercise 1.2.2: Modify the simulation of the electronics circuit (noise)
+
+    Turn off crosstalk and noise (done in SiDigitizer::Digitize() function).
+
+    Hint: Comment lines that apply cross talk and add noise. You can do it also from SiDigitizer constructor but take the time to look at Digitize code.
+
+    - Generate a root file and see the output.
+
+    - How does the application generate random noise? Can you identify the code that does this?
+
+    Check that there is no noise in the ntuple (you can use the help ROOT macro show.C , see <a href="#s6">"More details and help"</a> section).
+
+\subsection s5sub3 Exercise 1.2.3: Add timing information
+
+    This exercise illustrates several internal steps needed to use Hits and Digits.
+    For this exercise we assume that the detector electronic boards can also measure timing information, i.e. the time of the collection of the charge with 
+    respect to the trigger (for simplicity the moment when the primary is generated).
+
+    Store timing information in Hits and Digits.
+
+    To do this you have to follow these steps:
+     -# Modify SiHit class adding a new data member (time)
+     -# Modify the SensitiveDetector::ProcessHits() function to extract the time of a hit (similarly to what is done
+        with the position). Hint: use the method: G4StepPoint::GetLocalTime()
+     -# Modify the SiDigi class adding a new data member (digit time)
+     -# Modify the SiDigitizer::Digitize() function to copy from SiHit to SiDigi the timing
+
+    In this example we simulate a perfect electronic circuit that does not introduce any error in the measurement of time. This is clearly an simplification.
+
+    We do not modify the RootSaver class, thus the timing information is not stored in the root file. You can add G4cout statements to print on screen information.
+    If you are curious you can take a look at RootSaver class (but you will probably need ROOT manual).
+
+\section s6 More details and help
+
+\subsection s6sub1 ROOT file content
+
+    This is the content of the ROOT TTree:
+      - Float_t signal1[48] : array of reconstructed signal for first sensor
+      - Float_t signal2[48] : array of reconstructed signal for second sensor
+      - Float_t signal3[48] : array of reconstructed signal for third sensor
+      - Float_t truthPos1 : x (in mm) of the primary when passing first sensor
+      - Float_t truthPos1 : x (in mm) of the primary when passing second sensor
+      - Float_t truthPos1 : x (in mm) of the primary when passing third sensor
+      - Float_t truthE1 : Energy deposited (in MeV) by primary in first sensor
+      - Float_t truthE2 : Energy deposited (in MeV) by primary in first sensor
+      - Float_t truthE3 : Energy deposited (in MeV) by primary in first sensor
+      - Float_t truthPos0 : Position (in mm) of the primary along x axis at z=0 plane
+      - Float_t truthAngle0 : Angle (in mrad) in xz plane with respect to z axis of the primary at z=0 plane
+
+
+\subsection s6sub2 How to check data
+A ROOT macro is provided to produce fast plots of the produced ntuples. To use it, type at the shell prompt:
+\verbatim
+	% ln -s originalfile.root ntuple.root
+	% root -l show.C
+\endverbatim
+Change filename.root with the name of the file you want to check.
+ 
+\subsection s6sub3 UI Commands
+A set of specific UI commands are available for this exercise:
+	- /det/secondSensor/xShift   : Define x-shift of second sensor plane
+	- /det/secondSensor/yShift   : Define y-shift of second sensor plane
+	- /det/secondSensor/theta    : Select rotation angle of second sensor plane around y axis
+	- /det/secondSensor/DUTsetup : Select setup. true to have DUT (Device Under Test) setup: second Si plane replaced by DUT
+	- /det/update                : force to recompute geometry. This command MUST be applied before \"beamOn\" if you changed geometrical value(s)
+	- /det/digi/pedestal	   : Set pedestal value (in elementary charge units)
+	- /det/digi/noise		   : Define standard deviation of strip gaussian electronic noise (in elementary charge units)
+	- /det/digi/crosstalk	   : Define the cross talk fraction between strips
+	- /det/digi/conversionFactor : Define the conversion Energy/charge conversion factor. For example a factor of 3.6*eV means that 1 electron is created every 3.6 eV of deposited energy
+
+\subsection s6sub4 Macros
+Some macros are available:
+	- gps.mac                : define beam parameters. 
+	- vis.mac                : define visualization. Automatically executed in interactive mode
+	- visQt.mac              : define visualization. Automatically executed in interactive mode (OpenGL Qt driver). Automatically executed if Qt UI/dirver are selected
+	- noise.mac              : make a noise run
+	- sitelescopeOnce.mac    : make a run with SiTelescope setup. Needs editing if used in stand-alone mode!
+	- sitelescope.mac        : make all SiTelescope runs (energy scan)
+	- dutsetupRotateOnce.mac : make a run with DUT setup. Needs editing if used in stand-alone mode!
+	- dutsetupRotate.mac     : make all DUT setup runs (rotation scan)
+	- generateAll.mac        : make all runs in all setups
+
+To generate all data change the number of events in genearateAll.mac macro and issue:
+\verbatim
+task2 generateAll.mac
+\endverbatim
+100000 events will take about 10-20 minutes.
+
+*/
+
+/**
+
+\page diagram UML Diagram
+
+\image html mapped_task2_diagram.png "UML Diagram for class relations of Task 1.1"
+
+
+*/
+
+
+/*!
+ \file  vis.mac
+ \brief Macro file with visualisation commands
+*/
+/*!
+ \file  visQt.mac
+ \brief Macro file with visualisation commands using QtViewer
+*/
+/*!
+ \file  gps.mac
+ \brief Macro file initialising G4GeneralParticleSource
+*/
+
+/*!
+ \file noise.mac             
+ \brief Macro file for making a noise run
+*/
+/*!
+ \file sitelescopeOnce.mac   
+ \brief Macro file a single run with SiTelescope setup (used in loop sitelescope.mac). 
+*/
+/*!
+ \file sitelescope.mac       
+ \brief Macro file making all SiTelescope runs (energy scan)
+*/
+/*!
+ \file dutsetupRotateOnce.mac
+ \brief Macro file for a single run with DUT setup (used in loop dutsetupRotate).
+*/
+/*!
+ \file dutsetupRotate.mac    
+ \brief Macro file making all DUT setup runs (rotation scan)
+*/
+/*!
+ \file generateAll.mac       
+ \brief Macro file making all runs in all setups
+*/
+
+/*!
+ \file show.C
+ \brief ROOT script for result visualisation.
+*/
+
+/*!
+ \file GNUmakefile
+ \brief make file including ROOT libraries and includes.
+*/

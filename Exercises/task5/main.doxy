@@ -1,0 +1,19 @@
+// $Id: main.doxy 118 2010-02-03 15:02:48Z gunter $
+
+/**
+ \mainpage Task 5
+
+ \section Objective
+  Hadronic Physics
+  - how create sensitive detectors
+  - about existing user hooks via user action classes
+  - how to create Hits and Digits
+  - How to use existing scorers
+
+ \section Exercises
+
+  - \subpage task5a
+  - \subpage task5b
+  - \subpage PhysicsLists
+
+*/

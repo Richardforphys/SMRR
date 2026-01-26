@@ -1,0 +1,66 @@
+
+# DO NOT DELETE
+
+./ProcessClassify_cc.so: ProcessClassify.hh sel_baseclass.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TROOT.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TDirectory.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TNamed.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TObject.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/Rtypes.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/RConfig.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/RVersion.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/DllImport.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/Rtypeinfo.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/snprintf.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/strlcpy.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TGenericClassInfo.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TSchemaHelper.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TStorage.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TVersionCheck.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/Riosfwd.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TBuffer.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TString.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TRefCnt.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TMathBase.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TList.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TSeqCollection.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TCollection.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TIterator.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TDatime.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TUUID.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TChain.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TTree.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TBranch.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TObjArray.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TAttFill.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TDataType.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TDictionary.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/Property.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TAttLine.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TAttMarker.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TArrayD.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TArray.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TArrayI.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TClass.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TObjString.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TVirtualTreePlayer.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TFile.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TDirectoryFile.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TUrl.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TMap.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/THashTable.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TSelector.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TSelectorList.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TH1F.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TH1.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TAxis.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TAttAxis.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TArrayC.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TArrayS.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TArrayF.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/Foption.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TVectorFfwd.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TVectorDfwd.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/TFitResultPtr.h
+./ProcessClassify_cc.so: /home/gcroci/root/include/cintdictversion.h /home/gcroci/root/include/RVersion.h
+ProcessClassify_cc__ROOTBUILDVERSION= 5.28/00b

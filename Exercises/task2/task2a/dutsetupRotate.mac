@@ -1,0 +1,5 @@
+## Macro file to generate 
+# data for the DUT setup
+# with rotated DUT
+
+/control/foreach dutsetupRotateOnce.mac angle  0 10 20 40 60 

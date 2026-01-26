@@ -1,0 +1,10 @@
+
+/run/setCut  1 mm
+/gps/particle e-
+/gps/energy 300 MeV
+/run/beamOn 100
+
+/run/setCut  1 mm
+/gps/particle proton
+/gps/energy 300 GeV
+/run/beamOn 100
