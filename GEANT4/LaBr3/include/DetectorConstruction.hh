@@ -48,8 +48,8 @@ class DetectorConstruction : public G4VUserDetectorConstruction {  // Define the
                 
                 //Declare Geometry parameters
                 G4double halfWorldLength; 
-                G4double RadiusLaBr3;
-                G4double halfLaBr3_z;
+                G4double RadiusLaBr3Det;
+                G4double halfLaBr3Det_z;
 
                 DetectorMessenger* detectorMessenger; // Pointer to the DetectorMessenger for user commands
 
