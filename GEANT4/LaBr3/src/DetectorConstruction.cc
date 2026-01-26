@@ -100,3 +100,23 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
 
     return physiWorld;
 }  
+
+G4VPhysicalVolume* DetectorConstruction::Construct_LaBr3Detector() {
+    G4Color
+        green(0.0, 1.0, 0.0),
+        blue(0.0, 0.0, 1.0),
+        white(1.0, 1.0, 1.0),
+        brown(0.4, 0.4, 0.1);
+
+    G4Tubs* solidLaBr3Det = new G4Tubs("solid_LaBr3Det", 0, RadiusLaBr3Det, halfLaBr3Det_z, 0*deg, 360*deg);
+    logicLaBr3 = new G4LogicalVolume(solid_LaBr3Det, LaBr3_Mat, "logical_LaBr3");
+    G4int LaBr3_copynum = 1;
+    physiLaBr3 = new G4PVPlacement(0, G4ThreeVector(0,0,0), logical_LaBr3, "physis_LaBr3", logicWorld, false, LaBr3_copynum);
+    logicLaBr3->SetVisAttributes(new G4VisAttributes(green));
+
+
+    /* To be done:
+        Define LaBr3 detector as sensitive
+        Define the UpdateGeometry method
+        */
+}
