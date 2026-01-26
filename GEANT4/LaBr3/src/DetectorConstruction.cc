@@ -109,3 +109,33 @@ G4VPhysicalVolume* DetectorConstruction::Construct() { //Method called by the ru
     Construct_LaBr3Detector();
     return physiWorld; //Always return the world physical volume
 }
+
+G4VPhysicalVolume* DetectorConstruction::Construct_LaBr3Detector() {
+    //Create LaBr3 detector solid
+    G4Tubs* solidLaBr3Det = new G4Tubs("solid_LaBr3Det", 0., RadiusLaBr3Det, halfLaBr3Det_z, 0.*deg, 360.*deg);
+
+    G4Colour
+        green(0.0, 1.0, 0.0),
+        blue(0.0, 0.0, 1.0),
+        red(1.0, 0.0, 0.0),
+        white(1.0, 1.0, 1.0),
+        brown(0.4, 0.4, 0.1);
+
+    //Create LaBr3 detector logical volume
+    logicLaBr3 = new G4LogicalVolume(solidLaBr3Det, LaBr3_Mat,"logical_LaBr3");
+                                       //its solid, its material, its name
+
+    G4int LaBr3_copynum = 1;
+
+    //Create LaBr3 detector physical volume
+    physiLaBr3 = new G4PVPlacement(0, G4ThreeVector(0.,0.,0.), logicalLabr3, "physical_LaBr3", logicWorld, false, LaBr3_copynum);
+                            //no rotation, at (0,0,0), its logical volume, its name, its mother volume, no boolean operation, copy number
+
+    logicLaBr3 -> SetVisAttributes(new G4VisAttributes(green));
+
+    //-------------Define Sensitive Detector for LaBr3 detector-------------
+
+
+    //-------------Define the UpdateGeometry method-------------
+    
+}
