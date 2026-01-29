@@ -26,16 +26,6 @@ class DetectorConstruction: public G4VUserDetectorConstruction //deve avere lo s
     
     private:
 
-        //----------------------------METHODS----------------------------
-        //Definisco dei metodi ulteriori che mi permettano di modularizzare la logica esecutiva del programma
-        //Un metodo per definire i materiali...uno per la geometria...
-        //Define simulation materials
-        void DefineMaterials();
-        //Initialize geometry parameters
-        void ComputeParameters();
-        //Construct the full geometry of the LaBr3 detector
-        G4VPhysicalVolume* Construct_LaBr3Detector();
-
         //----------------------------MEMBERS----------------------------
         //Definisco (non specifico) i membri
         G4Material* vacuum;
@@ -53,5 +43,20 @@ class DetectorConstruction: public G4VUserDetectorConstruction //deve avere lo s
         G4double RadiusLaBr3Det;
         G4double halfLaBr3Det_z;
 
+        G4ThreeVector DetPosition;
+        G4double DetAngle;
+
         DetectorMessenger* messenger;
-};
+
+        //----------------------------METHODS----------------------------
+        //Definisco dei metodi ulteriori che mi permettano di modularizzare la logica esecutiva del programma
+        //Un metodo per definire i materiali...uno per la geometria...
+        //Define simulation materials
+        void DefineMaterials();
+        //Initialize geometry parameters
+        void ComputeParameters();
+        //Construct the full geometry of the LaBr3 detector
+        G4VPhysicalVolume* Construct_LaBr3Detector();
+        G4VPhysicalVolume* SetPosition(G4ThreeVector pos);
+        G4VPhysicalVolume* SetAngle(G4double angle);
+}
