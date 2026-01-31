@@ -1,6 +1,9 @@
 #include "DetectorConstruction.hh"
 #include "DetectorMessenger.hh"
 #include "G4RunManager.hh"
+#include "G4PhysicalVolumeStore.hh"
+#include "G4LogicalVolumeStore.hh"
+#include "G4SolidVolumeStore.hh"
 #include "G4GeometryManager.hh"
 #include "G4Material.hh"
 #include "G4Box.hh"
@@ -117,10 +120,18 @@ G4VPhysicalVolume* DetectorConstruction::Construct_LaBr3Detector() {
     logical_LaBr3->SetVisAttributes(new G4VisAttributes(green));
 
 
-    /* To be done:
-        Define LaBr3 detector as sensitive
-        Define the UpdateGeometry method
-        */
+    SensitiveDetector* sensitive = 0;
+    if (!sensitive) {
+        G4cout << "Declaring detector as sensitive" << G4endl;
+        sensitive = new SensitiveDetector("/myDet/LaBr3");
+        //We register the SD in the manager 
+        G4SDManager::GetSDMpointer()->AddNewDetector(sensitive);
+        G4cout << "Sensitive detector added" << G4endl;
+    }
+
+    logical_LaBr3->SensitiveDetector(sensitive);
+    
+    return physiLaBr3;
 }
 
 G4VPhysicalVolume* DetectorConstruction::SetPosition(G4ThreeVector pos) {
@@ -133,11 +144,12 @@ G4VPhysicalVolume* DetectorConstruction::SetAngle(G4double angle) {
     return physiLaBr3;
 }
 
-void DetectorConstruction::UpdateGeometry() {
-    
-
-
 void DetectorConstruction::UpdateGeometry()
 {
-    G4RunManager::GetRunManager()->DefineWorldVolume(Construct());
+    //Clean Up old geometry
+    G4GeometryManager::GetInstance()->OpenGeometry();
+    G4PhysicalVolumeStore::GetInstance()->Clean();
+    G4LogicalVolumeStore::GetInstance()->Clean();
+    G4SolidVolumeStore::GetInstance()->Clean();
+    G4RunManager::GetRunManager()->DefineWorldVolume(Cosntruct);
 }

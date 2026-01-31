@@ -31,5 +31,8 @@ class DetectorMessenger:: public G4UIMessenger  {
         G4UicmdWithADoubleAndUnit* yShiftCmd;
         G4UicmdWithADoubleAndUnit* zShiftCmd;
         G4UicmdWithADoubleAndUnit* thetaCmd; //Pointer to commands to shift geometry?
+        void SetPosition (G4ThreeVector* pos) {
+            DetPosition = pos;
+        }
         G4UicmdWithoutParameter* updateCmd;
 }

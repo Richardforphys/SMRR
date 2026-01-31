@@ -33,7 +33,7 @@ class DetectorConstruction: public G4VUserDetectorConstruction //deve avere lo s
 
         //Logical volumes
         G4LogicalVolume* logicWorld;
-        G4LogicalVolume* logicLaBr3;
+        G4LogicalVolume* logical_LaBr3;
 
         //Declare Physical Volumes
         G4VPhysicalVolume* physiLaBr3;
