@@ -1,8 +1,0 @@
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/exampletask1b.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/task1b.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/edit_cache.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/list_install_components.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/install.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/install/local.dir
-/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/install/strip.dir

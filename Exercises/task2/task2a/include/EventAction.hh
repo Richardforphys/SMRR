@@ -16,7 +16,6 @@
 #include "G4UserEventAction.hh"
 #include "G4String.hh"
 #include "NoiseGenerator.hh"
-#include "CrosstalkGenerator.hh"
 #include "MeV2ChargeConverter.hh"
 class G4Event;
 class RootSaver;

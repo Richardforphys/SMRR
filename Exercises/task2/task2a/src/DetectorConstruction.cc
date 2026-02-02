@@ -250,7 +250,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructTelescope()
 
   G4Color red(1.0,0.0,0.0),yellow(1.0,1.0,0.0);
   logicSensorPlane -> SetVisAttributes(new G4VisAttributes(yellow));
-  logicSensorStrip -> SetVisAttributes(new G4VisAttributes(yellow));
+  logicSensorStrip -> SetVisAttributes(new G4VisAttributes(red));
 
   return physiSecondSensor;
 }
