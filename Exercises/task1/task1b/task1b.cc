@@ -21,19 +21,7 @@
 #include "PrimaryGeneratorAction.hh"
 #include "PhysicsList.hh"
 #include "QGSP_BERT.hh"
-//#include "EventAction.hh"
-//#include "RunAction.hh"
 
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-
-/*!
-\brief Main program
-
-\callgraph
-
-*/
 int main(int argc,char** argv)
 {
   // Run manager
@@ -50,16 +38,6 @@ int main(int argc,char** argv)
   G4VUserPrimaryGeneratorAction* gen_action = new PrimaryGeneratorAction();
   runManager->SetUserAction(gen_action);
 
-
-  //Optional User Action classes
-  //Event action (handles for beginning / end of event)
-  //EventAction* event_action = new EventAction();
-  //Run action (handles for beginning / end of event)
-  //This particular class needs a pointer to the event action
-  //RunAction* run_action = new RunAction(event_action);
-  //runManager->SetUserAction( event_action );
-  //runManager->SetUserAction( run_action );
-
   // Initialize G4 kernel
   runManager->Initialize();
       
@@ -68,7 +46,6 @@ int main(int argc,char** argv)
   visManager->Initialize();
      
   // Get the pointer to the User Interface manager
-  //
   G4UImanager * UImanager = G4UImanager::GetUIpointer();  
 
   if (argc!=1) {  // batch mode  
@@ -100,11 +77,6 @@ int main(int argc,char** argv)
 	  ui->SessionStart();
 	  delete ui;
   }
-
-  // Free the store: user actions, physics_list and detector_description are
-  //                 owned and deleted by the run manager, so they should not
-  //                 be deleted in the main() program !
-
   delete runManager;
 
   return 0;
