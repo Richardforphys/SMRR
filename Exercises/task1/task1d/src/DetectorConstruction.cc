@@ -27,7 +27,7 @@
 
 #include "G4VisAttributes.hh"
 #include "G4Colour.hh"
-
+#include "G4SystemOfUnits.hh"
 //#include "SensitiveDetector.hh"
 #include "G4SDManager.hh"
 
@@ -201,7 +201,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		white(1.0,1.0,1.0);
 
 	logicWorld -> SetVisAttributes(new G4VisAttributes(white));
-	logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
+	logicWorld -> SetVisAttributes(G4VisAttributes (false));
     
 	//always return the physical World
 	//
@@ -368,6 +368,6 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	G4Colour white(1,1,1);
 	hadCaloLogic->SetVisAttributes(new G4VisAttributes(green));
 	hadLayerLogic->SetVisAttributes(new G4VisAttributes(white));
-	//hadLayerLogic->SetVisAttributes(G4VisAttributes::Invisible);
+	hadLayerLogic->SetVisAttributes(G4VisAttributes (false));
 	return hadCalo;
 }

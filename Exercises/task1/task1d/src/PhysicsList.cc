@@ -8,8 +8,8 @@
 #include "PhysicsList.hh"
 
 #include "G4EmStandardPhysics.hh"
-#include "G4LossTableManager.hh"
-
+//#include "G4LossTableManager.hh
+#include "G4SystemOfUnits.hh"
 #include "G4ProcessManager.hh"
 #include "G4ParticleTypes.hh"
 

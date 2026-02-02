@@ -1,4 +1,4 @@
-
+#include "G4SystemOfUnits.hh"
 #include "SimpleField.hh"
 
 SimpleField::SimpleField()
