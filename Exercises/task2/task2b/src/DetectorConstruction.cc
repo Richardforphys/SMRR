@@ -55,15 +55,21 @@ void DetectorConstruction::DefineMaterials()
   air     = man->FindOrBuildMaterial("G4_AIR");
   silicon = man->FindOrBuildMaterial("G4_Si");
   vacuum  = man->FindOrBuildMaterial("G4_Galactic");
-
-
   // ********************************************************************************
   // Task1 - Exercise 4 
   //   - change the the sensor planes from silicon to GaAs 
   //     (using the NIST material G4_GALLIUM_ARSENIDE predifined in Geant4)
   //   - define your own material GaAs with the same properties
   // ********************************************************************************
-
+  //GaAs    = man->FindOrBuildMaterial("G4_GaLLIUM_ARSENIDE");
+  Ga      = man->FindOrBuildMaterial("G4_Ga");
+  As      = man->FindOrBuildMaterial("G4_As");
+  G4double density_GaAs = 5.31;
+  GaAs = new G4Material(name="Gallium Arsenide", 
+                          density=density_GaAs,
+                            n_components=2);
+  GaAs->AddElement(Ga, natoms=1);
+  GaAs->AddElement(As, natoms=1);
 }
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
  
@@ -81,11 +87,11 @@ void DetectorConstruction::ComputeParameters()
   teleStripPitch  = 20. * um;
   posFirstSensor  = G4ThreeVector(0., 0., 10.*mm);
   posSecondSensor = G4ThreeVector(0., 0., 25.*mm);
-  posThirdSensor  = G4ThreeVector(0., 0., 40.*mm);
+  posThirdSensor  = G4ThreeVector(0., 0., 1000.*mm); //Exercise 2
 
   // ** Device under test (DUT) **
   dutStripPitch = 50. * um;
-  dutTheta = 0.*deg;
+  dutTheta = 10.*deg; //Before it was 0*deg
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -133,7 +139,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 			   halfSensorSizeX,halfSensorSizeY,halfSensorSizeZ);
 
   G4LogicalVolume * logicSensorPlane = new G4LogicalVolume(solidSensor, // its solid
-      				   silicon,	//its material
+      				   GaAs,	//its material, before it was made of Si
       				   "SensorPlane");	//its name
   physiFirstSensor =
     new G4PVPlacement(0,			//no rotation
@@ -154,7 +160,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4RotationMatrix * rm = new G4RotationMatrix;
   rm->rotateY(dutTheta);
 
-  /*
+  
   physiSecondSensor =
     new G4PVPlacement(rm,
 		      posSecondSensor,
@@ -163,8 +169,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		      logicWorld,
 		      false,
 		      1);			//copy number
-  */
-  ConstructDeviceUnderTest();
+  
+  //ConstructDeviceUnderTest();
 
   // 3rd Plane of Si Beam Telescope
   // ********************************************************************************
@@ -179,10 +185,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		      logicWorld,
 		      false,
 		      2);			//copy number
-
-
-
-
   //
   // Strips
   //
@@ -249,26 +251,23 @@ G4VPhysicalVolume* DetectorConstruction::ConstructDeviceUnderTest()
   G4double halfSensorSizeX = noOfSensorStrips*dutStripPitch/2.;
   G4double halfSensorSizeY = sensorStripLength/2.;
   G4double halfSensorSizeZ = sensorThickness/2.;
-  /*
-  G4Box * solidSensor = new G4Box("SensorDUT",
-				  ... );
+  
+  G4Box * solidDUT = new G4Box("SolidDUT",
+			   halfSensorSizeX,halfSensorSizeY,halfSensorSizeZ);
 
-  G4LogicalVolume * logicSensorPlane = new G4LogicalVolume(solidSensor, // its solid
-      				   silicon,	//its material
-      				   "SensorPlaneDUT");	//its name
+  G4LogicalVolume* logicalDUT = new G4LogicalVolume(
+                                      solidDUT,
+                                      silicon,
+                                      "LogicalDUT"
+                                      );
 
-  G4RotationMatrix * rm = new G4RotationMatrix;
-  rm->rotateY(dutTheta);
-
-  physiSecondSensor =
-    new G4PVPlacement( ...,
-		      ...,
-		      ...,
-		      "DeviceUnderTest",
-		      ...,
-		      false,
-		      1);
-
+  physiSecondSensor = new G4PVPlacement(0,
+                                      posSecondSensor,
+                                      logicalDUT,
+                                      "SecondSensorDUT",
+                                      logicWorld,
+                                      false,
+                                      1);
   //
   // Strips
   //
@@ -279,19 +278,23 @@ G4VPhysicalVolume* DetectorConstruction::ConstructDeviceUnderTest()
 
   G4Box * solidSensorStrip = 
     new G4Box("SensorStripDUT",		     
-	      ....);
+                halfSensorStripSizeX,halfSensorStripSizeY,halfSensorStripSizeZ);
 
   G4LogicalVolume * logicSensorStrip = 
     new G4LogicalVolume(solidSensorStrip,silicon,"SensorStripDUT");
 
   physiSensorStripDUT = 
-    new G4PVReplica("SensorStripDUT",		//its name
-		    ....);	        //witdth of replica
+    new G4PVReplica("SensorStripDUT",
+                    logicSensorStrip,
+                    LogicalDUT,
+                    kXAxis,
+                    noOfSensorStrips,
+                    dutStripPitch
+                    );
 
   G4Color red(1.0,0.0,0.0),yellow(1.0,1.0,0.0);
   logicSensorPlane -> SetVisAttributes(new G4VisAttributes(yellow));
   logicSensorStrip -> SetVisAttributes(new G4VisAttributes(red));
-  */
 
   return physiSecondSensor;
 }

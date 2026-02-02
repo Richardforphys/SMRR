@@ -35,7 +35,6 @@ void PhysicsList::ConstructParticle()
   G4ChargedGeantino::ChargedGeantinoDefinition();
 
   // define gamma, e+, e- and some charged Hadrons
-  emPhysicsList->ConstructParticle();
 
   /*
 // gamma
@@ -49,8 +48,9 @@ void PhysicsList::ConstructParticle()
   */
 
   // mesons
-  //  G4PionPlus::PionPlusDefinition();
-  //  G4PionMinus::PionMinusDefinition();
+  G4PionPlus::PionPlusDefinition();
+  G4PionMinus::PionMinusDefinition();
+  emPhysicsList->ConstructParticle();
 
 }
 

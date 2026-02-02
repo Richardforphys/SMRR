@@ -69,6 +69,9 @@ private:
   G4Material* air;
   G4Material* silicon;
   G4Material* vacuum;
+  G4Material* GaAs;
+  G4Element* Ga;
+  G4Element* As;
   //@}
 
   //! \name Geometry
