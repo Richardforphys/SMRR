@@ -62,14 +62,14 @@ void DetectorConstruction::DefineMaterials()
   //   - define your own material GaAs with the same properties
   // ********************************************************************************
   //GaAs    = man->FindOrBuildMaterial("G4_GaLLIUM_ARSENIDE");
-  Ga      = man->FindOrBuildMaterial("G4_Ga");
-  As      = man->FindOrBuildMaterial("G4_As");
+  Ga      = new G4Element("Gallium", "Ga", 31., 69.723*g/mole);
+  As      = new G4Element("Arsenic", "As", 33., 74.9216*g/mole);
   G4double density_GaAs = 5.31;
-  GaAs = new G4Material(name="Gallium Arsenide", 
-                          density=density_GaAs,
-                            n_components=2);
-  GaAs->AddElement(Ga, natoms=1);
-  GaAs->AddElement(As, natoms=1);
+  GaAs = new G4Material("GaAs", 
+                          density_GaAs,
+                            2);
+  GaAs->AddElement(Ga, 1);
+  GaAs->AddElement(As, 1);
 }
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
  
@@ -226,7 +226,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     white(1.0,1.0,1.0);
 
   logicWorld -> SetVisAttributes(new G4VisAttributes(white));  
-  logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
+  logicWorld -> SetVisAttributes(G4VisAttributes(false));
 
   logicSensorPlane -> SetVisAttributes(new G4VisAttributes(yellow));
     
@@ -286,14 +286,13 @@ G4VPhysicalVolume* DetectorConstruction::ConstructDeviceUnderTest()
   physiSensorStripDUT = 
     new G4PVReplica("SensorStripDUT",
                     logicSensorStrip,
-                    LogicalDUT,
+                    logicalDUT,
                     kXAxis,
                     noOfSensorStrips,
                     dutStripPitch
                     );
 
   G4Color red(1.0,0.0,0.0),yellow(1.0,1.0,0.0);
-  logicSensorPlane -> SetVisAttributes(new G4VisAttributes(yellow));
   logicSensorStrip -> SetVisAttributes(new G4VisAttributes(red));
 
   return physiSecondSensor;
