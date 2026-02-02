@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampletask1b.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/exampletask1b.dir/flags.make
 CMakeFiles/exampletask1b.dir/task1b.cc.o: CMakeFiles/exampletask1b.dir/flags.make
 CMakeFiles/exampletask1b.dir/task1b.cc.o: /home/ubuntu/SMRR/Exercises/task1/task1b/task1b.cc
 CMakeFiles/exampletask1b.dir/task1b.cc.o: CMakeFiles/exampletask1b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampletask1b.dir/task1b.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampletask1b.dir/task1b.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask1b.dir/task1b.cc.o -MF CMakeFiles/exampletask1b.dir/task1b.cc.o.d -o CMakeFiles/exampletask1b.dir/task1b.cc.o -c /home/ubuntu/SMRR/Exercises/task1/task1b/task1b.cc
 
 CMakeFiles/exampletask1b.dir/task1b.cc.i: cmake_force
@@ -86,7 +86,7 @@ CMakeFiles/exampletask1b.dir/task1b.cc.s: cmake_force
 CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampletask1b.dir/flags.make
 CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/Exercises/task1/task1b/src/DetectorConstruction.cc
 CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampletask1b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/Exercises/task1/task1b/src/DetectorConstruction.cc
 
 CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.s: cmake_force
 CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o: CMakeFiles/exampletask1b.dir/flags.make
 CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/task1/task1b/src/PhysicsList.cc
 CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o: CMakeFiles/exampletask1b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o -c /home/ubuntu/SMRR/Exercises/task1/task1b/src/PhysicsList.cc
 
 CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.s: cmake_force
 CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampletask1b.dir/flags.make
 CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Exercises/task1/task1b/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampletask1b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Exercises/task1/task1b/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
@@ -140,46 +140,46 @@ exampletask1b: CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o
 exampletask1b: CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o
 exampletask1b: CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o
 exampletask1b: CMakeFiles/exampletask1b.dir/build.make
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4Tree.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4FR.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4GMocren.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4RayTracer.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4VRML.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4ToolsSG.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4OpenGL.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4vis_management.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4modeling.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4interfaces.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4mctruth.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4geomtext.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4analysis.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4error_propagation.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4readout.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4physicslists.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4run.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4event.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4tracking.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4parmodels.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4Tree.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4FR.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4GMocren.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4RayTracer.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4VRML.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4ToolsSG.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4OpenGL.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4vis_management.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4modeling.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4interfaces.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4mctruth.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4geomtext.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4analysis.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4error_propagation.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4readout.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4physicslists.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4run.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4event.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4tracking.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4parmodels.so
 exampletask1b: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 exampletask1b: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 exampletask1b: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 exampletask1b: /usr/lib/x86_64-linux-gnu/libGL.so
 exampletask1b: /usr/lib/x86_64-linux-gnu/libexpat.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4processes_hadronic.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4processes_core.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4digits_hits.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4track.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4particles.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4geometry.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4graphics_reps.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4materials.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4intercoms.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4global.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4clhep.so
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4ptl.so.3.0.0
-exampletask1b: /home/ubuntu/SMRR/GEANT4/geant4_install/lib/libG4zlib.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_hadronic.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_core.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4digits_hits.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4track.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4particles.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4geometry.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4graphics_reps.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4materials.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4intercoms.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4global.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4clhep.so
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4ptl.so.3.0.0
+exampletask1b: /home/ubuntu/SMRR/geant4_install/lib/libG4zlib.so
 exampletask1b: CMakeFiles/exampletask1b.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable exampletask1b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable exampletask1b"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampletask1b.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/exampletask1b.dir/clean:
 .PHONY : CMakeFiles/exampletask1b.dir/clean
 
 CMakeFiles/exampletask1b.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/task1/task1_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1_build /home/ubuntu/SMRR/Exercises/task1/task1_build /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles/exampletask1b.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/Exercises/task1/task1b_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1b_build /home/ubuntu/SMRR/Exercises/task1/task1b_build /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/exampletask1b.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/exampletask1b.dir/depend
 

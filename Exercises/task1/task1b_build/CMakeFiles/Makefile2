@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/task1b.dir/clean
 CMakeFiles/exampletask1b.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask1b.dir/build.make CMakeFiles/exampletask1b.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask1b.dir/build.make CMakeFiles/exampletask1b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num=1,2,3,4,5 "Built target exampletask1b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num=1,2,3,4,5 "Built target exampletask1b"
 .PHONY : CMakeFiles/exampletask1b.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exampletask1b.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exampletask1b.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles 0
 .PHONY : CMakeFiles/exampletask1b.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/exampletask1b.dir/clean:
 CMakeFiles/task1b.dir/all: CMakeFiles/exampletask1b.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1b.dir/build.make CMakeFiles/task1b.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task1b.dir/build.make CMakeFiles/task1b.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles --progress-num= "Built target task1b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles --progress-num= "Built target task1b"
 .PHONY : CMakeFiles/task1b.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/task1b.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task1b.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles 0
 .PHONY : CMakeFiles/task1b.dir/rule
 
 # Convenience name for target.

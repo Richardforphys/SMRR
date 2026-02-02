@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b_build
 
 # Utility rule file for task1b.
 
@@ -81,6 +81,6 @@ CMakeFiles/task1b.dir/clean:
 .PHONY : CMakeFiles/task1b.dir/clean
 
 CMakeFiles/task1b.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/task1/task1_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1_build /home/ubuntu/SMRR/Exercises/task1/task1_build /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles/task1b.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/Exercises/task1/task1b_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1b /home/ubuntu/SMRR/Exercises/task1/task1b_build /home/ubuntu/SMRR/Exercises/task1/task1b_build /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles/task1b.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/task1b.dir/depend
 

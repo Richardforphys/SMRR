@@ -46,7 +46,7 @@ Follow this --> https://geant4.web.cern.ch/documentation/pipelines/master/bfad_h
 ```bash
 $ mkdir example_build
 $ cd example_build
-$ cmake -DCMAKE_PREFIX_PATH=/home/ricca/SMRR/GEANT4/geant4_install  /home/ricca/SMRR/GEANT4/geant4/examples/basic/B1
+$ cmake -DCMAKE_PREFIX_PATH=/home/ubuntu/SMRR/geant4_install  /home/ubuntu/SMRR/Exercises/task1/task1b
 $ make -j$(nproc) VERBOSE=1
 ```
 

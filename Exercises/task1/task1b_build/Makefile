@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task1/task1b_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles /home/ubuntu/SMRR/Exercises/task1/task1_build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles /home/ubuntu/SMRR/Exercises/task1/task1b_build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task1/task1b_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
