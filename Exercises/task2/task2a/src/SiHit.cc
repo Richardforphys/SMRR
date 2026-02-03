@@ -5,6 +5,7 @@
 */
 
 #include "SiHit.hh"
+#include "G4SystemOfUnits.hh"
 
 // -- one more nasty trick for new and delete operator overloading:
 G4Allocator<SiHit> SiHitAllocator;

@@ -13,6 +13,7 @@
 
 #include <string>
 #include <TTree.h>
+#include "SiDigi.hh"
 #include "SiHit.hh"
 class TFile;
 

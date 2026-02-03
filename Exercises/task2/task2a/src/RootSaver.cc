@@ -17,6 +17,7 @@
 #include <sstream>
 #include <iostream>
 #include <cassert>
+#include "G4SystemOfUnits.hh"
 
 RootSaver::RootSaver() :
 	rootTree(0),

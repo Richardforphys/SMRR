@@ -13,7 +13,7 @@ $ mkdir geant4_build && cd root_build
 $ cmake -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SMRR/geant4_install \
       -DGEANT4_INSTALL_DATA=ON \
       -DGEANT4_USE_QT=ON \
-      -DGEANT4_USE_OPENGL_X11=ON \  
+      -DGEANT4_USE_OPENGL_X11=ON \
       /home/ubuntu/SMRR/geant4
 $ cmake --build . -- -j$(nproc)
 $ cmake --install .

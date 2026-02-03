@@ -17,6 +17,7 @@
 #include <assert.h>
 #include <list>
 #include <map>
+#include "G4SystemOfUnits.hh"
 
 SiDigitizer::SiDigitizer(G4String aName) :
   G4VDigitizerModule(aName) ,

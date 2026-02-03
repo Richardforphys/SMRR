@@ -15,6 +15,7 @@
 #include "G4UIdirectory.hh"
 #include "G4UIcmdWithADouble.hh"
 #include "G4UIcmdWithADoubleAndUnit.hh"
+#include "G4SystemOfUnits.hh"
 
 SiDigitizerMessenger::SiDigitizerMessenger(SiDigitizer* digitizer) :
 	digi(digitizer)
