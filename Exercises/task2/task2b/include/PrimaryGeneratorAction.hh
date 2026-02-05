@@ -7,6 +7,7 @@
 */
 
 #include "G4VUserPrimaryGeneratorAction.hh"
+#include "G4VPrimaryGenerator.hh"
 #include "G4GeneralParticleSource.hh"
 
 
@@ -32,9 +33,11 @@ public:
   ~PrimaryGeneratorAction();
   //! defines primary particles (mandatory)
   void GeneratePrimaries(G4Event*);
+  G4VPrimaryGenerator* InitializeGPS();
+  
 private:  
   //  G4VPrimaryGenerator* gun;
-  G4GeneralParticleSource* gun;
+  G4VPrimaryGenerator* gun;
 
 };
 

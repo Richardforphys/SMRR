@@ -19,7 +19,7 @@
 #include "G4Colour.hh"
 
 #include "Analysis.hh"
-
+#include "G4SystemOfUnits.hh"
 #include "G4GeometryManager.hh"
 #include "G4SDManager.hh"
 
@@ -121,7 +121,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     white(1.0,1.0,1.0);
 
   logicWorld -> SetVisAttributes(new G4VisAttributes(white));
-  logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
+  logicWorld -> SetVisAttributes(G4VisAttributes(false));
     
   //always return the physical World
   //

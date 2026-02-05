@@ -1007,6 +1007,8 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4BMesonPlus.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4BMesonZero.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4BsMesonZero.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Cache.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CacheDetails.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ChargedGeantino.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ChargedUnknownParticle.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DMesonMinus.hh \
@@ -1094,6 +1096,8 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTableIterator.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTypes.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsFreeVector.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListHelper.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListOrderingParameter.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsTable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsTable.icc \
@@ -1137,6 +1141,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TauMinus.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TauPlus.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreadLocalSingleton.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Threading.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TouchableHandle.hh \
@@ -1155,6 +1160,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VParticleChange.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicsConstructor.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VProcess.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTouchable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUPLSplitter.hh \
@@ -1206,6 +1212,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -1214,9 +1221,12 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
   /usr/include/c++/13/bits/locale_conv.h \
@@ -1259,6 +1269,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_pair.h \
@@ -1275,6 +1286,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -1307,6 +1319,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
@@ -1315,6 +1328,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
@@ -1349,6 +1363,7 @@ CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -1578,6 +1593,7 @@ CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelProxy.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.icc \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Threading.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TouchableHandle.hh \
@@ -2105,6 +2121,8 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTableIterator.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicalVolumeModel.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsFreeVector.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListHelper.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListOrderingParameter.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsTable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsTable.icc \
@@ -2183,6 +2201,7 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsMap.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TessellatedSolid.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreadLocalSingleton.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Threading.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ToolsSGOffscreen.hh \
@@ -2250,6 +2269,7 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VParticleChange.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicsConstructor.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VProcess.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VRML2File.hh \
@@ -2625,15 +2645,7 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 
 /usr/include/c++/13/utility:
 
-/usr/include/c++/13/unordered_map:
-
-/usr/include/c++/13/functional:
-
-/usr/include/c++/13/bits/unordered_map.h:
-
 /usr/include/c++/13/bits/stl_relops.h:
-
-/usr/include/c++/13/bits/hashtable.h:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/windefs.hh:
 
@@ -2767,11 +2779,15 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataInterpolation.hh:
 
-/home/ubuntu/SMRR/geant4_install/include/Geant4/G4CacheDetails.hh:
-
-/home/ubuntu/SMRR/geant4_install/include/Geant4/G4Cache.hh:
-
 /home/ubuntu/SMRR/Exercises/task2/task2b/include/PrimaryGeneratorAction.hh:
+
+/usr/include/c++/13/unordered_map:
+
+/usr/include/c++/13/functional:
+
+/usr/include/c++/13/bits/unordered_map.h:
+
+/usr/include/c++/13/bits/hashtable.h:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4XicPlus.hh:
 
@@ -2790,6 +2806,8 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnknownParticle.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Triton.hh:
+
+/home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreadLocalSingleton.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TauPlus.hh:
 
@@ -2812,6 +2830,8 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VFacet.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PionMinus.hh:
+
+/home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListOrderingParameter.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OpticalPhoton.hh:
 
@@ -2850,6 +2870,10 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DMesonZero.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DMesonMinus.hh:
+
+/home/ubuntu/SMRR/geant4_install/include/Geant4/G4CacheDetails.hh:
+
+/home/ubuntu/SMRR/geant4_install/include/Geant4/G4Cache.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4BsMesonZero.hh:
 
@@ -3555,6 +3579,8 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 
 /usr/include/c++/13/bits/node_handle.h:
 
+/home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicsConstructor.hh:
+
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ElectronOccupancy.hh:
 
 /usr/include/c++/13/ostream:
@@ -3620,6 +3646,8 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVectorType.hh:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListHelper.hh:
 
 /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OrderedTable.hh:
 

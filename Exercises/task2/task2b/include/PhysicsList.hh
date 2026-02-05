@@ -8,6 +8,7 @@
 
 #include "G4VUserPhysicsList.hh"
 #include "globals.hh"
+#include "G4VPhysicsConstructor.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -39,6 +40,9 @@ protected:
   //! Define user cuts
   void SetCuts();
   //@}
+
+private:
+  G4VPhysicsConstructor*  emPhysicsList;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

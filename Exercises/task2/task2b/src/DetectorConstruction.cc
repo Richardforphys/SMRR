@@ -87,7 +87,7 @@ void DetectorConstruction::ComputeParameters()
   teleStripPitch  = 20. * um;
   posFirstSensor  = G4ThreeVector(0., 0., 10.*mm);
   posSecondSensor = G4ThreeVector(0., 0., 25.*mm);
-  posThirdSensor  = G4ThreeVector(0., 0., 1000.*mm); //Exercise 2
+  posThirdSensor  = G4ThreeVector(0., 0., 50.*mm); //Exercise 2
 
   // ** Device under test (DUT) **
   dutStripPitch = 50. * um;

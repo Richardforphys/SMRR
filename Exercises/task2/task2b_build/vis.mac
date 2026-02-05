@@ -12,7 +12,7 @@
 /vis/open OGLIX 600x600-0+0
 #/vis/open OGLIQt 600x600-0+0
 #
-# draw scene
+#draw scene
 #
 /vis/drawVolume
 #
@@ -24,8 +24,8 @@
 /vis/scene/add/trajectories
 # (if too many tracks cause core dump => /tracking/storeTrajectory 0)
 # for drawing the hits, uncomment next line
-# /vis/scene/add/hits
+/vis/scene/add/hits
 # (if you prefer refreshing each event, comment out next line)
 /vis/scene/endOfEventAction accumulate
 #
-#/run/beamOn 10
+/run/beamOn 10

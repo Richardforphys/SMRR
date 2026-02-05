@@ -18,6 +18,7 @@ RunAction::~RunAction()
 void RunAction::BeginOfRunAction(const G4Run* aRun )
 {
   G4cout<<"Starting Run: "<<aRun->GetRunID()<<G4endl;
+  G4cout<<"Calling PrapareNewRun: "<<G4endl;
   Analysis::GetInstance()->PrepareNewRun(aRun);
 }
 

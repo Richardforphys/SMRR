@@ -37,7 +37,7 @@ Analysis::Analysis()
   m_ROOT_file = 0;
 }
 
-void Analysis::PrepareNewEvent(const G4Event* /*anEvent*/)
+void Analysis::PrepareNewEvent(const G4Event* anEvent)
 {
   //Reset variables relative to this event
   thisEventTotEM = 0;
@@ -45,7 +45,7 @@ void Analysis::PrepareNewEvent(const G4Event* /*anEvent*/)
   thisEventSecondaries = 0;
 }
 
-void Analysis::PrepareNewRun(const G4Run* /*aRun*/ )
+void Analysis::PrepareNewRun(const G4Run* aRun)
 {
   //Reset variables relative to the run
   thisRunTotEM  = 0;
@@ -60,11 +60,12 @@ void Analysis::PrepareNewRun(const G4Run* /*aRun*/ )
 #ifdef G4ANALYSIS_USE_ROOT
 
   // create ROOT file
-  m_ROOT_file = new TFile("task3.root","RECREATE","ROOT file with histograms");
+  G4cout << "Creating ROOT file!" << G4endl;
+  m_ROOT_file = new TFile("task3.root","NEW","ROOT file with histograms");
   if(m_ROOT_file) {
     G4cout << "ROOT file task3.root is created " << G4endl;
   } else {
-    G4Exception("ROOT file task3.root has not been created!");
+    G4cout << "ROOT file task3.root has not been created!" << G4endl;
   }
 
   // create histograms
@@ -75,7 +76,7 @@ void Analysis::PrepareNewRun(const G4Run* /*aRun*/ )
 #endif
 }
 
-void Analysis::EndOfEvent(const G4Event* /*anEvent*/)
+void Analysis::EndOfEvent(const G4Event* anEvent)
 {
   //Accumulate over the run
   thisRunTotEM += thisEventTotEM;

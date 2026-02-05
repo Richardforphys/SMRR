@@ -34,6 +34,8 @@ void PhysicsList::ConstructParticle()
   // pseudo-particles
   G4Geantino::GeantinoDefinition();
   G4ChargedGeantino::ChargedGeantinoDefinition();
+  G4MuonPlus::MuonPlus();
+  G4MuonMinus::MuonMinus();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -41,7 +43,6 @@ void PhysicsList::ConstructParticle()
 void PhysicsList::ConstructProcess()
 {
   AddTransportation();
-
 }
 
 

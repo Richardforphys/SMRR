@@ -3,7 +3,8 @@ CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o: \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/Exercises/task2/task2b/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeneralParticleSource.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -227,8 +228,12 @@ CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeneralParticleSource.hh \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
@@ -240,10 +245,6 @@ CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PrimaryVertex.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PrimaryParticle.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/pwdefs.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HCofThisEvent.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHitsCollection.hh \
@@ -383,4 +384,5 @@ CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleGun.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTableIterator.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTable.icc
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleTable.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.hh

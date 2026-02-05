@@ -632,6 +632,7 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
  /home/ubuntu/SMRR/Exercises/task2/task2b/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeneralParticleSource.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SingleParticleSource.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
@@ -650,4 +651,8 @@ CMakeFiles/exampletask2b.dir/task2b.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialCutsCouple.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProductionCuts.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MCCIndexConversionTable.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUPLSplitter.hh
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUPLSplitter.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicsConstructor.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListHelper.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreadLocalSingleton.hh
