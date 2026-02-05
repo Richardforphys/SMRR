@@ -23,6 +23,7 @@
 
 //#include "SensitiveDetector.hh"
 #include "G4SDManager.hh"
+#include "G4SystemOfUnits.hh"
 
 DetectorConstruction::DetectorConstruction()
 {
@@ -69,7 +70,7 @@ void DetectorConstruction::ComputeParameters()
 	//of the geometry construction
 
 	// ** world **
-	halfWorldLength = 5* m;
+	halfWorldLength = 5*m;
 
 	// ** em calo **
 	emCaloCentralCrystalWidth = 22*mm;
@@ -126,10 +127,10 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
 
 	//Construction of the three si plane is actually done here
-	//	ConstructTelescope();
+	ConstructTelescope();
 
 	//Construction of the EM calorimeter
-	//	ConstructEMCalo();
+	ConstructEMCalo();
 
 	//Construction of the Had calorimeter
 	ConstructHadCalo();
@@ -142,8 +143,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		brown(0.4,0.4,0.1),
 		white(1.0,1.0,1.0);
 
-	logicWorld -> SetVisAttributes(new G4VisAttributes(white));
-	logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
+	logicWorld -> SetVisAttributes(new G4VisAttributes(false));
     
 	//always return the physical World
 	//

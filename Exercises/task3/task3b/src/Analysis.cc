@@ -12,6 +12,7 @@
 #include "Analysis.hh"
 #include "G4UnitsTable.hh"
 #include "G4Track.hh"
+#include "G4SystemOfUnits.hh"
 
 #include "TH1D.h"
 #include "TFile.h"
@@ -38,7 +39,7 @@ void Analysis::AddTrack( const G4Track * aTrack )
     const G4ThreeVector & mom = aTrack->GetMomentumDirection();
     G4double time = aTrack->GetGlobalTime();
 
-
+	G4cout << pos.z()/m << G4endl;
     histos[fDecayPosZ]->Fill(pos.z()/m);
     histos[fDecayTime]->Fill(time/millisecond);
     if (mom.z()>0) histos[fDecayTimeForward]->Fill(time/millisecond);

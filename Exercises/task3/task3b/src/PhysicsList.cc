@@ -28,12 +28,13 @@
 #include "G4eIonisation.hh"
 #include "G4eBremsstrahlung.hh"
 #include "G4eplusAnnihilation.hh"
-
+#include "G4EmStandardPhysics.hh"
+#include "G4ParticleTable.hh"
 #include "G4MuMultipleScattering.hh"
 #include "G4MuIonisation.hh"
 #include "G4MuBremsstrahlung.hh"
 #include "G4MuPairProduction.hh"
-
+#include "G4SystemOfUnits.hh"
 #include "G4hMultipleScattering.hh"
 #include "G4hIonisation.hh"
 #include "G4hBremsstrahlung.hh"
@@ -81,6 +82,8 @@ void PhysicsList::ConstructParticle()
 
   // gamma
   G4Gamma::Gamma();
+  G4MuonPlus::MuonPlusDefinition();
+  G4MuonMinus::MuonMinusDefinition();
 
   // mesons
   G4PionPlus::PionPlusDefinition();
@@ -94,7 +97,7 @@ void PhysicsList::ConstructParticle()
   //      G4DecayWithSpin
   // ********************************************************************************
   //
-  /*
+  
   G4DecayTable* MuonPlusDecayTable = new G4DecayTable();
   MuonPlusDecayTable -> Insert(new G4MuonDecayChannelWithSpin("mu+",0.986));
   MuonPlusDecayTable -> Insert(new G4MuonRadiativeDecayChannelWithSpin("mu+",0.014));
@@ -104,7 +107,7 @@ void PhysicsList::ConstructParticle()
   MuonMinusDecayTable -> Insert(new G4MuonDecayChannelWithSpin("mu-",0.986));
   MuonMinusDecayTable -> Insert(new G4MuonRadiativeDecayChannelWithSpin("mu-",0.014));
   G4MuonMinus::MuonMinusDefinition() -> SetDecayTable(MuonMinusDecayTable);
-  */
+  
   // ---
 }
 
@@ -118,9 +121,9 @@ void PhysicsList::ConstructProcess()
 
 void PhysicsList::ConstructEM()
 {
-  theParticleIterator->reset();
-  while( (*theParticleIterator)() ){
-    G4ParticleDefinition* particle = theParticleIterator->value();
+  GetParticleIterator()->reset();
+  while( (*GetParticleIterator())() ){
+    G4ParticleDefinition* particle = GetParticleIterator()->value();
     G4ProcessManager* pmanager = particle->GetProcessManager();
     G4String particleName = particle->GetParticleName();
     
@@ -178,14 +181,13 @@ void PhysicsList::ConstructDecay()
   // Task 3.b - Exercise 7
   //   - Change the muon decay process to a G4DecayWithSpin. 
   // ********************************************************************************
-  /*
+  
   G4Decay* theDecayProcess = new G4Decay();
 
   G4ParticleDefinition* muMinus= G4MuonMinus::MuonMinusDefinition();
  
   G4ProcessManager* muMinusManager = muMinus->GetProcessManager();
   ...
-  */
 
   //  G4ParticleDefinition* muPlus = G4MuonPlus::MuonPlusDefinition();
   //  .... 

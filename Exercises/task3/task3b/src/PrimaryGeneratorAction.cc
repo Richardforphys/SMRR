@@ -6,7 +6,7 @@
 
 #include "PrimaryGeneratorAction.hh"
 #include "PrimaryGeneratorAction.hh"
-
+#include "G4SystemOfUnits.hh"
 #include "G4Event.hh"
 #include "G4ParticleGun.hh"
 #include "G4GeneralParticleSource.hh"
@@ -39,13 +39,13 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
 
   // particle type
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* muon = particleTable->FindParticle("geantino");  
-  gps->GetCurrentSource()->SetParticleDefinition(muon);
+  G4ParticleDefinition* pt = particleTable->FindParticle("pi-");  
+  gps->GetCurrentSource()->SetParticleDefinition(pt);
 
   // set energy distribution
   G4SPSEneDistribution *eneDist = gps->GetCurrentSource()->GetEneDist() ;
   eneDist->SetEnergyDisType("Mono"); // or gauss
-  eneDist->SetMonoEnergy(1.0*keV);
+  eneDist->SetMonoEnergy(1.0*GeV);
 
   // set position distribution
   G4SPSPosDistribution *posDist = gps->GetCurrentSource()->GetPosDist();

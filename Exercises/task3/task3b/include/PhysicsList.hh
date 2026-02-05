@@ -10,6 +10,8 @@
 
 #include "G4VUserPhysicsList.hh"
 #include "globals.hh"
+#include "G4EmStandardPhysics.hh"
+
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
