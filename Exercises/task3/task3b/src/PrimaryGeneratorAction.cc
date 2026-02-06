@@ -46,11 +46,11 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
   // set energy distribution
   G4SPSEneDistribution *eneDist = gps->GetCurrentSource()->GetEneDist() ;
   eneDist->SetEnergyDisType("Mono"); // or gauss
-  eneDist->SetMonoEnergy(100*MeV);
+  eneDist->SetMonoEnergy(1*keV);
 
   // set position distribution
   G4SPSPosDistribution *posDist = gps->GetCurrentSource()->GetPosDist();
-  posDist->SetPosDisType("Point");  // or Point,Plane,Volume,Beam
+  posDist->SetPosDisType("Beam");  // or Point,Plane,Volume,Beam
   G4double emCaloLength = 230*mm;
   source_central_pos = G4ThreeVector(0., 0., -0.5*m-emCaloLength/2);
   posDist->SetCentreCoords(source_central_pos);

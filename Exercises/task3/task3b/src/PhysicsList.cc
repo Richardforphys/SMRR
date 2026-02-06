@@ -150,7 +150,7 @@ void PhysicsList::ConstructEM()
       pmanager->AddProcess(new G4MuMultipleScattering, -1, 1, 1);
       pmanager->AddProcess(new G4MuIonisation,         -1, 2, 2);
       pmanager->AddProcess(new G4MuBremsstrahlung,     -1, 3, 3);
-      pmanager->AddProcess(new G4MuPairProduction,     -1,-1, -1);
+      pmanager->AddProcess(new G4MuPairProduction,     -1,-1,-1);
       // ---       
     } else if (particleName == "pi-" || particleName == "pi+") {
       //pion  

@@ -34,16 +34,7 @@ G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack( const G4Track * aTr
       analysis->AddTrack(aTrack);
     }
   }
-
-
   return result;
-
-
-
-
-
-
-
 }
 
 

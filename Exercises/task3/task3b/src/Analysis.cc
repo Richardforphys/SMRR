@@ -37,7 +37,6 @@ void Analysis::AddTrack( const G4Track * aTrack )
     const G4ThreeVector & mom = aTrack->GetMomentumDirection();
     G4double time = aTrack->GetGlobalTime();
 
-	//G4cout << pos.z()/m << G4endl;
     histos[fDecayPosZ]->Fill(pos.z()/mm);
     histos[fDecayTime]->Fill(time/microsecond);
     if (mom.z()>0) histos[fDecayTimeForward]->Fill(time/microsecond);

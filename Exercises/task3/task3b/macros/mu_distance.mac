@@ -1,0 +1,29 @@
+
+/particle/list
+
+/particle/select mu-
+/particle/property/dump
+
+/particle/select mu-
+/particle/process/dump
+
+/gps/particle mu-
+/gps/energy 1. MeV
+/gps/position 0 0 -1000 mm
+/run/setCut 1 km
+/run/beamOn 10000
+
+/gps/energy 100. MeV
+/gps/position 0 0 -610 mm
+/run/setCut 1 km
+/run/beamOn 10000
+
+/gps/energy 1. MeV
+/gps/position 0 0 -500 mm
+/run/setCut 1 km
+/run/beamOn 10000
+
+/gps/energy 100. MeV
+/gps/position 0 0 -200 mm
+/run/setCut 1 km
+/run/beamOn 10000
