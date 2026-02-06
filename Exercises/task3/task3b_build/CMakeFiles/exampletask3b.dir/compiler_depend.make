@@ -2274,6 +2274,7 @@ CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/t
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/PrimaryGeneratorAction.cc \
+  /home/ubuntu/SMRR/Exercises/task3/task3b/include/DetectorConstruction.hh \
   /home/ubuntu/SMRR/Exercises/task3/task3b/include/PrimaryGeneratorAction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
@@ -2401,6 +2402,7 @@ CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSolid.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTouchable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTrajectory.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserEventInformation.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VVolumeMaterialScanner.hh \

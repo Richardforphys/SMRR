@@ -13,7 +13,6 @@
 #include "G4UnitsTable.hh"
 #include "G4Track.hh"
 #include "G4SystemOfUnits.hh"
-
 #include "TH1D.h"
 #include "TFile.h"
 
@@ -34,16 +33,15 @@ void Analysis::AddTrack( const G4Track * aTrack )
 {
   if (histos.size()>3) {
     if (aTrack->GetDefinition()->GetPDGEncoding()!=11) return; // electrons
-
     const G4ThreeVector & pos = aTrack->GetPosition();
     const G4ThreeVector & mom = aTrack->GetMomentumDirection();
     G4double time = aTrack->GetGlobalTime();
 
-	G4cout << pos.z()/m << G4endl;
-    histos[fDecayPosZ]->Fill(pos.z()/m);
-    histos[fDecayTime]->Fill(time/millisecond);
-    if (mom.z()>0) histos[fDecayTimeForward]->Fill(time/millisecond);
-    else histos[fDecayTimeBackward]->Fill(time/millisecond);
+	//G4cout << pos.z()/m << G4endl;
+    histos[fDecayPosZ]->Fill(pos.z()/mm);
+    histos[fDecayTime]->Fill(time/microsecond);
+    if (mom.z()>0) histos[fDecayTimeForward]->Fill(time/microsecond);
+    else histos[fDecayTimeBackward]->Fill(time/microsecond);
   }
 }
 
@@ -62,9 +60,9 @@ void Analysis::PrepareNewRun(const G4Run* /*aRun*/ )
 
 	TH1D *h=0;
 	// create Histograms
-	histos.push_back(h=new TH1D("decayPos","Z Position of Decay",100,0.8*m,(0.8+2.24)*m) );
+	histos.push_back(h=new TH1D("decayPos","Z Position of Decay",200,-1*m,2*m));
 	h->GetYaxis()->SetTitle("events");
-	h->GetXaxis()->SetTitle("t_{decay} #mus");
+	h->GetXaxis()->SetTitle("Decay Position} #mm");
 	h->StatOverflows();
 	histos.push_back(h=new TH1D("decayTime","Time of Decay",200,0,20 ) ); //microsecond
 	h->GetYaxis()->SetTitle("events");
@@ -86,7 +84,7 @@ void Analysis::EndOfEvent(const G4Event* /*anEvent*/)
 	thisRunTotEM += thisEventTotEM;
 	thisRunTotSecondaries += thisEventSecondaries;
 	//Uncomment this line for more verbosity:
-	//	G4cout<<"Event: "<<anEvent->GetEventID() <<" Energy in EM calo: "<<G4BestUnit(thisEventTotEM,"Energy")<<" Secondaries: "<<thisEventSecondaries<<G4endl;
+	//G4cout<<"Event: "<<anEvent->GetEventID() <<" Energy in EM calo: "<<G4BestUnit(thisEventTotEM,"Energy")<<" Secondaries: "<<thisEventSecondaries<<G4endl;
 }
 
 void Analysis::EndOfRun(const G4Run* aRun)

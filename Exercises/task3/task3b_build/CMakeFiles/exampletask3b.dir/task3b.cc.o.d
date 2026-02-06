@@ -630,6 +630,7 @@ CMakeFiles/exampletask3b.dir/task3b.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/Exercises/task3/task3b/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Exercises/task3/task3b/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/Exercises/task3/task3b/include/StackingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserStackingAction.hh \
  /home/ubuntu/SMRR/Exercises/task3/task3b/include/SteppingAction.hh \

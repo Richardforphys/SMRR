@@ -6,24 +6,17 @@
 
 #include "globals.hh"
 #include "PhysicsList.hh"
-
-#include "G4EmStandardPhysics.hh"
 #include "G4LossTableManager.hh"
-
 #include "G4ProcessManager.hh"
 #include "G4ParticleTypes.hh"
-
 #include "G4DecayTable.hh"
 #include "G4Decay.hh"
 #include "G4DecayWithSpin.hh"
 #include "G4MuonDecayChannelWithSpin.hh"
 #include "G4MuonRadiativeDecayChannelWithSpin.hh"
-// for an more elaborate example with spin see extended example field04
-
 #include "G4ComptonScattering.hh"
 #include "G4GammaConversion.hh"
 #include "G4PhotoElectricEffect.hh"
-
 #include "G4eMultipleScattering.hh"
 #include "G4eIonisation.hh"
 #include "G4eBremsstrahlung.hh"
@@ -58,8 +51,8 @@ void PhysicsList::ConstructParticle()
   // created in the program. 
 
   // pseudo-particles
-  G4Geantino::GeantinoDefinition();
-  G4ChargedGeantino::ChargedGeantinoDefinition();
+  //G4Geantino::GeantinoDefinition();
+  //G4ChargedGeantino::ChargedGeantinoDefinition();
 
   // leptons
   G4Electron::ElectronDefinition();
@@ -86,8 +79,8 @@ void PhysicsList::ConstructParticle()
   G4MuonMinus::MuonMinusDefinition();
 
   // mesons
-  G4PionPlus::PionPlusDefinition();
-  G4PionMinus::PionMinusDefinition();
+  //G4PionPlus::PionPlusDefinition();
+  //G4PionMinus::PionMinusDefinition();
 
   // ********************************************************************************
   // Task 3.b - Exercise 7 
@@ -98,6 +91,7 @@ void PhysicsList::ConstructParticle()
   // ********************************************************************************
   //
   
+  /*
   G4DecayTable* MuonPlusDecayTable = new G4DecayTable();
   MuonPlusDecayTable -> Insert(new G4MuonDecayChannelWithSpin("mu+",0.986));
   MuonPlusDecayTable -> Insert(new G4MuonRadiativeDecayChannelWithSpin("mu+",0.014));
@@ -107,16 +101,15 @@ void PhysicsList::ConstructParticle()
   MuonMinusDecayTable -> Insert(new G4MuonDecayChannelWithSpin("mu-",0.986));
   MuonMinusDecayTable -> Insert(new G4MuonRadiativeDecayChannelWithSpin("mu-",0.014));
   G4MuonMinus::MuonMinusDefinition() -> SetDecayTable(MuonMinusDecayTable);
-  
-  // ---
+  */
 }
 
 void PhysicsList::ConstructProcess()
 {
   AddTransportation();
 
-  ConstructEM();
   ConstructDecay();
+  ConstructEM();
 }
 
 void PhysicsList::ConstructEM()
@@ -129,9 +122,9 @@ void PhysicsList::ConstructEM()
     
     if (particleName == "gamma") {
       // gamma         
-      pmanager->AddDiscreteProcess(new G4PhotoElectricEffect);
-      pmanager->AddDiscreteProcess(new G4ComptonScattering);
-      pmanager->AddDiscreteProcess(new G4GammaConversion);
+      //pmanager->AddDiscreteProcess(new G4PhotoElectricEffect);
+      //pmanager->AddDiscreteProcess(new G4ComptonScattering);
+      //pmanager->AddDiscreteProcess(new G4GammaConversion);
       
     } else if (particleName == "e-") {
       //electron
@@ -146,22 +139,20 @@ void PhysicsList::ConstructEM()
       pmanager->AddProcess(new G4eBremsstrahlung,    -1, 3, 3);
       pmanager->AddProcess(new G4eplusAnnihilation,   0,-1, 4);
     
-    } else if( particleName == "mu+" || 
-               particleName == "mu-"    ) {
+    } else if( particleName == "mu-" || particleName =="mu+"){
       //muon  
       // ********************************************************************************
       // Task 3.b - Exercise 6 
       //  - Add the processes G4MuIonisation, G4MuBremsstrahlung, G4MuPairProduction, 
       //    and also G4MuMultipleScattering, what order is needed?
       // ********************************************************************************
-      /*
-      pmanager->AddProcess(new G4MuMultipleScattering,-1, 1, 1);
-      pmanager->AddProcess(...);
-      ...
-      */
+      
+      pmanager->AddProcess(new G4MuMultipleScattering, -1, 1, 1);
+      pmanager->AddProcess(new G4MuIonisation,         -1, 2, 2);
+      pmanager->AddProcess(new G4MuBremsstrahlung,     -1, 3, 3);
+      pmanager->AddProcess(new G4MuPairProduction,     -1,-1, -1);
       // ---       
-    } else if (particleName == "pi-" ||
-               particleName == "pi+"    ) {
+    } else if (particleName == "pi-" || particleName == "pi+") {
       //pion  
       pmanager->AddProcess(new G4hMultipleScattering, -1, 1, 1);
       pmanager->AddProcess(new G4hIonisation,         -1, 2, 2);
@@ -182,17 +173,15 @@ void PhysicsList::ConstructDecay()
   //   - Change the muon decay process to a G4DecayWithSpin. 
   // ********************************************************************************
   
-  G4Decay* theDecayProcess = new G4Decay();
-
+  G4Decay* MuMinusDecay = new G4Decay();
   G4ParticleDefinition* muMinus= G4MuonMinus::MuonMinusDefinition();
- 
   G4ProcessManager* muMinusManager = muMinus->GetProcessManager();
-  ...
+  muMinusManager->AddProcess(MuMinusDecay,      1, -1, 1);
 
-  //  G4ParticleDefinition* muPlus = G4MuonPlus::MuonPlusDefinition();
-  //  .... 
-
-  // ---
+  G4Decay* MuPlusDecay = new G4Decay();
+  G4ParticleDefinition* muPlus= G4MuonPlus::MuonPlusDefinition();
+  G4ProcessManager* muPlusManager = muPlus->GetProcessManager();
+  muPlusManager->AddProcess(MuPlusDecay,        1, -1, 1);
  }
 
 void PhysicsList::SetCuts()

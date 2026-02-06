@@ -9,6 +9,7 @@
 #include "G4SystemOfUnits.hh"
 #include "G4Event.hh"
 #include "G4ParticleGun.hh"
+#include "DetectorConstruction.hh"
 #include "G4GeneralParticleSource.hh"
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
@@ -39,18 +40,20 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
 
   // particle type
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* pt = particleTable->FindParticle("pi-");  
+  G4ParticleDefinition* pt = particleTable->FindParticle("mu-");  
   gps->GetCurrentSource()->SetParticleDefinition(pt);
 
   // set energy distribution
   G4SPSEneDistribution *eneDist = gps->GetCurrentSource()->GetEneDist() ;
   eneDist->SetEnergyDisType("Mono"); // or gauss
-  eneDist->SetMonoEnergy(1.0*GeV);
+  eneDist->SetMonoEnergy(100*MeV);
 
   // set position distribution
   G4SPSPosDistribution *posDist = gps->GetCurrentSource()->GetPosDist();
   posDist->SetPosDisType("Point");  // or Point,Plane,Volume,Beam
-  posDist->SetCentreCoords(G4ThreeVector(0.0*cm,0.0*cm,0.0*cm));
+  G4double emCaloLength = 230*mm;
+  source_central_pos = G4ThreeVector(0., 0., -0.5*m-emCaloLength/2);
+  posDist->SetCentreCoords(source_central_pos);
 
   // set angular distribution
   G4SPSAngDistribution *angDist = gps->GetCurrentSource()->GetAngDist();

@@ -9,7 +9,7 @@
  */
 
 #include "G4VUserPrimaryGeneratorAction.hh"
-
+#include "DetectorConstruction.hh"
 #include <fstream>
 
 
@@ -38,6 +38,7 @@ private:
 private:
   G4VPrimaryGenerator* gun;
   std::ofstream * outfile;
+  G4ThreeVector source_central_pos;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

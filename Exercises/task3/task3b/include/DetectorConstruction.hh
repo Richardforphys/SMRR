@@ -104,6 +104,7 @@ private:
 
   //! \name Parameters for tracker
   //@{
+  G4ThreeVector source_central_dist;
   G4int noOfSensorStrips;
   G4double sensorStripLength;
   G4double sensorThickness;

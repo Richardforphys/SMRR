@@ -59,8 +59,8 @@ void DetectorConstruction::DefineMaterials()
 	//G4int z = 18;
 	//lar = new G4Material( "LiquidArgon", z, a, density );
 
-	lar = man->FindOrBuildMaterial("G4_lAr");
-	fe = man->FindOrBuildMaterial("G4_Fe");
+	lar = vacuum;//man->FindOrBuildMaterial("G4_lAr");
+	fe = vacuum;//man->FindOrBuildMaterial("G4_Fe");
 
 }
  
@@ -77,6 +77,7 @@ void DetectorConstruction::ComputeParameters()
 	emCaloWidth               = 110*mm;
 	emCaloLength              = 230*mm;
 	posEmCalo = -G4ThreeVector(0,0,emCaloLength/2);
+	
 
 	// ** Si tracker **
 	noOfSensorStrips = 600;//48;
@@ -133,7 +134,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 	ConstructEMCalo();
 
 	//Construction of the Had calorimeter
-	ConstructHadCalo();
+	//ConstructHadCalo();
 
 	//--------- Visualization attributes -------------------------------
 
