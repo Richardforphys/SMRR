@@ -1,6 +1,4 @@
 /V0
 /build
 /ROOT
-/geant4
-/geant4_build
-/geant4_install
+/GEANT4
