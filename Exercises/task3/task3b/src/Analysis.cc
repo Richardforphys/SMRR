@@ -59,7 +59,7 @@ void Analysis::PrepareNewRun(const G4Run* /*aRun*/ )
 
 	TH1D *h=0;
 	// create Histograms
-	histos.push_back(h=new TH1D("decayPos","Z Position of Decay",200,-1*m,2*m));
+	histos.push_back(h=new TH1D("decayPos","Z Position of Decay",200,-0.24*m,0.01*m));
 	h->GetYaxis()->SetTitle("events");
 	h->GetXaxis()->SetTitle("Decay Position} #mm");
 	h->StatOverflows();

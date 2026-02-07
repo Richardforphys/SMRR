@@ -49,9 +49,9 @@ void DetectorConstruction::DefineMaterials()
 
 	//Tracker
 	air     = man->FindOrBuildMaterial("G4_AIR");
-	silicon = man->FindOrBuildMaterial("G4_Si");
+	silicon = man->FindOrBuildMaterial("G4_Si");//man->FindOrBuildMaterial("G4_Si");
 	//Em calo
-	pbw04   = man->FindOrBuildMaterial("G4_PbWO4");
+	pbw04   = silicon;//man->FindOrBuildMaterial("G4_PbWO4");
 	//Had calo
 	// Liquid Argon has a  X0 = 10.971 cm  and  lambda_I = 65.769 cm.
 	//G4double density = 1.4*g/cm3;
