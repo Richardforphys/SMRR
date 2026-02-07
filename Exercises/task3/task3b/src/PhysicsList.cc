@@ -91,7 +91,7 @@ void PhysicsList::ConstructParticle()
   // ********************************************************************************
   //
   
-  /*
+  
   G4DecayTable* MuonPlusDecayTable = new G4DecayTable();
   MuonPlusDecayTable -> Insert(new G4MuonDecayChannelWithSpin("mu+",0.986));
   MuonPlusDecayTable -> Insert(new G4MuonRadiativeDecayChannelWithSpin("mu+",0.014));
@@ -101,14 +101,14 @@ void PhysicsList::ConstructParticle()
   MuonMinusDecayTable -> Insert(new G4MuonDecayChannelWithSpin("mu-",0.986));
   MuonMinusDecayTable -> Insert(new G4MuonRadiativeDecayChannelWithSpin("mu-",0.014));
   G4MuonMinus::MuonMinusDefinition() -> SetDecayTable(MuonMinusDecayTable);
-  */
+
 }
 
 void PhysicsList::ConstructProcess()
 {
   AddTransportation();
 
-  ConstructDecay();
+  //ConstructDecay();
   ConstructEM();
 }
 
@@ -146,18 +146,19 @@ void PhysicsList::ConstructEM()
       //  - Add the processes G4MuIonisation, G4MuBremsstrahlung, G4MuPairProduction, 
       //    and also G4MuMultipleScattering, what order is needed?
       // ********************************************************************************
-      
       pmanager->AddProcess(new G4MuMultipleScattering, -1, 1, 1);
-      pmanager->AddProcess(new G4MuIonisation,         -1, 2, 2);
-      pmanager->AddProcess(new G4MuBremsstrahlung,     -1, 3, 3);
-      pmanager->AddProcess(new G4MuPairProduction,     -1,-1, 4);
+      pmanager->AddProcess(new G4DecayWithSpin,         1,-1, 2);
+      pmanager->AddProcess(new G4MuIonisation,         -1, 2, 3);
+      pmanager->AddProcess(new G4MuBremsstrahlung,     -1, 3, 4);
+      pmanager->AddProcess(new G4MuPairProduction,     -1,-1, 5);
       // ---       
     } else if (particleName == "pi-" || particleName == "pi+") {
       //pion  
       pmanager->AddProcess(new G4hMultipleScattering, -1, 1, 1);
-      pmanager->AddProcess(new G4hIonisation,         -1, 2, 2);
-      pmanager->AddProcess(new G4hBremsstrahlung,     -1, 3, 3);
-      pmanager->AddProcess(new G4hPairProduction,     -1, 4, 4);       
+      pmanager->AddProcess(new G4Decay,                1,-1, 2);
+      pmanager->AddProcess(new G4hIonisation,         -1, 2, 3);
+      pmanager->AddProcess(new G4hBremsstrahlung,     -1, 3, 4);
+      pmanager->AddProcess(new G4hPairProduction,     -1, 4, 5);       
      
     }
   }

@@ -40,7 +40,7 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
 
   // particle type
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* pt = particleTable->FindParticle("mu-");  
+  G4ParticleDefinition* pt = particleTable->FindParticle("pi-");  
   gps->GetCurrentSource()->SetParticleDefinition(pt);
 
   // set energy distribution

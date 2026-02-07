@@ -35,4 +35,16 @@
 # (if you prefer refreshing each event, comment out next line)
 /vis/scene/endOfEventAction accumulate
 #
+
+/gps/particle pi-
+/gps/energy 10 MeV
+/run/beamOn 3000
+
+/gps/energy 100 MeV
+/run/beamOn 3000
+
+/gps/energy 500 MeV
+/run/beamOn 3000
+
+/gps/energy 1 GeV
 /run/beamOn 3000

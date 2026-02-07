@@ -59,8 +59,8 @@ void DetectorConstruction::DefineMaterials()
 	//G4int z = 18;
 	//lar = new G4Material( "LiquidArgon", z, a, density );
 
-	lar = vacuum;//man->FindOrBuildMaterial("G4_lAr");
-	fe = vacuum;//man->FindOrBuildMaterial("G4_Fe");
+	lar = man->FindOrBuildMaterial("G4_lAr");
+	fe  = man->FindOrBuildMaterial("G4_Fe");
 
 }
  
@@ -134,7 +134,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 	ConstructEMCalo();
 
 	//Construction of the Had calorimeter
-	//ConstructHadCalo();
+	ConstructHadCalo();
 
 	//--------- Visualization attributes -------------------------------
 
@@ -243,6 +243,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructEMCalo()
 	G4LogicalVolume* emLogic = new G4LogicalVolume( emSolid,//its solid
 													pbw04, //its material
 													"emCaloLogic");//its name
+
+	emLogic -> SetFieldManager(GetLocalFieldManager(),true);
 	emCalo = new G4PVPlacement(0, //no rotation
 							   posEmCalo,//translation
 							   emLogic, //its logical volume
@@ -302,14 +304,15 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	//  - Uncomment the line below to add a small uniform magnetic field (35 mT)
 	//    to the detector volume
 	// ********************************************************************************
-	// hadCaloLogic->SetFieldManager(GetLocalFieldManager(),true);
+	hadCaloLogic->SetFieldManager(GetLocalFieldManager(),true);
 	// ---
 
 	G4Colour green(0,1,0);
+	G4Colour brown(0.4,0.4,0.1);
 	G4Colour white(1,1,1);
 	hadCaloLogic->SetVisAttributes(new G4VisAttributes(green));
 	hadLayerLogic->SetVisAttributes(new G4VisAttributes(white));
-	//hadLayerLogic->SetVisAttributes(G4VisAttributes::Invisible);
+	hadLayerLogic->SetVisAttributes(new G4VisAttributes(brown));
 	return hadCalo;
 }
 
@@ -342,7 +345,7 @@ G4FieldManager* DetectorConstruction::GetLocalFieldManager()
 {
   // pure magnetic field
   G4MagneticField* fMagneticField = 
-    new G4UniformMagField(G4ThreeVector(3.5e-3*tesla, 0., 0.));
+    new G4UniformMagField(G4ThreeVector(10*tesla, 0., 0.)); //
 
   // equation of motion with spin
   G4Mag_EqRhs* fEquation = new G4Mag_SpinEqRhs(fMagneticField);
