@@ -4,6 +4,7 @@
 #include "Analysis.hh"
 #include "G4Gamma.hh"
 #include "G4Neutron.hh"
+#include "G4SystemOfUnits.hh"
 //#include "G4TrackStatus.hh"
 //#include "G4ParticleDefinition.hh"
 //#include "G4ParticleTypes.hh"
@@ -52,7 +53,7 @@ StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
   // to status fKill:
   // result = fKill;
   // Check if the particle is a gamma and in case kill it.
-  
+
   if ( particleType == G4Gamma::GammaDefinition() ) {
     //Check that the particle is a Gamma and that its kinetic energy is above threshold:
     //to get track kinetic energy use:
@@ -60,7 +61,7 @@ StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
     //To increase the counter for gammas of 1 use:
     analysis->AddGammas(1);
     result = fKill;
-  } else if (particleType == G4Neutron::GetDefinition()) {
+  } else if (particleType == G4Neutron::NeutronDefinition()) {
     //do the same for Neutrons using:
     analysis->AddNeutrons(1);
   }
