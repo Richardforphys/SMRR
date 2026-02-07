@@ -13,7 +13,7 @@
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4PVReplica.hh"
-
+#include "G4SystemOfUnits.hh"
 #include "G4GeometryTolerance.hh"
 #include "G4GeometryManager.hh"
 #include "G4NistManager.hh"
@@ -143,7 +143,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		white(1.0,1.0,1.0);
 
 	logicWorld -> SetVisAttributes(new G4VisAttributes(white));
-	logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
+	logicWorld -> SetVisAttributes(new G4VisAttributes(false));
     
 	//always return the physical World
 	//
@@ -265,6 +265,24 @@ G4VPhysicalVolume* DetectorConstruction::ConstructEMCalo()
 
 G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 {
+
+	//--------------
+	// Exercise 1 Task4a
+	//--------------
+	//Create a SD
+	//We need to create a SD and attach it to the active layer of the HAD calorimeter: The LAr logic volume
+
+	// Step 1: create a k
+	// Hint: create an object of type HadCaloSensitiveDetector
+	//HadCaloSensitiveDetector* sensitive = new HadCaloSensitiveDetector("/HadClo");
+
+	// Step 2: add it to the SD manager
+	// Hint: use G4SDManager* sdman = G4SDManager::GetSDMpointer(); to get the manager
+	// add a SD with : sdman->AddNewDetector( sensitive );
+
+	// Step 3: add the SD to the hadLayerLogic volume
+	// Hint: use hadLayerLogic->AddSensitiveDetector(...)
+
 	G4double halfHadCaloHalfZ = (hadCaloFeThickness+hadCaloLArThickness)*hadCaloNumLayers/2;
 	G4Tubs* hadCaloSolid = new G4Tubs( "hadCaloSolid",//its name
 										0, //inner radius
@@ -272,9 +290,20 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 										halfHadCaloHalfZ, //half length in z: number of layers
 										0, //Starting angle in phi
 										CLHEP::twopi);//Ending angle in phi, pi defined in
+
 	G4LogicalVolume* hadCaloLogic = new G4LogicalVolume( hadCaloSolid,//its solid
 														 fe,//its material
 														 "HadCaloLogic");//its name
+
+	HadCaloSensitiveDetector* HCS = 0;
+	if(!HCS) {
+		G4cout << "Making Hadronic Calorimeter a Sensitive Detector!" << G4endl;
+		HCS = new HadCaloSensitiveDetector("HCS");
+		G4SDManager::GetSDMpointer()->AddNewDetector(HCS);
+		G4cout << "Sensitive Detector Added!" << G4endl;
+	}
+	hadCaloLogic->SetSensitiveDetector(HCS);
+
 	G4int hadCaloCopyNum = 1000;
 	hadCalo = new G4PVPlacement( 0, //no rotation
 							     posHadCalo, //translation
@@ -290,25 +319,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 
 	//Create the logical value for the LAr layer
 	G4LogicalVolume* hadLayerLogic = new G4LogicalVolume(hadLayerSolid,lar,"HadLayerLogic",0);
-
-	//--------------
-	// Exercise 1 Task4a
-	//--------------
-	//Create a SD
-	//We need to create a SD and attach it to the active layer of the HAD calorimeter: The LAr logic volume
-
-	// Step 1: create a SD
-	// Hint: create an object of type HadCaloSensitiveDetector
-	//HadCaloSensitiveDetector* sensitive = new HadCaloSensitiveDetector("/HadClo");
-
-	// Step 2: add it to the SD manager
-	// Hint: use G4SDManager* sdman = G4SDManager::GetSDMpointer(); to get the manager
-	// add a SD with : sdman->AddNewDetector( sensitive );
-
-	// Step 3: add the SD to the hadLayerLogic volume
-	// Hint: use hadLayerLogic->AddSensitiveDetector(...)
-
-
+	hadLayerLogic->SetSensitiveDetector(HCS);
 
 	//Translation of one Layer with respect previous Layer
 	G4ThreeVector absorberLayer(0,0,hadCaloFeThickness);
@@ -321,9 +332,10 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 		new G4PVPlacement(0,position,hadLayerLogic,"HadCaloLayer",hadCaloLogic,false,++layerCopyNum);
 	}
 	G4Colour green(0,1,0);
+	G4Colour brown(0.1,0.1,0.1);
 	G4Colour white(1,1,1);
 	hadCaloLogic->SetVisAttributes(new G4VisAttributes(green));
-	hadLayerLogic->SetVisAttributes(new G4VisAttributes(white));
+	hadLayerLogic->SetVisAttributes(new G4VisAttributes(brown));
 	//hadLayerLogic->SetVisAttributes(G4VisAttributes::Invisible);
 	return hadCalo;
 }

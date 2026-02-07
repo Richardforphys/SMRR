@@ -129,7 +129,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct_LaBr3Detector() {
         G4cout << "Sensitive detector added" << G4endl;
     }
 
-    logical_LaBr3->SensitiveDetector(sensitive);
+    logical_LaBr3-SetSensitiveDetector(sensitive);
     
     return physiLaBr3;
 }
