@@ -27,6 +27,6 @@ void HadCaloHit::Print()
 	//Add some print out on screen: layer number and energy deposited
 
   
-  //G4cout << "Energy Deposited in layer " << layerNumber << "is " << G4BestUnit(eDep, "Energy") << G4endl;
+  G4cout << "Energy Deposited in layer " << layerNumber << "is " << G4BestUnit(eDep, "Energy") << G4endl;
 
 }
