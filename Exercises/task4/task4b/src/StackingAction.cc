@@ -43,18 +43,8 @@ StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
   //-------------
   // Exercise 4b 1
   //-------------
-  //You can find what particle is the track comparing its particleType variable with the
+  //You can find what particle is int the track, comparing its particleType variable with the
   //static definition of Gamma, Nuetron etc:
-  // if ( particleType == G4Gamma::GammaDefinition() )
-  // Check that the particle is a Gamma and that its kinetic energy is above threshold:
-  // to get track kinetic energy use:
-  // aTrack->GetKineticEnergy()
-  // To increase the counter for gammas of 1 use:
-  // analysis->AddGammas(1);
-  // do the same for Neutrons using:
-  // G4Neutron::NeutronDefinition()
-  // and 		  analysis->AddNeutrons(1);
-
   //--------------
   // Exercise 4b 2
   //--------------
@@ -62,6 +52,19 @@ StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
   // to status fKill:
   // result = fKill;
   // Check if the particle is a gamma and in case kill it.
+  
+  if ( particleType == G4Gamma::GammaDefinition() ) {
+    //Check that the particle is a Gamma and that its kinetic energy is above threshold:
+    //to get track kinetic energy use:
+    aTrack->GetKineticEnergy();
+    //To increase the counter for gammas of 1 use:
+    analysis->AddGammas(1);
+    result = fKill;
+  } else if (particleType == G4Neutron::GetDefinition()) {
+    //do the same for Neutrons using:
+    analysis->AddNeutrons(1);
+  }
+
   return result;
 
 }
