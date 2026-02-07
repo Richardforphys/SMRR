@@ -20,4 +20,19 @@
 /gps/particle neutron
 /gps/energy 2.5 MeV
 /run/beamOn 1000000
+
+/random/setSeeds 1 4
+/gps/particle neutron
+/gps/energy 25 MeV
+/run/beamOn 1000000
+
+/random/setSeeds 1 4
+/gps/particle neutron
+/gps/energy 100 MeV
+/run/beamOn 1000000
+
+/random/setSeeds 1 4
+/gps/particle neutron
+/gps/energy 1 GeV
+/run/beamOn 1000000
 #

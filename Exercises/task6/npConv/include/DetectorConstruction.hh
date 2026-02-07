@@ -64,6 +64,10 @@ private:
   G4Material* vacuum;
   G4Material* PE_Mat;
   G4Material* Ar_Mat;
+  G4Material* Al;
+  G4Material* C;
+  G4Material* Au;
+  G4Material* Cu;
 
 
   //@}

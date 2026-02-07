@@ -111,6 +111,9 @@ void DetectorConstruction::DefineMaterials()
   /// 3 - Retrieving vacuum from G4NIST database
 
   vacuum  = man->FindOrBuildMaterial("G4_Galactic");
+  Al = man->FindOrBuildMaterial("G4_Al");
+  Au = man->FindOrBuildMaterial("G4_Au");
+  Cu = man->FindOrBuildMaterial("G4_Cu");
 }
  
 void DetectorConstruction::ComputeParameters() 
@@ -223,10 +226,9 @@ G4VPhysicalVolume* DetectorConstruction::Construct_PEConv_ArDet()
 					halfPEConv_y,
 					halfPEConv_z);
       
-      logicPEConv = 
-	new G4LogicalVolume(solidPEConv,        // its solid
-			    PE_Mat,	        //its material --> PE Converter
-			    "logic_PEConv");	//its name
+      logicPEConv = new G4LogicalVolume(solidPEConv,        // its solid
+			                                  PE_Mat,	            //Al, C, Au, Cu
+			                                  "logic_PEConv");	  //its name
       
       G4int PEConv_copynum = 0;
 
