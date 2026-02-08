@@ -13,8 +13,8 @@
  */
 
 
-#include "CLHEP/Matrix/SymMatrix.h"
-#include "CLHEP/Matrix/Vector.h"
+#include "SymMatrix.h"
+#include "Vector.h"
 
 /*! \brief Crosstalk generator
  *
