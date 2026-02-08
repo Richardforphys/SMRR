@@ -6005,8 +6005,70 @@ CMakeFiles/exampletask2a.dir/src/SiHit.cc.o: /home/ubuntu/SMRR/Exercises/task2/t
 
 CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/task2a.cc \
   /home/ubuntu/SMRR/Exercises/task2/task2a/include/DetectorConstruction.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/EventAction.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/MeV2ChargeConverter.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/NoiseGenerator.hh \
   /home/ubuntu/SMRR/Exercises/task2/task2a/include/PhysicsList.hh \
   /home/ubuntu/SMRR/Exercises/task2/task2a/include/PrimaryGeneratorAction.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/RootSaver.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/RunAction.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
+  /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+  /home/ubuntu/SMRR/ROOT/root_install/include/Bytes.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/Byteswap.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/Compression.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/DllImport.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ESTLType.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/RConfigure.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RVersion.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/RVersion.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RRangeCast.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RSpan.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TIOFeatures.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TypeTraits.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/span.hxx \
+  /home/ubuntu/SMRR/ROOT/root_install/include/RVersion.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TArray.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TArrayD.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TArrayI.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TAttFill.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TAttLine.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TAttMarker.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TBits.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TBranch.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TBuffer.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TClass.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TCollection.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TDataType.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TDictionary.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TDirectory.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TGenericClassInfo.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TIsAProxy.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TIterator.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TList.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TMathBase.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TNamed.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TObjArray.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TObject.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaHelper.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaRule.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TSeqCollection.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TStorage.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TString.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TTree.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TUUID.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TVersionCheck.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualIsAProxy.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualMutex.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualRWMutex.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualTreePlayer.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/snprintf.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/strlcpy.h \
+  /home/ubuntu/SMRR/ROOT/root_install/include/strtok.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Plane3D.h \
@@ -6257,6 +6319,7 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SubEventTrackStack.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SurfBits.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SurfBits.icc \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TDigiCollection.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsMap.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TessellatedSolid.hh \
@@ -6302,6 +6365,8 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UImessenger.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIparameter.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIsession.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserRunAction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserStackingAction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserSteppingAction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserTrackingAction.hh \
@@ -6485,6 +6550,7 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -6494,10 +6560,12 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/chrono \
@@ -6507,6 +6575,7 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/cstdarg \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -6534,6 +6603,7 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
@@ -6572,6 +6642,7 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
   /usr/include/ctype.h \
