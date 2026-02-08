@@ -1,4 +1,9 @@
 /V0
 /build
 /ROOT
-/GEANT4
+/geant4
+/geant4_build
+/geant4_install
+/CLHEP
+/CLHEP_build
+/CLHEP_install

@@ -15,7 +15,7 @@
 ########################
 
 //The directory containing a CMake configuration file for CLHEP.
-CLHEP_DIR:PATH=CLHEP_DIR-NOTFOUND
+CLHEP_DIR:PATH=/home/ubuntu/SMRR/CLHEP_install/lib/CLHEP-2.3.2.2
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -193,7 +193,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=/home/ubuntu/SMRR/geant4_install
+CMAKE_PREFIX_PATH:UNINITIALIZED=/home/ubuntu/SMRR/geant4_install;/home/ubuntu/SMRR/ROOT/root_install;/home/ubuntu/SMRR/CLHEP_install
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=

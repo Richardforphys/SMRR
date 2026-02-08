@@ -61,21 +61,21 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47267/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_47267.dir/build.make CMakeFiles/cmTC_47267.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB'
-        Building C object CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9150/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9150.dir/build.make CMakeFiles/cmTC_a9150.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE'
+        Building C object CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -85,8 +85,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47267.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47267.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc4V6IxV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a9150.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a9150.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccfyRCcv.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -103,15 +103,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47267.dir/'
-         as -v --64 -o CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o /tmp/cc4V6IxV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a9150.dir/'
+         as -v --64 -o CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o /tmp/ccfyRCcv.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_47267
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47267.dir/link.txt --verbose=1
-        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o -o cmTC_47267 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a9150
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9150.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o -o cmTC_a9150 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -124,10 +124,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_47267' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47267.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cczjTs6d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_47267 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_47267' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47267.'
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a9150' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a9150.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cchqBmr1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a9150 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a9150' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a9150.'
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE'
         
       exitCode: 0
   -
@@ -161,13 +161,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB']
+        ignore line: [Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47267/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_47267.dir/build.make CMakeFiles/cmTC_47267.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ezmigB']
-        ignore line: [Building C object CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9150/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a9150.dir/build.make CMakeFiles/cmTC_a9150.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-RICTzE']
+        ignore line: [Building C object CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -177,8 +177,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47267.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47267.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc4V6IxV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a9150.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a9150.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccfyRCcv.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -195,15 +195,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47267.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o /tmp/cc4V6IxV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a9150.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o /tmp/ccfyRCcv.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_47267]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47267.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o -o cmTC_47267 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a9150]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9150.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o -o cmTC_a9150 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -216,13 +216,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_47267' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47267.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cczjTs6d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_47267 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a9150' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a9150.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cchqBmr1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a9150 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cczjTs6d.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cchqBmr1.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -241,7 +241,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_47267] ==> ignore
+          arg [cmTC_a9150] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -253,7 +253,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_47267.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_a9150.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -293,21 +293,21 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebc80/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ebc80.dir/build.make CMakeFiles/cmTC_ebc80.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D'
-        Building CXX object CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d334d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d334d.dir/build.make CMakeFiles/cmTC_d334d.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc'
+        Building CXX object CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -317,8 +317,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebc80.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ebc80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFp3d44.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d334d.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d334d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEqjQz7.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -339,15 +339,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebc80.dir/'
-         as -v --64 -o CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFp3d44.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d334d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccEqjQz7.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ebc80
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebc80.dir/link.txt --verbose=1
-        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ebc80 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d334d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d334d.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d334d 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -360,10 +360,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebc80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ebc80.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7Q9KP1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ebc80 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebc80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ebc80.'
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d334d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d334d.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnjf88O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d334d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d334d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d334d.'
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc'
         
       exitCode: 0
   -
@@ -403,13 +403,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D']
+        ignore line: [Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebc80/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ebc80.dir/build.make CMakeFiles/cmTC_ebc80.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-PuiX5D']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d334d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d334d.dir/build.make CMakeFiles/cmTC_d334d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-jAlEXc']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -419,8 +419,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebc80.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ebc80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFp3d44.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d334d.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d334d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEqjQz7.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -441,15 +441,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebc80.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFp3d44.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d334d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccEqjQz7.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ebc80]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebc80.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ebc80 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d334d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d334d.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d334d ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -462,13 +462,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebc80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ebc80.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7Q9KP1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ebc80 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d334d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d334d.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnjf88O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d334d /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc7Q9KP1.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccnjf88O.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -487,7 +487,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ebc80] ==> ignore
+          arg [cmTC_d334d] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -499,7 +499,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
-          arg [CMakeFiles/cmTC_ebc80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d334d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -541,8 +541,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-I0cfLQ"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-I0cfLQ"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-qbZJMT"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-qbZJMT"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -552,17 +552,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-I0cfLQ'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-qbZJMT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a60e7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a60e7.dir/build.make CMakeFiles/cmTC_a60e7.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-I0cfLQ'
-        Building C object CMakeFiles/cmTC_a60e7.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a60e7.dir/src.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-I0cfLQ/src.c
-        Linking C executable cmTC_a60e7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a60e7.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_a60e7.dir/src.c.o -o cmTC_a60e7 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-I0cfLQ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19206/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_19206.dir/build.make CMakeFiles/cmTC_19206.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-qbZJMT'
+        Building C object CMakeFiles/cmTC_19206.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_19206.dir/src.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-qbZJMT/src.c
+        Linking C executable cmTC_19206
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19206.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_19206.dir/src.c.o -o cmTC_19206 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-qbZJMT'
         
       exitCode: 0
   -
@@ -581,8 +581,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ZvcWd7"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ZvcWd7"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-B8H3zp"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-B8H3zp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -592,17 +592,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ZvcWd7'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-B8H3zp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2697/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e2697.dir/build.make CMakeFiles/cmTC_e2697.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ZvcWd7'
-        Building CXX object CMakeFiles/cmTC_e2697.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_e2697.dir/src.cxx.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ZvcWd7/src.cxx
-        Linking CXX executable cmTC_e2697
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2697.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_e2697.dir/src.cxx.o -o cmTC_e2697 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-ZvcWd7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b04e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8b04e.dir/build.make CMakeFiles/cmTC_8b04e.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-B8H3zp'
+        Building CXX object CMakeFiles/cmTC_8b04e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_8b04e.dir/src.cxx.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-B8H3zp/src.cxx
+        Linking CXX executable cmTC_8b04e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b04e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_8b04e.dir/src.cxx.o -o cmTC_8b04e 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-B8H3zp'
         
       exitCode: 0
   -
@@ -616,8 +616,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-7eji7X"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-7eji7X"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-AP4Uad"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-AP4Uad"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -627,17 +627,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-7eji7X'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-AP4Uad'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38b99/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_38b99.dir/build.make CMakeFiles/cmTC_38b99.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-7eji7X'
-        Building C object CMakeFiles/cmTC_38b99.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_38b99.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-7eji7X/CheckFunctionExists.c
-        Linking C executable cmTC_38b99
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38b99.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_38b99.dir/CheckFunctionExists.c.o -o cmTC_38b99  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-7eji7X'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a2fac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a2fac.dir/build.make CMakeFiles/cmTC_a2fac.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-AP4Uad'
+        Building C object CMakeFiles/cmTC_a2fac.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_a2fac.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-AP4Uad/CheckFunctionExists.c
+        Linking C executable cmTC_a2fac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2fac.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_a2fac.dir/CheckFunctionExists.c.o -o cmTC_a2fac  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-AP4Uad'
         
       exitCode: 0
   -
@@ -651,8 +651,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-tiTWI7"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-tiTWI7"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-kDwiZh"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-kDwiZh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -662,17 +662,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-tiTWI7'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-kDwiZh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72722/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_72722.dir/build.make CMakeFiles/cmTC_72722.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-tiTWI7'
-        Building C object CMakeFiles/cmTC_72722.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_72722.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-tiTWI7/CheckFunctionExists.c
-        Linking C executable cmTC_72722
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72722.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_72722.dir/CheckFunctionExists.c.o -o cmTC_72722 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-tiTWI7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0966e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0966e.dir/build.make CMakeFiles/cmTC_0966e.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-kDwiZh'
+        Building C object CMakeFiles/cmTC_0966e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_0966e.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-kDwiZh/CheckFunctionExists.c
+        Linking C executable cmTC_0966e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0966e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_0966e.dir/CheckFunctionExists.c.o -o cmTC_0966e 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-kDwiZh'
         
       exitCode: 0
   -
@@ -686,8 +686,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-sQmji5"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-sQmji5"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-Trff2I"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-Trff2I"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -697,17 +697,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-sQmji5'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-Trff2I'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3220d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3220d.dir/build.make CMakeFiles/cmTC_3220d.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-sQmji5'
-        Building C object CMakeFiles/cmTC_3220d.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_3220d.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-sQmji5/CheckFunctionExists.c
-        Linking C executable cmTC_3220d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3220d.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_3220d.dir/CheckFunctionExists.c.o -o cmTC_3220d 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-sQmji5'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f8dbd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f8dbd.dir/build.make CMakeFiles/cmTC_f8dbd.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-Trff2I'
+        Building C object CMakeFiles/cmTC_f8dbd.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_f8dbd.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-Trff2I/CheckFunctionExists.c
+        Linking C executable cmTC_f8dbd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8dbd.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_f8dbd.dir/CheckFunctionExists.c.o -o cmTC_f8dbd 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-Trff2I'
         
       exitCode: 0
   -
@@ -721,8 +721,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-g0wapd"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-g0wapd"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-rm6Lyh"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-rm6Lyh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -732,17 +732,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-g0wapd'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-rm6Lyh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45c85/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_45c85.dir/build.make CMakeFiles/cmTC_45c85.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-g0wapd'
-        Building C object CMakeFiles/cmTC_45c85.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_45c85.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-g0wapd/CheckFunctionExists.c
-        Linking C executable cmTC_45c85
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c85.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_45c85.dir/CheckFunctionExists.c.o -o cmTC_45c85 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-g0wapd'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b262e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b262e.dir/build.make CMakeFiles/cmTC_b262e.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-rm6Lyh'
+        Building C object CMakeFiles/cmTC_b262e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_b262e.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-rm6Lyh/CheckFunctionExists.c
+        Linking C executable cmTC_b262e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b262e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_b262e.dir/CheckFunctionExists.c.o -o cmTC_b262e 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-rm6Lyh'
         
       exitCode: 0
   -
@@ -756,8 +756,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-G8wobJ"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-G8wobJ"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-0SpaSm"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-0SpaSm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -767,17 +767,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-G8wobJ'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-0SpaSm'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21075/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_21075.dir/build.make CMakeFiles/cmTC_21075.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-G8wobJ'
-        Building C object CMakeFiles/cmTC_21075.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_21075.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-G8wobJ/CheckFunctionExists.c
-        Linking C executable cmTC_21075
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21075.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_21075.dir/CheckFunctionExists.c.o -o cmTC_21075 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-G8wobJ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b7c8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7b7c8.dir/build.make CMakeFiles/cmTC_7b7c8.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-0SpaSm'
+        Building C object CMakeFiles/cmTC_7b7c8.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_7b7c8.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-0SpaSm/CheckFunctionExists.c
+        Linking C executable cmTC_7b7c8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b7c8.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_7b7c8.dir/CheckFunctionExists.c.o -o cmTC_7b7c8 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-0SpaSm'
         
       exitCode: 0
   -
@@ -791,8 +791,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-MwEXs9"
-      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-MwEXs9"
+      source: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-aGx0cl"
+      binary: "/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-aGx0cl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -802,17 +802,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-MwEXs9'
+        Change Dir: '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-aGx0cl'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b546/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8b546.dir/build.make CMakeFiles/cmTC_8b546.dir/build
-        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-MwEXs9'
-        Building C object CMakeFiles/cmTC_8b546.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_8b546.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-MwEXs9/CheckFunctionExists.c
-        Linking C executable cmTC_8b546
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b546.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_8b546.dir/CheckFunctionExists.c.o -o cmTC_8b546  -lICE 
-        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-MwEXs9'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a24e9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a24e9.dir/build.make CMakeFiles/cmTC_a24e9.dir/build
+        gmake[1]: Entering directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-aGx0cl'
+        Building C object CMakeFiles/cmTC_a24e9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_a24e9.dir/CheckFunctionExists.c.o -c /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-aGx0cl/CheckFunctionExists.c
+        Linking C executable cmTC_a24e9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a24e9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_a24e9.dir/CheckFunctionExists.c.o -o cmTC_a24e9  -lICE 
+        gmake[1]: Leaving directory '/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/CMakeScratch/TryCompile-aGx0cl'
         
       exitCode: 0
 ...
