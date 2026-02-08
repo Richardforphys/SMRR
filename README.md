@@ -23,7 +23,7 @@ $ cmake --install .
 ```bash
 # The latest stable branch gets updated automatically on each release.
 # You may update your local copy by issuing a `git pull` command from within `root_src/`.
-$ git clone --branch latest-stable --depth=1 https://github.com/drbenmorgan/CLHEP/blob/master CLHEP
+$ git clone https://github.com/drbenmorgan/CLHEP/blob/master CLHEP
 $ mkdir CLHEP_build CLHEP_install && cd CLHEP_build
 $ cmake -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SMRR/CLHEP_install /home/ubuntu/SMRR/CLHEP
 $ make
