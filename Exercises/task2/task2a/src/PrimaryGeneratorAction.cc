@@ -18,7 +18,7 @@
 PrimaryGeneratorAction::PrimaryGeneratorAction()
   : outfile(0)
 {
-  gun  = new G4ParticleGun(1);
+  gun  = new G4ParticleGun(100);
   //gun  = new G4ParticleGun(10);
 
   // complete particle name and energy  (do not forget the energy unit)
@@ -42,7 +42,7 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
   // Ex 2a-1 : generate only one particle
 
   G4double x0 = 0.*cm, y0 = 0.*cm, z0= 0.0*cm;
-  G4cout<<"GeneratePrimaries : new event "<<G4BestUnit(G4ThreeVector(x0,y0,z0),"Length")<<G4endl;
+  //G4cout<<"GeneratePrimaries : new event "<<G4BestUnit(G4ThreeVector(x0,y0,z0),"Length")<<G4endl;
 
   gun->SetParticlePosition(G4ThreeVector(x0,y0,z0));
   gun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));

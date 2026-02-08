@@ -58,12 +58,16 @@
         ${Geant4_LIBRARIES}
         ${ROOT_LIBRARIES}
         CLHEP::CLHEP
-  )
+    )
   #Collega l'eseguibile alle librerie di Geant4
 
   #----------------------------------------------------------------------------
   set(EXAMPLEtask2a_SCRIPTS
     vis.mac
+    visQt.mac
+    generateAll.mac
+    dutsetupRotate.mac
+    dutsetupRotateOnce.mac
     )
   # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
   # risultati delle simulaizoni e per il run delle stesse.

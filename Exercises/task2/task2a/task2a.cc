@@ -14,6 +14,8 @@
 #include "DetectorConstruction.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "PhysicsList.hh"
+#include "EventAction.hh"
+#include "RunAction.hh"
 
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -37,20 +39,32 @@ int main(int argc,char** argv)
   // mandatory Initialization classes 
   G4VUserDetectorConstruction* detector = new DetectorConstruction;
   runManager->SetUserInitialization(detector);
+  G4cout << "Detector construction initialized" << G4endl;
 
   G4VUserPhysicsList* physics = new PhysicsList;
   runManager->SetUserInitialization(physics);
+  G4cout << "Physics list initialized" << G4endl;
    
   // mandatory User Action classes
   G4VUserPrimaryGeneratorAction* gen_action = new PrimaryGeneratorAction;
   runManager->SetUserAction(gen_action);
+  G4cout << "Primary generator action initialized" << G4endl;
+  
+  //Event action (handles for beginning / end of event)
+  EventAction* anEventAction = new EventAction();
+  runManager->SetUserAction( anEventAction );
+
+  //Run action (handles for beginning / end of event)
+  RunAction* aRunAction = new RunAction(anEventAction);
+  runManager->SetUserAction( aRunAction );
 
   // Initialize G4 kernel
   runManager->Initialize();
-      
+  G4cout << "G4 kernel initialized" << G4endl;
 
   G4VisManager* visManager = new G4VisExecutive;
   visManager->Initialize();
+  G4cout << "Visualization manager initialized" << G4endl;
      
   // Get the pointer to the User Interface manager
   //
