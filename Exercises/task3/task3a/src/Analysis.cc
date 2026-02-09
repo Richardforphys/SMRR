@@ -69,9 +69,9 @@ void Analysis::PrepareNewRun(const G4Run* aRun)
   }
 
   // create histograms
-  m_ROOT_histo0 = new TH1D("etot","Total energy deposit normalized to beam energy",100,0,1);
-  m_ROOT_histo1 = new TH1D("e0","Energy deposit in central crystal normalized to beam energy",100,0,1);
-  m_ROOT_histo2 = new TH1D("ez","Energy profile along the calorimeter (mm)",46,0,230);
+  m_ROOT_histo0 = new TH1D("etot","Total energy deposit normalized to beam energy",1000,0,1);
+  m_ROOT_histo1 = new TH1D("e0","Energy deposit in central crystal normalized to beam energy",1000,0,1);
+  m_ROOT_histo2 = new TH1D("ez","Energy profile along the calorimeter (mm)",200,0,230);
 
 #endif
 }
