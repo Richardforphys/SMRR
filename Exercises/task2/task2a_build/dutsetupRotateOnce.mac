@@ -26,4 +26,4 @@
 /det/digi/crosstalk 0.05
 /det/update
 
-/run/beamOn 300
+/run/beamOn 100000

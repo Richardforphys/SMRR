@@ -162,4 +162,3 @@ void SiDigitizer::MakeCrosstalk(std::vector< std::vector< SiDigi* > >& digitsMap
 		thisPlane[strip]->SetCharge( out[strip] );
 	}
 }
-

@@ -65,7 +65,7 @@ void EventAction::EndOfEventAction(const G4Event* anEvent)
 		SiHitCollection* hits = 0;
 		if ( hitsCollections )
 		{
-			G4cout <<"Hits collection found with ID: "<<hitsCollID<<G4endl;
+			//G4cout <<"Hits collection found with ID: "<<hitsCollID<<G4endl;
 			hits = static_cast<SiHitCollection*>( hitsCollections->GetHC(hitsCollID) );
 		}
 		//Get Postion and Momentum of primary
@@ -74,7 +74,7 @@ void EventAction::EndOfEventAction(const G4Event* anEvent)
 		const G4ThreeVector& mom = anEvent->GetPrimaryVertex()->GetPrimary()->GetMomentum();
 		rootSaver->AddEvent(hits,digits,pos,mom);
 
-		hits->PrintAllHits();
+		//hits->PrintAllHits();
 	}
 }
 

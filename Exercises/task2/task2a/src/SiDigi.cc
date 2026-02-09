@@ -1,3 +1,5 @@
+#include "SiDigi.hh"
+
 G4Allocator<SiDigi> SiDigiAllocator;
 
 SiDigi::SiDigi(const int& pn,const int& sn) :
@@ -11,5 +13,5 @@ SiDigi::SiDigi(const int& pn,const int& sn) :
 
 void SiDigi::Print()
 {
-  G4cout<<"Digit: Plane= "<<planeNumber<<" Strip= "<<stripNumber<<" with Charge= "<<charge<<G4endl;
+	G4cout<<"Plane: "<<planeNumber<<" Strip: "<<stripNumber<<" Charge: "<<charge<<" Primary: "<<isPrimary<<G4endl;
 }
