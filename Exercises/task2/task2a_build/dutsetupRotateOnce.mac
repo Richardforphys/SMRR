@@ -17,7 +17,7 @@
 
 #un-comment the following line to use 
 #this macro file standalone
-/control/alias angle 0
+#/control/alias angle 0
 
 #Change angle of middle sensor and
 #update detector

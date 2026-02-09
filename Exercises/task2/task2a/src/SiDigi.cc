@@ -1,15 +1,3 @@
-// $Id: SiDigi.cc 94 2010-01-26 13:18:30Z adotti $
-/**
- * @file SiDigi.cc
- * @brief implements SiDigi detector output class
- *
- * @date 10 Dec 2009
- * @author adotti
- */
-
-#include "SiDigi.hh"
-
-// -- one more nasty trick for new and delete operator overloading:
 G4Allocator<SiDigi> SiDigiAllocator;
 
 SiDigi::SiDigi(const int& pn,const int& sn) :

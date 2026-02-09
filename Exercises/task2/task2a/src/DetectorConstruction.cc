@@ -307,9 +307,10 @@ G4VPhysicalVolume* DetectorConstruction::ConstructDeviceUnderTest()
 		    dutStripPitch);
 //		    teleStripPitch);	        //witdth of replica
 
-  G4Color red(1.0,0.0,0.0),yellow(1.0,1.0,0.0);
-  logicSensorPlane -> SetVisAttributes(new G4VisAttributes(yellow));
-  logicSensorStrip -> SetVisAttributes(new G4VisAttributes(red));
+  //G4Color red(1.0,0.0,0.0),yellow(1.0,1.0,0.0);
+  G4Color brown(0.4,0.4,0.1),white(1.0,1.0,1.0);
+  logicSensorPlane -> SetVisAttributes(new G4VisAttributes(brown));
+  logicSensorStrip -> SetVisAttributes(new G4VisAttributes(white));
 
   return physiSecondSensor;
 }

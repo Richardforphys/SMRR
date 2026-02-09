@@ -18,7 +18,7 @@
 PrimaryGeneratorAction::PrimaryGeneratorAction()
   : outfile(0)
 {
-  gun  = new G4ParticleGun(100);
+  gun  = new G4ParticleGun(1);
   //gun  = new G4ParticleGun(10);
 
   // complete particle name and energy  (do not forget the energy unit)
