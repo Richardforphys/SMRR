@@ -6,7 +6,7 @@
 
 #include "PrimaryGeneratorAction.hh"
 #include "PrimaryGeneratorAction.hh"
-#include "G4SystemOfUnits.hh"
+
 #include "G4Event.hh"
 #include "G4ParticleGun.hh"
 #include "G4GeneralParticleSource.hh"
@@ -65,7 +65,3 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
   return gps;
 }
 
-/* La sorgente in questione è un fascio monoenergetico di pioni a 2GeV,
-centrato in (0,0,-80cm) con una divergenza angolare gaussiana lungo z 
-di 0.1 mrad sia in x che in y e con FWHM iniziale di 0.1 mm
-*/

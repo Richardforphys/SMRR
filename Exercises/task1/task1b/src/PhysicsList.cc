@@ -9,7 +9,7 @@
 
 #include "G4EmStandardPhysics.hh"
 #include "G4LossTableManager.hh"
-#include "G4SystemOfUnits.hh"
+
 #include "G4ProcessManager.hh"
 #include "G4ParticleTypes.hh"
 
@@ -30,12 +30,12 @@ void PhysicsList::ConstructParticle()
   // This ensures that objects of these particle types will be
   // created in the program. 
 
-  // A priori sono abilitate solamente due pseudoparticelle:
-  // Il geantino neutro e il geantino carico
-
   // pseudo-particles
   G4Geantino::GeantinoDefinition();
   G4ChargedGeantino::ChargedGeantinoDefinition();
+
+  // define gamma, e+, e- and some charged Hadrons
+  emPhysicsList->ConstructParticle();
 
   /*
 // gamma
@@ -44,15 +44,13 @@ void PhysicsList::ConstructParticle()
 // leptons
   G4Electron::Electron();
   G4Positron::Positron();
-  */
   G4MuonPlus::MuonPlus();
   G4MuonMinus::MuonMinus();
-  
+  */
 
   // mesons
-  G4PionPlus::PionPlusDefinition();
-  G4PionMinus::PionMinusDefinition();
-  emPhysicsList->ConstructParticle();
+  //  G4PionPlus::PionPlusDefinition();
+  //  G4PionMinus::PionMinusDefinition();
 
 }
 
