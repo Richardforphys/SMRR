@@ -16,33 +16,13 @@
 
 PrimaryGeneratorAction::PrimaryGeneratorAction()
 {
-  /*  
-  G4ParticleGun * particleGun = new G4ParticleGun();
-  particleGun->SetParticleEnergy(2.0*GeV);
-  particleGun->SetParticlePosition(G4ThreeVector(0., 0., 0.));
-  particleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
-  */
 
-  // ********************************************************************************
-  // Task2b - 
-  //   - change the initialisation of gun from the class G4ParticleGun 
-  //     to the class G4GeneralParticleSource 
-  //     and set the parameters via the following UI commands 
-  //       /gps/energy 2. GeV
-  //       /gps/direction 0 0 1
-  //       /gps/position 0 0 -1. m
-  //  
-  // ********************************************************************************
-
-  gun = InitializeGPS(); //Per task2b commenta questa linea e scommenta il resto
- /*
-  gps = new G4GeneralParticleSource();
+  G4GeneralParticleSource* gps = new G4GeneralParticleSource();
   gps->GetCurrentSource()->GetEneDist()->SetMonoEnergy(2.0*GeV);
   gps->GetCurrentSource()->GetPosDist()->SetCentreCoords(G4ThreeVector(0.0*cm, 0.0*cm, -1.0*m));
   gps->GetCurrentSource()->GetAngDist()->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
   
   gun = gps;
-*/
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -84,9 +64,7 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS(){
   angDist->SetBeamSigmaInAngX(0.1*mrad);
   angDist->SetBeamSigmaInAngY(0.1*mrad);
   angDist->DefineAngRefAxes("angref1",G4ThreeVector(-1.,0.,0.));
-
-  return gps;
-
+  
   return gps;
 }
 
