@@ -343,7 +343,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 
 	G4Colour green(0,1,0);
 	G4Colour white(1,1,1);
-	hadCaloLogic->SetVisAttributes(new G4VisAttributes(green));
-	hadLayerLogic->SetVisAttributes(new G4VisAttributes(white));
+	G4Colour brown(0.4,0.4,0.1);
+	hadCaloLogic->SetVisAttributes(new G4VisAttributes(brown));
+	hadLayerLogic->SetVisAttributes(new G4VisAttributes(brown));
 	return hadCalo;
 }
