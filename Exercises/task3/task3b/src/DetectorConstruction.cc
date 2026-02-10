@@ -304,7 +304,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 	//  - Uncomment the line below to add a small uniform magnetic field (35 mT)
 	//    to the detector volume
 	// ********************************************************************************
-	hadCaloLogic->SetFieldManager(GetLocalFieldManager(),true);
+	hadCaloLogic->SetFieldManager(GetLocalFieldManager(),false);
 	// ---
 
 	G4Colour green(0,1,0);

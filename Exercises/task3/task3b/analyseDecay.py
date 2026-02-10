@@ -56,20 +56,20 @@ def analyseDecay(fname):
     file.decayPos.Draw()
 
     # print out results
-    print 'average Decay time =',file.decayTime.GetMean(),'ms'
-    print 'fitted Decay time = (',myfit.GetParameter('tau'),'+-',myfit.GetParError(1),') ms'
-    print 'average Decay position =',file.decayPos.GetMean(),'mm'
+    print ('average Decay time =',file.decayTime.GetMean(),'ms')
+    print ('fitted Decay time = (',myfit.GetParameter('tau'),'+-',myfit.GetParError(1),') ms')
+    print ('average Decay position =',file.decayPos.GetMean(),'mm') 
 
 
 if __name__=='__main__':
-    fname='run_0.root'
+    fname=r"/home/ubuntu/SMRR/Exercises/task3/task3b_build/Muons/No_B_field/run_2.root"
     # check for run time arguments
     if len(sys.argv)>1:
         fname=sys.argv[1]
     analyseDecay(fname)
 
-    #c1.Modified()
-    #c1.Update()
-    #gApplication.Run()
+    c1.Modified()
+    c1.Update()
+    gApplication.Run()
 
-print "\n to quit press Ctrl-D"
+print ("\n to quit press Ctrl-D")
