@@ -10,5 +10,5 @@
 /vis/scene/notifyHandlers
 
 /gps/particle pi-
-/gps/energy 5 MeV
-/run/beamOn 20
+/gps/energy 5 GeV
+/run/beamOn 1
