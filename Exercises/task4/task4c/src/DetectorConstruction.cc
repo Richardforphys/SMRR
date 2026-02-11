@@ -6,7 +6,7 @@
 
 #include "DetectorConstruction.hh"
 //#include "DetectorMessenger.hh"
-#include "G4SystemOfUnits.hh"
+
 #include "G4Material.hh"
 #include "G4Box.hh"
 #include "G4Tubs.hh"
@@ -142,7 +142,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 		brown(0.4,0.4,0.1),
 		white(1.0,1.0,1.0);
 
-	logicWorld -> SetVisAttributes(new G4VisAttributes(false));
+	logicWorld -> SetVisAttributes(new G4VisAttributes(white));
+	logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
     
 	//always return the physical World
 	//
@@ -311,9 +312,8 @@ G4VPhysicalVolume* DetectorConstruction::ConstructHadCalo()
 							     hadCaloCopyNum);//copy number
 	G4Colour green(0,1,0);
 	G4Colour white(1,1,1);
-	G4Colour brown(0.4,0.4,0.1);
 	hadCaloLogic->SetVisAttributes(new G4VisAttributes(green));
-	hadLayerLogic->SetVisAttributes(new G4VisAttributes(brown));
+	hadLayerLogic->SetVisAttributes(new G4VisAttributes(white));
 	//hadLayerLogic->SetVisAttributes(G4VisAttributes::Invisible);
 	return hadCalo;
 }

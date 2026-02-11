@@ -14,7 +14,6 @@
 #include "G4HCtable.hh"
 #include "G4UnitsTable.hh"
 #include "Analysis.hh"
-#include "G4SystemOfUnits.hh"
 
 HadCaloSensitiveDetector::HadCaloSensitiveDetector(G4String SDname)
   : G4VSensitiveDetector(SDname)
@@ -28,7 +27,7 @@ HadCaloSensitiveDetector::HadCaloSensitiveDetector(G4String SDname)
 	//---------------
 	// Add myCollectionName to the vector of names called collectionName variable
 	// Hint1: use insert method:
-	collectionName.insert(myCollectionName);
+	//collectionName.insert();
  
   // Note that we may add as many collection names we would wish: ie
   // a sensitive detector can have many collections.
@@ -58,7 +57,7 @@ G4bool HadCaloSensitiveDetector::ProcessHits(G4Step *step, G4TouchableHistory *)
 		return true;
 	}
 	//We will not use anymore directly this method,
-	//We show how to get hits from a different place of the code,
+	//We show how to get hits from a different place of the codem,
 	//See Analaysis class for differences with respect to previous version
 	//Analysis::GetInstance()->AddEDepHad(layerIndex,edep);
 
@@ -105,9 +104,11 @@ void HadCaloSensitiveDetector::Initialize(G4HCofThisEvent* HCE)
 	//----------------
 	// Create the hit collection, remember the hit collection constructor wants two
 	// strings: the name of the SD and the name of the collection:
-	hitCollection = new HadCaloHitCollection(this->GetName(), collectionName[0]);
+	// hitCollection = new HadCaloHitCollection( EdITME:SD_name, EDITME:collection_name )
 	// Hint 1: Get the SD_name with the GetName() function,
 	// Hint 2: Get the collection_name from the collectionName vector: your collection is at position 0: collectionName[0]
+
+
 	// -- and attachment of this collection to the "Hits Collection of this Event":
 	// -- To insert the collection, we need to get an index for it. This index
 	// -- is unique to the collection. It is provided by the GetCollectionID(...)
@@ -126,5 +127,5 @@ void HadCaloSensitiveDetector::EndOfEvent(G4HCofThisEvent*)
 	//Exercise 1 of task4c
 	//---------------
 	//Some verbosity, uncomment this line
-	hitCollection->PrintAllHits();
+	//hitCollection->PrintAllHits();
 }
