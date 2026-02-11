@@ -58,12 +58,16 @@ StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
     //Check that the particle is a Gamma and that its kinetic energy is above threshold:
     //to get track kinetic energy use:
     aTrack->GetKineticEnergy();
-    //To increase the counter for gammas of 1 use:
-    analysis->AddGammas(1);
+    //If the gamma is above threshold count it and kill it, otherwise let it going:
+    if (aTrack->GetKineticEnergy() > thresh) {
+      analysis->AddGammas(1);
+    }
     result = fKill;
+    
   } else if (particleType == G4Neutron::NeutronDefinition()) {
-    //do the same for Neutrons using:
-    analysis->AddNeutrons(1);
+    if (aTrack->GetKineticEnergy() > thresh) {
+      analysis->AddNeutrons(1);
+    }
   }
 
   return result;

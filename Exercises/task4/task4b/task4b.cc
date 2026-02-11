@@ -96,9 +96,9 @@ int main(int argc,char** argv)
 	  G4UIExecutive * ui = new G4UIExecutive(argc,argv);
 	  //If UI has graphics execute special macro: opens OpenGL Qt driver
 	  if (ui->IsGUI())
-		  UImanager->ApplyCommand("/control/execute visQt.mac");
+		  UImanager->ApplyCommand("/control/execute macros/visQt.mac");
 	  else
-		  UImanager->ApplyCommand("/control/execute vis.mac");
+		  UImanager->ApplyCommand("/control/execute macros/vis.mac");
 #else
 	  //Older versions of G4: UI selected by user
   #ifdef G4UI_USE_TCSH
