@@ -1,0 +1,25 @@
+/particle/select gamma 
+/process/inactivate compt 
+/process/inactivate conv
+/process/inactivate PhotonInelastic
+/particle/process/dump
+
+/particle/select neutron
+#/process/inactivate Decay 
+#/process/inactivate hadElastic 
+#/process/inactivate NeutronInelastic
+/process/inactivate nCapture
+/process/inactivate nFission
+/particle/process/dump
+
+/particle/select e-
+/process/inactivate eBrem 
+#/process/inactivate ElectroNuclear
+
+/particle/process/dump
+/particle/select e+ 
+#/process/inactivate eBrem
+/process/inactivate annihil
+#/process/inactivate PositronNuclear
+
+

@@ -19,7 +19,6 @@
 #include "G4UIterminal.hh"
 #include "G4UItcsh.hh"
 #endif
-#include "PhysicsList.hh"
 #include "DetectorConstruction.hh"
 #include "PrimaryGeneratorAction.hh"
 //#include "CopperPhysicsList.hh"
@@ -55,10 +54,10 @@ int main(int argc,char** argv)
   runManager->SetUserInitialization(detector);
 
   // Local user Physics List
-  G4VUserPhysicsList* physics = new PhysicsList();
+  //G4VUserPhysicsList* physics = new PhysicsList();
 
   // Reference Physics List from Geant4 kernel 
-  //G4VUserPhysicsList* physics = new QGSP_BERT();
+  G4VUserPhysicsList* physics = new QGSP_BERT_HP();
 
   //G4cout << "Setting Physics List" << G4endl;
   //G4VUserPhysicsList* physics = new QGSP_BERT_HP();  //Declare a physics list using QGSP_BERT_HP 
