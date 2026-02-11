@@ -21,7 +21,7 @@ Average number of neutrons: 0
 ===================================================
 
 ===================================================
-Summary for run: 0
+Summary for run: 2
 Event processed: 100
 Primary particles energy: 100 GeV
 Average number of secondaries: 8768
