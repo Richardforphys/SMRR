@@ -3,62 +3,76 @@
 #----------------------------------------------------------------------------
 # Setup the project
 cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+# Impone che la versione di CMake sia pari o superiore a 2.6
+# altrimenti CMake termina la compilazione con errore FATAL_ERROR.
+# Serve a garantire che tutte le istruzioni qui presenti siano supportate
 project(task6)
+# Definisce il nome del progetto come "task6"
+# Questo permette di inizializzare in automatico variabili successivamente utili
+# come PROJECT_NAME, PROJECT_SOURCE_DIR, PROJECT_BINARY_DIR
 
-#----------------------------------------------------------------------------
-# Find Geant4 package, activating all available UI and Vis drivers by default
-# You can set WITH_GEANT4_UIVIS to OFF via the command line or ccmake/cmake-gui
-# to build a batch mode only executable
-#
 option(WITH_GEANT4_UIVIS "Build example with Geant4 UI and Vis drivers" ON)
-option(G4ANALYSIS_USE "use ROOT" ON)
+option(G4ANALYSIS_USE "use root" ON)
+
 if(WITH_GEANT4_UIVIS)
   find_package(Geant4 REQUIRED ui_all vis_all)
 else()
   find_package(Geant4 REQUIRED)
 endif()
-set(G4NEUTRONHP_USE_ONLY_PHOTONEVAPORATION ON)
-
-#----------------------------------------------------------------------------
-# Setup Geant4 include directories and compile definitions
-# Setup include directory for this project
-#
-include(${Geant4_USE_FILE})
-#----------------------------------------------------------------------------
-# Find ROOT (required package)
-#
 find_package(ROOT REQUIRED)
+include(${ROOT_USE_FILE})
+set(G4NEUTRONHP_USE_ONLY_PHOTONEVAPORATION ON)
+# Definisce un'opzione configurabile dall'utente con valore di default "ON".
+# Se il valore della variabile "WITH_GEANT4_UIVIS" è ON, il comando garantisce la possibilità
+# di utilizzare la User Interface e i Visual Attributes, caricando i driver appositi.
+# Viene inoltre richiesto di utilizzare un'installazione valida di Geant4.
+# Altrimenti si utilizza esclusivamente il core di Geant4, utile per simulazioni in modalità batch.
 
 #----------------------------------------------------------------------------
-
-include_directories(${PROJECT_SOURCE_DIR}/include 
-                    ${Geant4_INCLUDE_DIR}
-                    ${ROOT_INCLUDE_DIR})
-
-#include_directories(${PROJECT_SOURCE_DIR}/include)
-
+include(${Geant4_USE_FILE})
+# Include un CMake file fornito da Geant4, il quale
+#   1. Aggiunge le directory di include
+#   2. Definisce le macro di compilazione
+include_directories(${PROJECT_SOURCE_DIR}/include
+                    ${GEANT4_INCLUDE_DIR}
+                    )
+# Aggiunge la directory ${PROJECT_SOURCE_DIR}/include al path degli header.
 
 #----------------------------------------------------------------------------
-# Locate sources and headers for this project
-# NB: headers are included so they will show up in IDEs
-#
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
+# Aggiunge tutti i file di formato .cc che si trovano all'interno
+# della directory ${PROJECT_SOURCE_DIR}/src.
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
+# Aggiunge tutti i file di formato .hh che si trovano all'interno
+# della directory ${PROJECT_SOURCE_DIR}/include.
 
 #----------------------------------------------------------------------------
-# Add the executable, and link it to the Geant4 libraries
-#
 add_executable(exampletask6 task6.cc ${sources} ${headers})
-target_link_libraries(exampletask6 ${Geant4_LIBRARIES} ${ROOT_LIBRARIES})
+# Crea un eseguibile di nome "exampletask6" usando come sorgenti
+# task6.cc e tutti i file .cc e .hh precedentemente aggiunti.
+if(G4ANALYSIS_USE)
+  target_compile_definitions(exampletask6 PRIVATE G4ANALYSIS_USE_ROOT)
+endif()
+target_link_libraries(exampletask6 ${ROOT_LIBRARIES})
+target_link_libraries(exampletask6 ${Geant4_LIBRARIES})
+#Collega l'eseguibile alle librerie di Geant4
 
 #----------------------------------------------------------------------------
-# Copy all scripts to the build directory, i.e. the directory in which we
-# build B1. This is so that we can run the executable directly because it
-# relies on these scripts being in the current working directory.
-#
 set(EXAMPLEtask6_SCRIPTS
-  vis.mac
+  macros/vis.mac
+  macros/cuts.mac
+  macros/deact.mac
+  macros/defpro.mac
+  macros/gps.mac
+  macros/neutr.mac
+  macros/part.mac
+  macros/pp.mac
+  macros/prot.mac
+  macros/prot3.mac
+  macros/visQt.mac
   )
+# Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
+# risultati delle simulaizoni e per il run delle stesse.
 
 foreach(_script ${EXAMPLEtask6_SCRIPTS})
   configure_file(
@@ -67,16 +81,13 @@ foreach(_script ${EXAMPLEtask6_SCRIPTS})
     COPYONLY
     )
 endforeach()
+# Copia ogni script all'interno di ${EXAMPLEtask6_SCRIPTS}, all'interno della 
+# directory di build dalla directory sorgente.
 
 #----------------------------------------------------------------------------
-# For internal Geant4 use - but has no effect if you build this
-# example standalone
-#
 add_custom_target(task6 DEPENDS exampletask6)
 
 #----------------------------------------------------------------------------
-# Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
-#
+# Installa l'eseguibile all'interno della cartella 'bin' situata all'interno 
+# del path CMAKE_INSTALL_PREFIX
 install(TARGETS exampletask6 DESTINATION bin)
-
-

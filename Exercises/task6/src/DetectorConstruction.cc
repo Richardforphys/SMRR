@@ -192,10 +192,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     brown(0.4,0.4,0.1),
     white(1.0,1.0,1.0);
   
-  logicWorld -> SetVisAttributes(new G4VisAttributes(white));
-  logicWorld -> SetVisAttributes(G4VisAttributes::Invisible);
-  
-  
+  logicWorld -> SetVisAttributes(new G4VisAttributes(false));  
     
   //always return the physical World!!!!!!!!!!!!!!!!!1
   //the typedef of this method is G4VPhysicalVolume
