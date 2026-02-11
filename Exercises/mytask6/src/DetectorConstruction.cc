@@ -58,9 +58,6 @@ void DetectorConstruction::DefineMaterials()
   // define NIST materials
   
   //// 1 - Polyethilene (CH2) /////////////
-  
-  //Retrieving copper from G4NIST Material
-
   G4int hydrogenZ = 1;
   G4int carbonZ   = 6;
   
@@ -89,6 +86,12 @@ void DetectorConstruction::DefineMaterials()
   if (!PE_Mat)   G4cout << "Problems making Cu Material " << G4endl;
 
 
+  G4Material* Carbon = man->FindOrBuildMaterial("G4_C");
+  G4Material* Aluminium = man->FindOrBuildMaterial("G4_Al");
+  G4Material* Gold = man->FindOrBuildMaterial("G4_Au");
+  G4Material* Copper = man->FindOrBuildMaterial("G4_Cu");
+
+  PE_Mat = Carbon; ///You can change this to Aluminium, Gold or Copper
   /// 2 - ARGON //////
   
   G4int ArgonZ = 18;
@@ -111,9 +114,6 @@ void DetectorConstruction::DefineMaterials()
   /// 3 - Retrieving vacuum from G4NIST database
 
   vacuum  = man->FindOrBuildMaterial("G4_Galactic");
-  Al = man->FindOrBuildMaterial("G4_Al");
-  Au = man->FindOrBuildMaterial("G4_Au");
-  Cu = man->FindOrBuildMaterial("G4_Cu");
 }
  
 void DetectorConstruction::ComputeParameters() 

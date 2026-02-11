@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/mytask6
+CMAKE_SOURCE_DIR = /home/ricca/SMRR/Exercises/mytask6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/mytask6_build
+CMAKE_BINARY_DIR = /home/ricca/SMRR/Exercises/mytask6_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/mytask6.dir/clean
 CMakeFiles/examplemytask6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target examplemytask6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target examplemytask6"
 .PHONY : CMakeFiles/examplemytask6.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/examplemytask6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/examplemytask6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 0
 .PHONY : CMakeFiles/examplemytask6.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/examplemytask6.dir/clean:
 CMakeFiles/mytask6.dir/all: CMakeFiles/examplemytask6.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytask6.dir/build.make CMakeFiles/mytask6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytask6.dir/build.make CMakeFiles/mytask6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num= "Built target mytask6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num= "Built target mytask6"
 .PHONY : CMakeFiles/mytask6.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mytask6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mytask6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 0
 .PHONY : CMakeFiles/mytask6.dir/rule
 
 # Convenience name for target.

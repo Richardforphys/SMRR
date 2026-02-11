@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/mytask6
+CMAKE_SOURCE_DIR = /home/ricca/SMRR/Exercises/mytask6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/mytask6_build
+CMAKE_BINARY_DIR = /home/ricca/SMRR/Exercises/mytask6_build
 
 # Utility rule file for mytask6.
 
@@ -81,6 +81,6 @@ CMakeFiles/mytask6.dir/clean:
 .PHONY : CMakeFiles/mytask6.dir/clean
 
 CMakeFiles/mytask6.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/mytask6_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/mytask6 /home/ubuntu/SMRR/Exercises/mytask6 /home/ubuntu/SMRR/Exercises/mytask6_build /home/ubuntu/SMRR/Exercises/mytask6_build /home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/mytask6.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ricca/SMRR/Exercises/mytask6_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ricca/SMRR/Exercises/mytask6 /home/ricca/SMRR/Exercises/mytask6 /home/ricca/SMRR/Exercises/mytask6_build /home/ricca/SMRR/Exercises/mytask6_build /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/mytask6.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mytask6.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/mytask6
+CMAKE_SOURCE_DIR = /home/ricca/SMRR/Exercises/mytask6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/mytask6_build
+CMAKE_BINARY_DIR = /home/ricca/SMRR/Exercises/mytask6_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/examplemytask6.dir/depend.make
@@ -70,172 +70,172 @@ include CMakeFiles/examplemytask6.dir/progress.make
 include CMakeFiles/examplemytask6.dir/flags.make
 
 CMakeFiles/examplemytask6.dir/mytask6.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/mytask6.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/mytask6.cc
+CMakeFiles/examplemytask6.dir/mytask6.cc.o: /home/ricca/SMRR/Exercises/mytask6/mytask6.cc
 CMakeFiles/examplemytask6.dir/mytask6.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/examplemytask6.dir/mytask6.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/mytask6.cc.o -MF CMakeFiles/examplemytask6.dir/mytask6.cc.o.d -o CMakeFiles/examplemytask6.dir/mytask6.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/mytask6.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/examplemytask6.dir/mytask6.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/mytask6.cc.o -MF CMakeFiles/examplemytask6.dir/mytask6.cc.o.d -o CMakeFiles/examplemytask6.dir/mytask6.cc.o -c /home/ricca/SMRR/Exercises/mytask6/mytask6.cc
 
 CMakeFiles/examplemytask6.dir/mytask6.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/mytask6.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/mytask6.cc > CMakeFiles/examplemytask6.dir/mytask6.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/mytask6.cc > CMakeFiles/examplemytask6.dir/mytask6.cc.i
 
 CMakeFiles/examplemytask6.dir/mytask6.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/mytask6.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/mytask6.cc -o CMakeFiles/examplemytask6.dir/mytask6.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/mytask6.cc -o CMakeFiles/examplemytask6.dir/mytask6.cc.s
 
 CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorConstruction.cc
+CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/DetectorConstruction.cc
 CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/DetectorConstruction.cc
 
 CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorConstruction.cc > CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/DetectorConstruction.cc > CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorConstruction.cc -o CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/DetectorConstruction.cc -o CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorMessenger.cc
+CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/DetectorMessenger.cc
 CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o -MF CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o.d -o CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o -MF CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o.d -o CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/DetectorMessenger.cc
 
 CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorMessenger.cc > CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/DetectorMessenger.cc > CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.i
 
 CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorMessenger.cc -o CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/DetectorMessenger.cc -o CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.s
 
 CMakeFiles/examplemytask6.dir/src/EventAction.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/EventAction.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/EventAction.cc
+CMakeFiles/examplemytask6.dir/src/EventAction.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/EventAction.cc
 CMakeFiles/examplemytask6.dir/src/EventAction.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/examplemytask6.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/EventAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/EventAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/EventAction.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/examplemytask6.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/EventAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/EventAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/EventAction.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/EventAction.cc
 
 CMakeFiles/examplemytask6.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/EventAction.cc > CMakeFiles/examplemytask6.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/EventAction.cc > CMakeFiles/examplemytask6.dir/src/EventAction.cc.i
 
 CMakeFiles/examplemytask6.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/EventAction.cc -o CMakeFiles/examplemytask6.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/EventAction.cc -o CMakeFiles/examplemytask6.dir/src/EventAction.cc.s
 
 CMakeFiles/examplemytask6.dir/src/GasHit.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/GasHit.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/GasHit.cc
+CMakeFiles/examplemytask6.dir/src/GasHit.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/GasHit.cc
 CMakeFiles/examplemytask6.dir/src/GasHit.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/examplemytask6.dir/src/GasHit.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/GasHit.cc.o -MF CMakeFiles/examplemytask6.dir/src/GasHit.cc.o.d -o CMakeFiles/examplemytask6.dir/src/GasHit.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/GasHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/examplemytask6.dir/src/GasHit.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/GasHit.cc.o -MF CMakeFiles/examplemytask6.dir/src/GasHit.cc.o.d -o CMakeFiles/examplemytask6.dir/src/GasHit.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/GasHit.cc
 
 CMakeFiles/examplemytask6.dir/src/GasHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/GasHit.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/GasHit.cc > CMakeFiles/examplemytask6.dir/src/GasHit.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/GasHit.cc > CMakeFiles/examplemytask6.dir/src/GasHit.cc.i
 
 CMakeFiles/examplemytask6.dir/src/GasHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/GasHit.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/GasHit.cc -o CMakeFiles/examplemytask6.dir/src/GasHit.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/GasHit.cc -o CMakeFiles/examplemytask6.dir/src/GasHit.cc.s
 
 CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc
+CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc
 CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc > CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc > CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc -o CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/PrimaryGeneratorAction.cc -o CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/RootSaver.cc
+CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/RootSaver.cc
 CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o -MF CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o.d -o CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/RootSaver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o -MF CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o.d -o CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/RootSaver.cc
 
 CMakeFiles/examplemytask6.dir/src/RootSaver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/RootSaver.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/RootSaver.cc > CMakeFiles/examplemytask6.dir/src/RootSaver.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/RootSaver.cc > CMakeFiles/examplemytask6.dir/src/RootSaver.cc.i
 
 CMakeFiles/examplemytask6.dir/src/RootSaver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/RootSaver.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/RootSaver.cc -o CMakeFiles/examplemytask6.dir/src/RootSaver.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/RootSaver.cc -o CMakeFiles/examplemytask6.dir/src/RootSaver.cc.s
 
 CMakeFiles/examplemytask6.dir/src/RunAction.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/RunAction.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/RunAction.cc
+CMakeFiles/examplemytask6.dir/src/RunAction.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/RunAction.cc
 CMakeFiles/examplemytask6.dir/src/RunAction.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/examplemytask6.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/RunAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/RunAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/RunAction.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/examplemytask6.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/RunAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/RunAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/RunAction.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/RunAction.cc
 
 CMakeFiles/examplemytask6.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/RunAction.cc > CMakeFiles/examplemytask6.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/RunAction.cc > CMakeFiles/examplemytask6.dir/src/RunAction.cc.i
 
 CMakeFiles/examplemytask6.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/RunAction.cc -o CMakeFiles/examplemytask6.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/RunAction.cc -o CMakeFiles/examplemytask6.dir/src/RunAction.cc.s
 
 CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/SensitiveDetector.cc
+CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/SensitiveDetector.cc
 CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/SensitiveDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/SensitiveDetector.cc
 
 CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/SensitiveDetector.cc > CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/SensitiveDetector.cc > CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.i
 
 CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/SensitiveDetector.cc -o CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/SensitiveDetector.cc -o CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.s
 
 CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/StackingAction.cc
+CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/StackingAction.cc
 CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/StackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o -MF CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o.d -o CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/StackingAction.cc
 
 CMakeFiles/examplemytask6.dir/src/StackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/StackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/StackingAction.cc > CMakeFiles/examplemytask6.dir/src/StackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/StackingAction.cc > CMakeFiles/examplemytask6.dir/src/StackingAction.cc.i
 
 CMakeFiles/examplemytask6.dir/src/StackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/StackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/StackingAction.cc -o CMakeFiles/examplemytask6.dir/src/StackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/StackingAction.cc -o CMakeFiles/examplemytask6.dir/src/StackingAction.cc.s
 
 CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParentParticle.cc
+CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/TrackParentParticle.cc
 CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o -MF CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o.d -o CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParentParticle.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o -MF CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o.d -o CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/TrackParentParticle.cc
 
 CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParentParticle.cc > CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/TrackParentParticle.cc > CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.i
 
 CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParentParticle.cc -o CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/TrackParentParticle.cc -o CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.s
 
 CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o: CMakeFiles/examplemytask6.dir/flags.make
-CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o: /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParticle.cc
+CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o: /home/ricca/SMRR/Exercises/mytask6/src/TrackParticle.cc
 CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o: CMakeFiles/examplemytask6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o -MF CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o.d -o CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o -c /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParticle.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o -MF CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o.d -o CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o -c /home/ricca/SMRR/Exercises/mytask6/src/TrackParticle.cc
 
 CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParticle.cc > CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/Exercises/mytask6/src/TrackParticle.cc > CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.i
 
 CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/mytask6/src/TrackParticle.cc -o CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/Exercises/mytask6/src/TrackParticle.cc -o CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.s
 
 # Object files for target examplemytask6
 examplemytask6_OBJECTS = \
@@ -268,65 +268,65 @@ examplemytask6: CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o
 examplemytask6: CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o
 examplemytask6: CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o
 examplemytask6: CMakeFiles/examplemytask6.dir/build.make
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libCore.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libImt.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libRIO.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libNet.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libHist.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libGraf.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libGraf3d.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libGpad.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libROOTDataFrame.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libTree.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libTreePlayer.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libRint.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libPostscript.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libMatrix.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libPhysics.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libMathCore.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libThread.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libMultiProc.so
-examplemytask6: /home/ubuntu/SMRR/ROOT/root_install/lib/libROOTVecOps.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4Tree.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4FR.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4GMocren.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4RayTracer.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4VRML.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4ToolsSG.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4OpenGL.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4vis_management.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4modeling.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4interfaces.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4mctruth.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4geomtext.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4analysis.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4error_propagation.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4readout.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4physicslists.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4run.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4event.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4tracking.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4parmodels.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libCore.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libImt.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libRIO.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libNet.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libHist.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libGraf.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libGraf3d.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libGpad.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libROOTDataFrame.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libTree.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libTreePlayer.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libRint.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libPostscript.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libMatrix.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libPhysics.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libMathCore.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libThread.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libMultiProc.so
+examplemytask6: /home/ricca/SMRR/ROOT/root_install/lib/libROOTVecOps.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4Tree.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4FR.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4GMocren.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4RayTracer.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4VRML.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4ToolsSG.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4OpenGL.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4vis_management.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4modeling.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4interfaces.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4mctruth.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4geomtext.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4analysis.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4error_propagation.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4readout.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4physicslists.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4run.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4event.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4tracking.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4parmodels.so
 examplemytask6: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 examplemytask6: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 examplemytask6: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 examplemytask6: /usr/lib/x86_64-linux-gnu/libGL.so
 examplemytask6: /usr/lib/x86_64-linux-gnu/libexpat.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_hadronic.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_core.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4digits_hits.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4track.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4particles.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4geometry.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4graphics_reps.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4materials.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4intercoms.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4global.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4clhep.so
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4ptl.so.3.0.0
-examplemytask6: /home/ubuntu/SMRR/geant4_install/lib/libG4zlib.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4processes_hadronic.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4processes_core.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4digits_hits.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4track.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4particles.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4geometry.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4graphics_reps.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4materials.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4intercoms.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4global.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4clhep.so
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4ptl.so.3.0.0
+examplemytask6: /home/ricca/SMRR/geant4_install/lib/libG4zlib.so
 examplemytask6: CMakeFiles/examplemytask6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable examplemytask6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable examplemytask6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/examplemytask6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -338,6 +338,6 @@ CMakeFiles/examplemytask6.dir/clean:
 .PHONY : CMakeFiles/examplemytask6.dir/clean
 
 CMakeFiles/examplemytask6.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/mytask6_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/mytask6 /home/ubuntu/SMRR/Exercises/mytask6 /home/ubuntu/SMRR/Exercises/mytask6_build /home/ubuntu/SMRR/Exercises/mytask6_build /home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/examplemytask6.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ricca/SMRR/Exercises/mytask6_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ricca/SMRR/Exercises/mytask6 /home/ricca/SMRR/Exercises/mytask6 /home/ricca/SMRR/Exercises/mytask6_build /home/ricca/SMRR/Exercises/mytask6_build /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/examplemytask6.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/examplemytask6.dir/depend
 
