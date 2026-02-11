@@ -11,6 +11,7 @@
 
 #include "G4VHit.hh"
 #include "G4Allocator.hh"
+#include "G4ThreeVector.hh"
 #include "G4THitsCollection.hh"
 
 /*!
@@ -41,14 +42,18 @@ public:
   //! \name  simple set and get methods
   //@{
   void          AddEdep(const double e){ eDep += e; }
+  void          AddPos(const G4ThreeVector& pos){ position = pos; }
+  void          Draw();
 
   G4double      GetEdep()        const { return eDep;}
   G4int         GetLayerNumber() const { return layerNumber; }
+  G4ThreeVector GetPosition()    const { return position; }
   //@}
 
 private:
   const G4int   layerNumber;
   G4double      eDep;
+  G4ThreeVector position;
 };
 
 // Define the "hit collection" using the template class G4THitsCollection:

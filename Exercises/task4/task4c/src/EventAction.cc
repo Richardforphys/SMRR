@@ -27,7 +27,7 @@ EventAction::EventAction()
 
 void EventAction::BeginOfEventAction(const G4Event* anEvent )
 {
-	G4cout<<"Starting Event: "<<anEvent->GetEventID()<<G4endl;
+	//G4cout<<"Starting Event: "<<anEvent->GetEventID()<<G4endl;
 	Analysis::GetInstance()->PrepareNewEvent(anEvent);
 	//Retrieve the ID for the hit collection
 	//if ( hitsCollID == -1 )
