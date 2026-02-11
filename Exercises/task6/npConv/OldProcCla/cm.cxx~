@@ -1,0 +1,29 @@
+
+{
+
+  gROOT->Reset();
+  gROOT->SetStyle("Plain");
+
+  TChain c("Gas_Tree","Gas_Tree");
+
+  c.AddFile("neutr9M_run1.root");
+  c.AddFile("neutr9M_run2.root");
+  c.AddFile("neutr9M_run3.root");
+  c.AddFile("neutr9M_run4.root");
+  c.AddFile("neutr9M_run5.root");
+  c.AddFile("neutr9M_run6.root");
+  c.AddFile("neutr9M_run7.root");
+  c.AddFile("neutr9M_run8.root");
+  c.AddFile("neutr9M_run9.root");
+  c.AddFile("neutr9M_run10.root");
+  c.AddFile("neutr9M_run11.root");
+  c.AddFile("neutr9M_run12.root");
+  c.AddFile("neutr9M_run13.root");
+  c.AddFile("neutr9M_run14.root");
+
+  c.Process("n2.C++");
+
+
+
+}
+  

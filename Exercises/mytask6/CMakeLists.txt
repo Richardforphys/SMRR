@@ -6,8 +6,8 @@ cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 # Impone che la versione di CMake sia pari o superiore a 2.6
 # altrimenti CMake termina la compilazione con errore FATAL_ERROR.
 # Serve a garantire che tutte le istruzioni qui presenti siano supportate
-project(task6)
-# Definisce il nome del progetto come "task6"
+project(mytask6)
+# Definisce il nome del progetto come "mytask6"
 # Questo permette di inizializzare in automatico variabili successivamente utili
 # come PROJECT_NAME, PROJECT_SOURCE_DIR, PROJECT_BINARY_DIR
 
@@ -47,18 +47,18 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 # della directory ${PROJECT_SOURCE_DIR}/include.
 
 #----------------------------------------------------------------------------
-add_executable(exampletask6 task6.cc ${sources} ${headers})
-# Crea un eseguibile di nome "exampletask6" usando come sorgenti
-# task6.cc e tutti i file .cc e .hh precedentemente aggiunti.
+add_executable(examplemytask6 mytask6.cc ${sources} ${headers})
+# Crea un eseguibile di nome "examplemytask6" usando come sorgenti
+# mytask6.cc e tutti i file .cc e .hh precedentemente aggiunti.
 if(G4ANALYSIS_USE)
-  target_compile_definitions(exampletask6 PRIVATE G4ANALYSIS_USE_ROOT)
+  target_compile_definitions(examplemytask6 PRIVATE G4ANALYSIS_USE_ROOT)
 endif()
-target_link_libraries(exampletask6 ${ROOT_LIBRARIES})
-target_link_libraries(exampletask6 ${Geant4_LIBRARIES})
+target_link_libraries(examplemytask6 ${ROOT_LIBRARIES})
+target_link_libraries(examplemytask6 ${Geant4_LIBRARIES})
 #Collega l'eseguibile alle librerie di Geant4
 
 #----------------------------------------------------------------------------
-set(EXAMPLEtask6_SCRIPTS
+set(EXAMPLEmytask6_SCRIPTS
   macros/vis.mac
   macros/cuts.mac
   macros/deact.mac
@@ -74,20 +74,20 @@ set(EXAMPLEtask6_SCRIPTS
 # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
 # risultati delle simulaizoni e per il run delle stesse.
 
-foreach(_script ${EXAMPLEtask6_SCRIPTS})
+foreach(_script ${EXAMPLEmytask6_SCRIPTS})
   configure_file(
     ${PROJECT_SOURCE_DIR}/${_script}
     ${PROJECT_BINARY_DIR}/${_script}
     COPYONLY
     )
 endforeach()
-# Copia ogni script all'interno di ${EXAMPLEtask6_SCRIPTS}, all'interno della 
+# Copia ogni script all'interno di ${EXAMPLEmytask6_SCRIPTS}, all'interno della 
 # directory di build dalla directory sorgente.
 
 #----------------------------------------------------------------------------
-add_custom_target(task6 DEPENDS exampletask6)
+add_custom_target(mytask6 DEPENDS examplemytask6)
 
 #----------------------------------------------------------------------------
 # Installa l'eseguibile all'interno della cartella 'bin' situata all'interno 
 # del path CMAKE_INSTALL_PREFIX
-install(TARGETS exampletask6 DESTINATION bin)
+install(TARGETS examplemytask6 DESTINATION bin)

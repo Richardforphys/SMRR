@@ -1,0 +1,47 @@
+
+#ifndef ProcessClassify_hh
+#define ProcessClassify_hh
+
+#include "sel_baseclass.h"
+#include <iostream>
+#include <map>
+#include <string>
+#include <sstream>
+#include <TH1F.h>
+
+
+class ProcessClassify : public sel_baseclass
+{
+public:
+
+  //TTree* fChain;
+
+  static const Int_t maxtracks = 200;
+  // Re-Declaration of leaf types
+  Int_t           ntracks;
+  Int_t           id[maxtracks];   //[ntracks]
+  Int_t           type[maxtracks];   //[ntracks]
+  Int_t           mum[maxtracks];   //[ntracks]
+  Float_t         edep[maxtracks];   //[ntracks]
+  Float_t         zp[maxtracks];   //[ntracks]
+  Float_t         t[maxtracks];   //[ntracks]
+  Int_t           evid;
+
+
+  ProcessClassify(TTree * /*tree*/ =0) {};
+  virtual Bool_t  Process(Long64_t entry);
+  virtual void    Begin(TTree *tree);
+  virtual void    Terminate();
+
+  std::string convertInt(Int_t number);
+     
+
+  typedef std::map<std::string,TH1F*> ProcessMap_t;
+  ProcessMap_t processmap;
+
+
+  ClassDef(ProcessClassify,0);
+};
+
+
+#endif
