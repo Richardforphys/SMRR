@@ -35,6 +35,7 @@ public:
   void AddEDepEM( G4double edep ) { thisEventTotEM += edep; }
   void AddSecondary( G4int num ) { thisEventSecondaries += num; }
   void AddTrack( const G4Track * aTrack );
+  void AddStepLength( G4double stepLength );
 private:
   Analysis();
   static Analysis* singleton;
@@ -48,7 +49,8 @@ private:
     fDecayPosZ=0,
     fDecayTime=1,
     fDecayTimeForward=2,
-    fDecayTimeBackward=3
+    fDecayTimeBackward=3,
+    fStepLength=4
   };
 };
 

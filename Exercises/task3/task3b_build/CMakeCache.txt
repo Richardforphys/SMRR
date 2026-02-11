@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//The directory containing a CMake configuration file for CLHEP.
+CLHEP_DIR:PATH=/home/ubuntu/SMRR/CLHEP_install/lib/CLHEP-2.3.2.2
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -189,6 +192,9 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
+//No help, variable specified on the command line.
+CMAKE_PREFIX_PATH:UNINITIALIZED=/home/ubuntu/SMRR/geant4_install;/home/ubuntu/SMRR/ROOT/root_install;/home/ubuntu/SMRR/CLHEP_install
+
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
 
@@ -289,9 +295,6 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
-
-//use root
-G4ANALYSIS_USE:BOOL=ON
 
 //The directory containing a CMake configuration file for Geant4.
 Geant4_DIR:PATH=/home/ubuntu/SMRR/geant4_install/lib/cmake/Geant4

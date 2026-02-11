@@ -7,6 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/ubuntu/SMRR/CLHEP_install/lib/CLHEP-2.3.2.2/CLHEPConfig.cmake"
+  "/home/ubuntu/SMRR/CLHEP_install/lib/CLHEP-2.3.2.2/CLHEPConfigVersion.cmake"
+  "/home/ubuntu/SMRR/CLHEP_install/lib/CLHEP-2.3.2.2/CLHEPLibraryDepends-relwithdebinfo.cmake"
+  "/home/ubuntu/SMRR/CLHEP_install/lib/CLHEP-2.3.2.2/CLHEPLibraryDepends.cmake"
   "/home/ubuntu/SMRR/Exercises/task3/task3b/CMakeLists.txt"
   "/home/ubuntu/SMRR/Exercises/task3/task3b/vis.mac"
   "/home/ubuntu/SMRR/Exercises/task3/task3b/visQt.mac"
@@ -17,7 +21,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ubuntu/SMRR/ROOT/root_install/cmake/ROOTConfig-targets.cmake"
   "/home/ubuntu/SMRR/ROOT/root_install/cmake/ROOTConfig-version.cmake"
   "/home/ubuntu/SMRR/ROOT/root_install/cmake/ROOTConfig.cmake"
-  "/home/ubuntu/SMRR/ROOT/root_install/cmake/ROOTUseFile.cmake"
   "/home/ubuntu/SMRR/ROOT/root_install/cmake/RootMacros.cmake"
   "/home/ubuntu/SMRR/ROOT/root_install/cmake/modules/FindVdt.cmake"
   "/home/ubuntu/SMRR/geant4_install/lib/cmake/Geant4/G4EXPATShim.cmake"

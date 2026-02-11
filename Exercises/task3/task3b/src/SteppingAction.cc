@@ -1,48 +1,61 @@
-// $Id:$
+// $Id$
 /**
  * @file
  * @brief implements user class SteppingAction
  */
 
-
 #include "SteppingAction.hh"
 #include "G4Step.hh"
-
+#include "G4Track.hh"
 #include "G4VTouchable.hh"
-
-#include "G4SteppingManager.hh"
+#include "G4ParticleDefinition.hh"
+#include "G4MuonMinus.hh"
+#include "G4MuonPlus.hh"
 #include "G4UnitsTable.hh"
 #include "Analysis.hh"
 
 SteppingAction::SteppingAction()
-{
-}
+{}
 
 SteppingAction::~SteppingAction()
+{}
+
+void SteppingAction::UserSteppingAction(const G4Step* theStep)
 {
-}
+    // --- Touchable / volume info
+    const G4VTouchable* touchable =
+        theStep->GetPreStepPoint()->GetTouchable();
+    G4int volCopyNum = touchable->GetVolume()->GetCopyNo();
+    G4String volName = touchable->GetVolume()->GetName();
 
-void SteppingAction::UserSteppingAction( const G4Step * theStep ) {
-	//Check if this is the first step of this event,
-	//in this case print out info and prepare for next event
-	//Ask the stepping manager if this is the first step of this
-	//event
-	//G4cout<<fpSteppingManager->GetFirstStep()<<G4endl;
-	//if ( fpSteppingManager->GetFirstStep() )
-	//{
-	//	G4cout<<"Previous Event had : "<<G4BestUnit(totalEdepEM,"Energy")<<G4endl;
-	//	PrepareNewEvent();
-	//}
-	//We need to know if this step is done inside the EM calo or not.
-	//We ask the PreStepPoint the volume copy number.
-	//Remember: EM calo has copy num >9 and <100
-	//We could have asked the volume name, but string
-	//comparison is not efficient
-	const G4VTouchable* touchable = theStep->GetPreStepPoint()->GetTouchable();
-	G4int volCopyNum = touchable->GetVolume()->GetCopyNo();
-	if ( volCopyNum > 9 && volCopyNum  < 100 ) //EM calo step
-	{
-		Analysis::GetInstance()->AddEDepEM( theStep->GetTotalEnergyDeposit() );
-	}
-}
+    // =========================================================
+    // 1) Energia depositata nel calorimetro EM (come prima)
+    // =========================================================
+    if (volCopyNum > 9 && volCopyNum < 100)   // EM calo step
+    {
+        Analysis::GetInstance()
+            ->AddEDepEM(theStep->GetTotalEnergyDeposit());
+    }
 
+    // =========================================================
+    // 2) Analisi della step length
+    // =========================================================
+    const G4Track* track = theStep->GetTrack();
+    const G4ParticleDefinition* particle = track->GetParticleDefinition();
+
+    // Selezione particella: muoni
+    if ( particle == G4MuonMinus::Definition() ||
+         particle == G4MuonPlus::Definition() )
+    {
+        // Selezione volume (esempio: aria)
+        if (volName == "Air")
+        {
+            G4double stepLength = theStep->GetStepLength();
+
+            if (stepLength > 0.)
+            {
+                Analysis::GetInstance()->AddStepLength(stepLength);
+            }
+        }
+    }
+}

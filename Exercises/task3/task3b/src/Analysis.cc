@@ -8,7 +8,7 @@
  * @file
  * @brief implements singleton class Analysis 
  */
-
+#include <cmath>
 #include "Analysis.hh"
 #include "G4UnitsTable.hh"
 #include "G4Track.hh"
@@ -75,6 +75,28 @@ void Analysis::PrepareNewRun(const G4Run* /*aRun*/ )
 	h->GetYaxis()->SetTitle("backward events");
 	h->GetXaxis()->SetTitle("t_{decay} #mus");
 	h->StatOverflows();
+
+	// =====================================================
+	// Step length histogram (log-binned, publication ready)
+	// =====================================================
+	const int nBins = 80;
+	const double xmin = 1e-4;  // mm
+	const double xmax = 1e2;   // mm
+
+	double logBins[nBins + 1];
+	double logMin = std::log10(xmin);
+	double logMax = std::log10(xmax);
+	double dlog = (logMax - logMin) / nBins;
+
+	for (int i = 0; i <= nBins; ++i)
+	logBins[i] = std::pow(10., logMin + i * dlog);
+
+	h = new TH1D("stepLength",
+				"Muon step length in air;step length [mm];steps",
+				nBins, logBins);
+
+	h->StatOverflows();
+	histos.push_back(h);
 }
 
 void Analysis::EndOfEvent(const G4Event* /*anEvent*/)
@@ -85,6 +107,15 @@ void Analysis::EndOfEvent(const G4Event* /*anEvent*/)
 	//Uncomment this line for more verbosity:
 	//G4cout<<"Event: "<<anEvent->GetEventID() <<" Energy in EM calo: "<<G4BestUnit(thisEventTotEM,"Energy")<<" Secondaries: "<<thisEventSecondaries<<G4endl;
 }
+
+void Analysis::AddStepLength(G4double step)
+{
+  if (histos.size() > fStepLength)
+  {
+    histos[fStepLength]->Fill(step/mm);
+  }
+}
+
 
 void Analysis::EndOfRun(const G4Run* aRun)
 {

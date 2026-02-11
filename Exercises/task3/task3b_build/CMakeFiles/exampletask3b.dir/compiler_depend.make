@@ -3762,55 +3762,9 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Vector3D.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/DualRand.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/JamesRandom.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/MTwistEngine.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/MixMaxRng.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandBinomial.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandBinomial.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandBit.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandBit.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandBreitWigner.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandChiSquare.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandChiSquare.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandExponential.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandExponential.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandFlat.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandFlat.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGamma.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGamma.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGauss.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGauss.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGaussQ.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGaussQ.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGeneral.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandGeneral.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandLandau.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandLandau.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandPoisson.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandPoisson.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandPoissonQ.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Random.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Random.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandomEngine.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandomEngine.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Randomize.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RanecuEngine.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RanluxEngine.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RanluxppEngine.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RanshiEngine.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/memory.h \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/thread_local.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.h \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -3832,10 +3786,6 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AutoLock.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AuxiliaryNavServices.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AuxiliaryNavServices.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4BlockingList.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4BlockingList.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DCofThisEvent.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.icc \
@@ -3850,8 +3800,6 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Exception.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ExceptionSeverity.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ForceCondition.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GPILSelection.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeomSplitter.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HCofThisEvent.hh \
@@ -3869,6 +3817,8 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialPropertiesTable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialPropertyVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialTable.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MuonMinus.hh \
+  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MuonPlus.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationHistory.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationHistory.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationHistoryPool.hh \
@@ -3876,57 +3826,30 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevel.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevelRep.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevelRep.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLogger.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Navigator.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Navigator.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NoProcess.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NormalNavigation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NormalNavigation.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OrderedTable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PDefManager.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParameterisedNavigation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParameterisedNavigation.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleChange.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleChange.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleMomentum.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsFreeVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsTable.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsTable.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVector.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVector.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVectorType.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PrimaryParticle.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PrimaryVertex.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProcessManager.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProcessManager.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProcessType.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProcessVector.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProcessVector.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ReferenceCountedHandle.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Region.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Region.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RegularNavigation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ReplicaNavigation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ReplicaNavigation.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RotationMatrix.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Run.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SandiaTable.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelHeader.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelHeader.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelNode.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelNode.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelProxy.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelProxy.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Step.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Step.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4StepPoint.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4StepPoint.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4StepStatus.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SteppingControl.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SteppingManager.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Threading.hh \
@@ -3945,27 +3868,14 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserSteppingAction.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigiCollection.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VExternalNavigation.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHitsCollection.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VNavigation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPVParameterisation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VParticleChange.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VParticleChange.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VProcess.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSolid.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSolid.icc \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSteppingVerbose.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTouchable.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTrajectory.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserEventInformation.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserTrackInformation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VVolumeMaterialScanner.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VoxelNavigation.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VoxelNavigation.icc \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/Randomize.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/evtdefs.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/geomdefs.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/geomwdefs.hh \
@@ -3974,13 +3884,11 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /home/ubuntu/SMRR/geant4_install/include/Geant4/templates.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/tls.hh \
   /home/ubuntu/SMRR/geant4_install/include/Geant4/trkdefs.hh \
-  /home/ubuntu/SMRR/geant4_install/include/Geant4/trkgdefs.hh \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/algorithm \
-  /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
@@ -4086,7 +3994,6 @@ CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercise
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
-  /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
   /usr/include/c++/13/cstddef \
