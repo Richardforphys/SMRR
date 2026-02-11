@@ -46,7 +46,7 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
   G4SPSEneDistribution *eneDist = gps->GetCurrentSource()->GetEneDist() ;
   eneDist->SetEnergyDisType("Mono"); // or gauss
   eneDist->SetMonoEnergy(2.0*GeV);
-
+  energy = gps->GetCurrentSource()->GetParticleEnergy();
   // set position distribution
   G4SPSPosDistribution *posDist = gps->GetCurrentSource()->GetPosDist();
   posDist->SetPosDisType("Beam");  // or Point,Plane,Volume,Beam

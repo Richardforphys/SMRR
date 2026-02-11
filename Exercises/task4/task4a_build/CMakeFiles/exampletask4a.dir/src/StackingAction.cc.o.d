@@ -371,4 +371,92 @@ CMakeFiles/exampletask4a.dir/src/StackingAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrajectoryContainer.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTrajectory.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserEventInformation.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Run.hh
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Run.hh \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TH1D.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TH1.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAxis.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TNamed.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TObject.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/../RVersion.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/../ROOT/RVersion.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RConfigure.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/DllImport.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/strtok.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/strlcpy.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/snprintf.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TGenericClassInfo.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaHelper.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TIsAProxy.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualIsAProxy.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TStorage.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVersionCheck.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RVersion.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TString.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMathBase.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TypeTraits.hxx \
+ /usr/include/c++/13/cstdarg \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttAxis.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayD.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArray.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttLine.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttFill.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttMarker.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayC.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayS.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayI.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayL64.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayF.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDirectory.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TClass.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDictionary.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ESTLType.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaRule.h \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TObjArray.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TSeqCollection.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TCollection.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TIterator.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualRWMutex.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualMutex.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RRangeCast.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RSpan.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/span.hxx \
+ /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /usr/include/c++/13/cassert /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/unordered_set \
+ /usr/include/c++/13/bits/unordered_set.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TUUID.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TList.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBuffer.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDataType.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Bytes.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Byteswap.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Foption.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/EExecutionPolicy.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVectorFfwd.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVectorDfwd.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TFitResultPtr.h \
+ /usr/include/c++/13/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+ /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
+ /usr/include/c++/13/pstl/glue_numeric_defs.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TFile.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Compression.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDirectoryFile.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDatime.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TUrl.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConcurrentHashColl.hxx \
+ /usr/include/c++/13/functional \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
+ /usr/include/c++/13/optional \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TRWSpinLock.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TSpinMutex.hxx

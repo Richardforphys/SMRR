@@ -33,11 +33,13 @@ public:
   ~PrimaryGeneratorAction();
   //! defines primary particles (mandatory)
   void GeneratePrimaries(G4Event*);
+  double GetEnergy() const { return energy; }
 private:  
   G4VPrimaryGenerator* InitializeGPS();
 private:
   G4VPrimaryGenerator* gun;
   std::ofstream * outfile;
+  double energy;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

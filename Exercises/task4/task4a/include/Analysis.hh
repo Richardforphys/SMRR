@@ -12,6 +12,8 @@
 
 #include "G4Event.hh"
 #include "G4Run.hh"
+#include "TH1D.h"
+#include "TFile.h"
 
 #define NUMLAYERS 80
 
@@ -42,10 +44,13 @@ public:
 	void EndOfRun(const G4Run* aRun);
 	//! Add up some energy deposit in EM calorimeter
 	void AddEDepEM( G4double edep ) { thisEventTotEM += edep; }
+	void AddStepLengthEM(G4double stepLength ) { thisEventStepLengthEM += stepLength; };
 	//! Increase number of secondaries
 	void AddSecondary( G4int num ) { thisEventSecondaries += num; }
 	//! Add up some energy depositn in HAD calorimeter
 	void AddEDepHad( G4int layer , G4double edep ) { thisEventTotHad[layer] += edep; }
+	void AddStepLength(G4int layer, G4double step);
+	void AddStepLengthHad( G4int layer , G4double stepLength ) { thisEventStepLengthHad[layer] += stepLength; }
 private:
 	//! Private construtor: part of singleton pattern
 	Analysis();
@@ -63,6 +68,16 @@ private:
 	G4double thisEventTotHad[NUMLAYERS];
 	//! Array of energy in each layer of HAD calo for this run
 	G4double thisRunTotHad[NUMLAYERS];
+	G4double thisEventStepLengthEM;
+	G4double thisRunStepLengthEM;
+	G4double thisEventStepLengthHad[NUMLAYERS];
+	G4double thisRunStepLengthHad[NUMLAYERS];
+
+	std::vector<TH1D*> histos_stepLength;
+	std::vector<TH1D*> histos_edep;
+	G4double fStepLength;
+
+	TFile* outFile;
 };
 
 #endif /* ANALYSIS_HH_ */

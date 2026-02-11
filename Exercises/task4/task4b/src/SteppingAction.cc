@@ -40,6 +40,13 @@ void SteppingAction::UserSteppingAction( const G4Step * theStep ) {
 	if ( volCopyNum > 9 && volCopyNum  < 100 ) //EM calo step
 	{
 		Analysis::GetInstance()->AddEDepEM( theStep->GetTotalEnergyDeposit() );
+		Analysis::GetInstance()->AddStepLengthEM( theStep->GetStepLength() );
+	}
+
+	if (volCopyNum > 1000 && volCopyNum < 1080 ) // HAD calo step
+	{
+		Analysis::GetInstance()->AddEDepHad( volCopyNum-1000 , theStep->GetTotalEnergyDeposit() );
+		Analysis::GetInstance()->AddStepLengthHad( volCopyNum-1000 , theStep->GetStepLength() );
 	}
 }
 

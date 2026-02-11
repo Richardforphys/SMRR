@@ -1,0 +1,7 @@
+=================
+Summary for run: 0
+Events processed: 3000
+Average secondaries: 589402
+Average energy in EM calo: 74.6538 MeV
+Average energy in Had calo: 1.1337 MeV
+Average step length in EM calo: 95.0318 cm
