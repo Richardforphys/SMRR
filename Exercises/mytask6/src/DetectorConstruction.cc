@@ -90,8 +90,6 @@ void DetectorConstruction::DefineMaterials()
   G4Material* Aluminium = man->FindOrBuildMaterial("G4_Al");
   G4Material* Gold = man->FindOrBuildMaterial("G4_Au");
   G4Material* Copper = man->FindOrBuildMaterial("G4_Cu");
-
-  PE_Mat = Carbon; ///You can change this to Aluminium, Gold or Copper
   /// 2 - ARGON //////
   
   G4int ArgonZ = 18;

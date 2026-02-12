@@ -1,7 +1,7 @@
 CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
- /home/ricca/SMRR/Exercises/mytask6/src/RootSaver.cc \
+ /home/ubuntu/SMRR/Exercises/mytask6/src/RootSaver.cc \
  /usr/include/stdc-predef.h \
- /home/ricca/SMRR/Exercises/mytask6/include/RootSaver.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/RootSaver.hh \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -116,53 +116,83 @@ CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/ricca/SMRR/ROOT/root_install/include/TTree.h \
- /home/ricca/SMRR/ROOT/root_install/include/Compression.h \
- /home/ricca/SMRR/ROOT/root_install/include/RtypesCore.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/../RVersion.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/../ROOT/RVersion.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/RConfigure.h \
- /home/ricca/SMRR/ROOT/root_install/include/DllImport.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/TIOFeatures.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/Rtypes.h \
- /home/ricca/SMRR/ROOT/root_install/include/strtok.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TTree.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Compression.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/../RVersion.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/../ROOT/RVersion.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RConfigure.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/DllImport.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TIOFeatures.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/strtok.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/ricca/SMRR/ROOT/root_install/include/strlcpy.h \
- /home/ricca/SMRR/ROOT/root_install/include/snprintf.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/strlcpy.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/snprintf.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/atomic \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /home/ricca/SMRR/ROOT/root_install/include/TGenericClassInfo.h \
- /home/ricca/SMRR/ROOT/root_install/include/TSchemaHelper.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TGenericClassInfo.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaHelper.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/ricca/SMRR/ROOT/root_install/include/TIsAProxy.h \
- /home/ricca/SMRR/ROOT/root_install/include/TVirtualIsAProxy.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArrayD.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArray.h \
- /home/ricca/SMRR/ROOT/root_install/include/Rtypes.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArrayI.h \
- /home/ricca/SMRR/ROOT/root_install/include/TAttFill.h \
- /home/ricca/SMRR/ROOT/root_install/include/TAttLine.h \
- /home/ricca/SMRR/ROOT/root_install/include/TAttMarker.h \
- /home/ricca/SMRR/ROOT/root_install/include/TClass.h \
- /home/ricca/SMRR/ROOT/root_install/include/TDictionary.h \
- /home/ricca/SMRR/ROOT/root_install/include/TNamed.h \
- /home/ricca/SMRR/ROOT/root_install/include/TObject.h \
- /home/ricca/SMRR/ROOT/root_install/include/TStorage.h \
- /home/ricca/SMRR/ROOT/root_install/include/TVersionCheck.h \
- /home/ricca/SMRR/ROOT/root_install/include/RVersion.h \
- /usr/include/c++/13/cstdarg \
- /home/ricca/SMRR/ROOT/root_install/include/TString.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/TypeTraits.hxx \
- /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TIsAProxy.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualIsAProxy.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayD.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArray.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayI.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttFill.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttLine.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttMarker.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TClass.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDictionary.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TNamed.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TObject.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TStorage.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVersionCheck.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RVersion.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TString.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMathBase.h \
+ /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/limits \
+ /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/tr1/special_function_util.h \
+ /usr/include/c++/13/tr1/bessel_function.tcc \
+ /usr/include/c++/13/tr1/beta_function.tcc \
+ /usr/include/c++/13/tr1/ell_integral.tcc \
+ /usr/include/c++/13/tr1/exp_integral.tcc \
+ /usr/include/c++/13/tr1/hypergeometric.tcc \
+ /usr/include/c++/13/tr1/legendre_function.tcc \
+ /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/13/tr1/poly_hermite.tcc \
+ /usr/include/c++/13/tr1/poly_laguerre.tcc \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TypeTraits.hxx \
+ /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/bits/shared_ptr.h \
@@ -191,20 +221,19 @@ CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
  /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
- /home/ricca/SMRR/ROOT/root_install/include/ESTLType.h \
- /home/ricca/SMRR/ROOT/root_install/include/TSchemaRule.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/cstdarg \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ESTLType.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaRule.h \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/ricca/SMRR/ROOT/root_install/include/TObjArray.h \
- /home/ricca/SMRR/ROOT/root_install/include/TSeqCollection.h \
- /home/ricca/SMRR/ROOT/root_install/include/TCollection.h \
- /home/ricca/SMRR/ROOT/root_install/include/TIterator.h \
- /home/ricca/SMRR/ROOT/root_install/include/TVirtualRWMutex.h \
- /home/ricca/SMRR/ROOT/root_install/include/TVirtualMutex.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/RRangeCast.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/RSpan.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/span.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TObjArray.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TSeqCollection.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TCollection.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TIterator.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualRWMutex.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualMutex.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RRangeCast.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RSpan.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/span.hxx \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
  /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/c++/13/streambuf /usr/include/c++/13/bits/ios_base.h \
@@ -226,64 +255,39 @@ CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
  /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/unordered_set \
  /usr/include/c++/13/bits/unordered_set.h \
- /home/ricca/SMRR/ROOT/root_install/include/TDataType.h \
- /home/ricca/SMRR/ROOT/root_install/include/TDirectory.h \
- /home/ricca/SMRR/ROOT/root_install/include/TUUID.h \
- /home/ricca/SMRR/ROOT/root_install/include/TList.h \
- /home/ricca/SMRR/ROOT/root_install/include/TBuffer.h \
- /home/ricca/SMRR/ROOT/root_install/include/Bytes.h \
- /home/ricca/SMRR/ROOT/root_install/include/Byteswap.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDataType.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDirectory.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TUUID.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TList.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBuffer.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Bytes.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Byteswap.h \
  /usr/include/c++/13/cstdint \
- /home/ricca/SMRR/ROOT/root_install/include/TVirtualTreePlayer.h \
- /usr/include/c++/13/limits \
- /home/ricca/SMRR/ROOT/root_install/include/TBranch.h \
- /home/ricca/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
- /home/ricca/SMRR/ROOT/root_install/include/TBits.h \
- /home/ricca/SMRR/ROOT/root_install/include/TFile.h \
- /home/ricca/SMRR/ROOT/root_install/include/TDirectoryFile.h \
- /home/ricca/SMRR/ROOT/root_install/include/TDatime.h \
- /home/ricca/SMRR/ROOT/root_install/include/TUrl.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/RConcurrentHashColl.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualTreePlayer.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBranch.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBits.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TFile.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDirectoryFile.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDatime.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TUrl.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConcurrentHashColl.hxx \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h /usr/include/c++/13/optional \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/TRWSpinLock.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/TSpinMutex.hxx \
+ /usr/include/c++/13/optional \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TRWSpinLock.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TSpinMutex.hxx \
  /usr/include/c++/13/condition_variable /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/mutex \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UnitsTable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/globals.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ios.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Types.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
- /usr/include/c++/13/complex /usr/include/c++/13/cmath \
- /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/tr1/gamma.tcc \
- /usr/include/c++/13/tr1/special_function_util.h \
- /usr/include/c++/13/tr1/bessel_function.tcc \
- /usr/include/c++/13/tr1/beta_function.tcc \
- /usr/include/c++/13/tr1/ell_integral.tcc \
- /usr/include/c++/13/tr1/exp_integral.tcc \
- /usr/include/c++/13/tr1/hypergeometric.tcc \
- /usr/include/c++/13/tr1/legendre_function.tcc \
- /usr/include/c++/13/tr1/modified_bessel_func.tcc \
- /usr/include/c++/13/tr1/poly_hermite.tcc \
- /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/sstream \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
+ /usr/include/c++/13/complex /usr/include/c++/13/sstream \
  /usr/include/c++/13/istream /usr/include/c++/13/ios \
  /usr/include/c++/13/bits/basic_ios.h \
  /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
@@ -295,12 +299,11 @@ CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/ricca/SMRR/geant4_install/include/Geant4/tls.hh \
- /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4String.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4String.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/templates.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/tls.hh \
+ /usr/include/c++/13/iostream \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/templates.hh \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -310,9 +313,9 @@ CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Exception.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ExceptionSeverity.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4EnvironmentUtils.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Exception.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ExceptionSeverity.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4EnvironmentUtils.hh \
  /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
@@ -321,158 +324,156 @@ CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o: \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UnitsTable.icc \
- /home/ricca/SMRR/Exercises/mytask6/include/GasHit.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VHit.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VHitsCollection.hh \
- /home/ricca/SMRR/ROOT/root_install/include/TH1F.h \
- /home/ricca/SMRR/ROOT/root_install/include/TH1.h \
- /home/ricca/SMRR/ROOT/root_install/include/TAxis.h \
- /home/ricca/SMRR/ROOT/root_install/include/TAttAxis.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArrayC.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArrayS.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArrayL64.h \
- /home/ricca/SMRR/ROOT/root_install/include/TArrayF.h \
- /home/ricca/SMRR/ROOT/root_install/include/Foption.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/EExecutionPolicy.hxx \
- /home/ricca/SMRR/ROOT/root_install/include/TVectorFfwd.h \
- /home/ricca/SMRR/ROOT/root_install/include/TVectorDfwd.h \
- /home/ricca/SMRR/ROOT/root_install/include/TFitResultPtr.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.icc \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/GasHit.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHitsCollection.hh \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TH1F.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TH1.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAxis.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttAxis.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayC.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayS.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayL64.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayF.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Foption.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/EExecutionPolicy.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVectorFfwd.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVectorDfwd.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TFitResultPtr.h \
  /usr/include/c++/13/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
- /home/ricca/SMRR/Exercises/mytask6/include/TrackParticle.hh \
- /home/ricca/SMRR/Exercises/mytask6/include/SensitiveDetector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4CollectionNameVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4HCofThisEvent.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Step.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/geomdefs.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4RotationMatrix.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4GeomSplitter.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/geomwdefs.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4AutoLock.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Threading.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/TrackParticle.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/SensitiveDetector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CollectionNameVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HCofThisEvent.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Step.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/geomdefs.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RotationMatrix.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationX.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeomSplitter.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/geomwdefs.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AutoLock.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Threading.hh \
  /usr/include/c++/13/chrono /usr/include/c++/13/future \
  /usr/include/c++/13/bits/atomic_futex.h \
  /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4StepPoint.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4SteppingControl.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4StepStatus.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4TouchableHandle.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VTouchable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4TouchableHistory.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationHistory.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4AffineTransform.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Transform3D.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4AffineTransform.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationLevel.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationLevelRep.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationLevelRep.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationLevel.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4NavigationHistory.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4LogicalVolume.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Region.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Region.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4LogicalVolume.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4TouchableHistory.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Material.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Element.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ElementTable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ElementVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4IonisParamElm.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Isotope.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4IsotopeVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4IonisParamMat.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4DensityEffectCalculator.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4MaterialPropertiesTable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4MaterialPropertiesIndex.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4MaterialPropertyVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4PhysicsFreeVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4PhysicsVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4StepPoint.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SteppingControl.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4StepStatus.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TouchableHandle.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTouchable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TouchableHistory.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationHistory.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AffineTransform.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Transform3D.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AffineTransform.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevel.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationLevel.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NavigationHistory.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4LogicalVolume.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Region.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Region.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4LogicalVolume.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TouchableHistory.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Material.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Element.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ElementTable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ElementVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4IonisParamElm.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Isotope.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4IsotopeVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4IonisParamMat.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DensityEffectCalculator.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialPropertiesIndex.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsFreeVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVector.hh \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Log.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4IEEE754.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4PhysicsVectorType.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4PhysicsVector.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4MaterialTable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4SandiaTable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4OrderedTable.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4DataVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4DataVector.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4StepPoint.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4TrackVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Step.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Track.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/trkdefs.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4DynamicParticle.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ElectronOccupancy.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/pwdefs.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4LorentzVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4PDefManager.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Log.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4IEEE754.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVectorType.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsVector.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialTable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SandiaTable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OrderedTable.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4StepPoint.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrackVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Step.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Track.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/trkdefs.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DynamicParticle.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/pwdefs.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4LorentzVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PDefManager.hh \
  /usr/include/c++/13/stdlib.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ParticleMomentum.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4DynamicParticle.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4TrackStatus.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VUserTrackInformation.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Track.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VHit.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VReadOutGeometry.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4SensitiveVolumeList.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VSDFilter.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
- /home/ricca/SMRR/Exercises/mytask6/include/TrackParentParticle.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Types.hh \
- /home/ricca/SMRR/ROOT/root_install/include/TObject.h \
- /home/ricca/SMRR/Exercises/mytask6/include/EventAction.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4String.hh \
- /home/ricca/SMRR/Exercises/mytask6/include/RootSaver.hh \
- /home/ricca/SMRR/Exercises/mytask6/include/GasHit.hh \
- /home/ricca/SMRR/ROOT/root_install/include/TMath.h \
- /home/ricca/SMRR/ROOT/root_install/include/TMathBase.h \
- /home/ricca/SMRR/ROOT/root_install/include/TError.h \
- /home/ricca/SMRR/ROOT/root_install/include/DllImport.h \
- /home/ricca/SMRR/ROOT/root_install/include/ROOT/RSpan.hxx \
- /home/ricca/SMRR/Exercises/mytask6/include/TrackParentParticle.hh
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleMomentum.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DynamicParticle.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrackStatus.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Track.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSDFilter.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/TrackParentParticle.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TObject.h \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/EventAction.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/RootSaver.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/GasHit.hh \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMath.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TError.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/DllImport.h \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/TrackParentParticle.hh

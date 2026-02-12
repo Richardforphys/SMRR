@@ -183,8 +183,8 @@ void RootSaver::AddEvent(trackMap_t trackMap, G4int evID )
 	  PartType[i] = (itt->second)->GetPart_Type();
 	  MothPartType[i] = (itt->second)->GetMothPart_Type();
 	  //G4cout << "PartType[" << i << "] = " << PartType[i] << G4endl;
-	  Part_EnDep[i] = static_cast<Double_t>( ( (itt->second)->GetTot_Edep() )/ MeV ) ;
-	  MothPart_EnDep[i] =  static_cast<Double_t>( (itt->second)->GetMothTot_Edep()  / MeV );
+	  Part_EnDep[i] = static_cast<Double_t>( ( (itt->second)->GetTot_Edep() )/ keV ) ;
+	  MothPart_EnDep[i] =  static_cast<Double_t>( (itt->second)->GetMothTot_Edep()  / keV );
 	  Part_zStart[i] =   ( (itt->second )  ->GetZStart_Pos() / mm ); 
 	  MothPart_zStart[i] = ( (itt->second)->GetMothZStart_Pos()  / mm ) ;
 	  Part_tStart[i] = ( (itt->second)->GetStart_Time() ) / ns;

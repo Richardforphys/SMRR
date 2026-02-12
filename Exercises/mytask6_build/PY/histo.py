@@ -8,14 +8,15 @@ ROOT.gROOT.SetBatch(True)  # niente GUI
 # CONFIGURAZIONE
 # =========================
 
-base_path = "RUNS/ENERGIES"
+base_path = "/home/ubuntu/SMRR/Exercises/mytask6_build/RUNS/NEUTRONS/PE"
 
 energy_dirs = [
-    "1KeV",
-    "100KeV",
+    "0.5MeV",
     "1MeV",
-    "10MeV",
-    "100MeV"
+    "2MeV",
+    "5MeV",
+    "7MeV",
+    "10MeV"
 ]
 
 tree_name = "Gas_Tree;1"        # <-- cambia se il tuo TTree ha nome diverso
@@ -23,8 +24,8 @@ branch_name = "edep"      # <-- cambia con il branch che vuoi plottare
 
 # binning istogrammi
 nbins = 100
-xmin = 0
-xmax = 1
+xmin = 10
+xmax = 1000
 
 # =========================
 # STILE "DA PAPER"
@@ -78,21 +79,21 @@ for e_dir in energy_dirs:
 
     energies_numeric.append(value)
 
-    # Creazione istogramma
     h = ROOT.TH1D(
-        f"h_{e_dir}",
-        f"{e_dir};{branch_name};Counts",
-        nbins, xmin, xmax
+    f"h_{e_dir}",
+    f"{e_dir};{branch_name};Counts",
+    nbins, xmin, xmax
     )
 
     tree.Draw(f"{branch_name}>>h_{e_dir}", "", "goff")
 
+    h.SetDirectory(0)   
     h.SetLineWidth(2)
     h.SetLineColor(ROOT.kBlack)
 
     histograms.append(h)
-
     f.Close()
+
 
 # =========================
 # 1️⃣ Grafico Entries vs Energia
@@ -118,6 +119,7 @@ c1.SaveAs("entries_vs_energy.pdf")
 # =========================
 
 for h in histograms:
+    print(h.GetName())
     c = ROOT.TCanvas(f"c_{h.GetName()}", "", 800, 600)
     h.Draw("hist")
     c.SaveAs(f"{h.GetName()}.pdf")
