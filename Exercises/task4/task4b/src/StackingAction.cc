@@ -27,33 +27,14 @@ StackingAction::~StackingAction() {
 
 G4ClassificationOfNewTrack 
 StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
-
   G4ClassificationOfNewTrack result( fUrgent );
   Analysis* analysis = Analysis::GetInstance();
   if ( aTrack->GetParentID() > 0 )//This is a secondary
   {
 		analysis->AddSecondary(1);
   }
-
-  //This method returns the definition of the partycle type
   G4ParticleDefinition * particleType = aTrack->GetDefinition();
-
-  //Count particles above threshold.
   G4double thresh = 30*MeV;
-
-  //-------------
-  // Exercise 4b 1
-  //-------------
-  //You can find what particle is int the track, comparing its particleType variable with the
-  //static definition of Gamma, Nuetron etc:
-  //--------------
-  // Exercise 4b 2
-  //--------------
-  // To kill a track you need to change the value of result
-  // to status fKill:
-  // result = fKill;
-  // Check if the particle is a gamma and in case kill it.
-
   if ( particleType == G4Gamma::GammaDefinition() ) {
     //Check that the particle is a Gamma and that its kinetic energy is above threshold:
     //to get track kinetic energy use:
@@ -69,9 +50,7 @@ StackingAction::ClassifyNewTrack( const G4Track * aTrack ) {
       analysis->AddNeutrons(1);
     }
   }
-
   return result;
-
 }
 
 

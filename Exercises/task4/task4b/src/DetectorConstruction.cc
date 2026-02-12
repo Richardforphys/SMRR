@@ -129,7 +129,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 	ConstructTelescope();
 
 	//Construction of the EM calorimeter
-	//ConstructEMCalo();
+	ConstructEMCalo();
 
 	//Construction of the Had calorimeter
 	ConstructHadCalo();

@@ -1,21 +1,11 @@
-/*
- * Analysis.cc
- *
- *  Created on: 9 Feb 2010
- *      Author: adotti
- */
-
 #include "Analysis.hh"
-
 #include "G4UnitsTable.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4RunManager.hh"
 #include "PrimaryGeneratorAction.hh"
-
 #include "TFile.h"
 #include "TH1D.h"
 #include "TSystem.h"
-
 #include <sstream>
 #include <iomanip>
 #include <cmath>

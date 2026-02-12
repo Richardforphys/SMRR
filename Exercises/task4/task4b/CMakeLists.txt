@@ -58,8 +58,8 @@ target_link_libraries(exampletask4b ${Geant4_LIBRARIES})
 
 #----------------------------------------------------------------------------
 set(EXAMPLEtask4b_SCRIPTS
-  vis.mac
-  visQt.mac
+  macros/vis.mac
+  macros/visQt.mac
   )
 # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
 # risultati delle simulaizoni e per il run delle stesse.
