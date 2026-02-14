@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/ricca/SMRR/Exercises/mytask6")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ricca/SMRR/mytask6_build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ricca/SMRR/Exercises/mytask6_build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -1,0 +1,5 @@
+/det/disp 9 cm
+/random/setSeeds 1 4
+/gps/particle neutron
+/gps/energy 5 MeV
+/run/beamOn 1000000

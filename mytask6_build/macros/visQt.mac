@@ -1,4 +1,0 @@
-/run/initialize
-/vis/drawVolume
-/vis/viewer/rebuild
-/vis/viewer/refresh
