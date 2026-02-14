@@ -3,13 +3,6 @@
 #ifndef DetectorMessenger_h
 #define DetectorMessenger_h 1
 
-/**
- * @file
- * @brief defines class DetectorMessenger
- */
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
 #include "globals.hh"
 #include "G4UImessenger.hh"
 
@@ -21,17 +14,6 @@ class G4UIcmdWith3VectorAndUnit;
 class G4UIcmdWithoutParameter;
 class G4UIcmdWithABool;
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-/*!
-\brief This class provides the user interface to DetectorConstruction
-
-It allows for
- - change of detector position
- - rotation of the DUT around the y-axis
-
-\sa SetNewValue()
-*/
 class DetectorMessenger: public G4UImessenger
 {
 public:
@@ -41,25 +23,14 @@ public:
   ~DetectorMessenger();
     
   //! handle user commands
-//     void SetNewValue(G4UIcommand*, G4String);
+  void SetNewValue(G4UIcommand*, G4String);
     
 private:
   
   DetectorConstruction*      detector;
-    
   G4UIdirectory*             detDir;
-//       G4UIdirectory*             secondSensorDir;
 //             
-//       G4UIcmdWithADoubleAndUnit* xShiftCmd;    
-//       G4UIcmdWithADoubleAndUnit* yShiftCmd;    
-//       G4UIcmdWithADoubleAndUnit* thetaCmd;    
-//     
-//       G4UIcmdWithoutParameter*   updateCmd;    
-//     
-//       G4UIcmdWithABool*			 setDUTsetupCmd;
+  G4UIcmdWithADoubleAndUnit* dispCmd;    
+  G4UIcmdWithoutParameter*   updateCmd;    
 };
- 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
 #endif
-

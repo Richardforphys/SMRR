@@ -38,7 +38,8 @@ public:
 public:
   //! Construct geometry of the setup
   G4VPhysicalVolume* Construct();
-
+  G4double GetSecondSensorDisp() const { return ArDet_z_displacement; }
+  void SetSecondSensorPosition(G4double disp) { ArDet_z_displacement = disp; }
   //! Update geometry
   void UpdateGeometry();
   

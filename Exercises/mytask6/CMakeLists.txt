@@ -60,15 +60,8 @@ target_link_libraries(examplemytask6 ${Geant4_LIBRARIES})
 #----------------------------------------------------------------------------
 set(EXAMPLEmytask6_SCRIPTS
   macros/vis.mac
-  macros/cuts.mac
-  macros/deact.mac
-  macros/defpro.mac
-  macros/gps.mac
   macros/neutr.mac
-  macros/part.mac
-  macros/pp.mac
-  macros/prot.mac
-  macros/prot3.mac
+  macros/deut.mac
   macros/visQt.mac
   )
 # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei

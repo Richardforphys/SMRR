@@ -301,8 +301,5 @@ void DetectorConstruction::UpdateGeometry()
   G4PhysicalVolumeStore::GetInstance()->Clean();
   G4LogicalVolumeStore::GetInstance()->Clean();
   G4SolidStore::GetInstance()->Clean();
-
   G4RunManager::GetRunManager()->DefineWorldVolume(Construct());
-
-
 }
