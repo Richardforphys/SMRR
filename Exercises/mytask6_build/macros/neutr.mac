@@ -1,4 +1,4 @@
 /random/setSeeds 1 4
 /gps/particle neutron
-/gps/energy 2.5 MeV
-/run/beamOn 100000
+/gps/energy 10 MeV
+/run/beamOn 1000000
