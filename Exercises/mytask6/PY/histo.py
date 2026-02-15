@@ -8,7 +8,7 @@ ROOT.gROOT.SetBatch(True)  # niente GUI
 # CONFIGURAZIONE
 # =========================
 
-base_path = "/home/ricca/SMRR/Exercises/mytask6/MATERIALS/PE/Energy"
+base_path = "/home/ubuntu/SMRR/Exercises/mytask6/MATERIALS/CARBON/Energy"
 
 energy_dirs = [
     "0.1MeV",

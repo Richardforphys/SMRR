@@ -1,11 +1,11 @@
 CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: \
- /home/ricca/SMRR/Exercises/mytask6/src/DetectorMessenger.cc \
+ /home/ubuntu/SMRR/Exercises/mytask6/src/DetectorMessenger.cc \
  /usr/include/stdc-predef.h \
- /home/ricca/SMRR/Exercises/mytask6/include/DetectorMessenger.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/globals.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ios.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Types.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
+ /home/ubuntu/SMRR/Exercises/mytask6/include/DetectorMessenger.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/13/complex \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -179,7 +179,7 @@ CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: \
  /usr/include/c++/13/bits/ostream.tcc \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/ricca/SMRR/geant4_install/include/Geant4/tls.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/tls.hh \
  /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
@@ -188,10 +188,10 @@ CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4String.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4String.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/templates.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/templates.hh \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
@@ -201,9 +201,9 @@ CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4Exception.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ExceptionSeverity.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4EnvironmentUtils.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Exception.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ExceptionSeverity.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4EnvironmentUtils.hh \
  /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
@@ -226,27 +226,27 @@ CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o: \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UImessenger.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIcommand.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ApplicationState.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/globals.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIparameter.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UImessenger.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIcommand.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ApplicationState.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIparameter.hh \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/ricca/SMRR/Exercises/mytask6/include/DetectorConstruction.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIcmdWithAString.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIcmdWithADoubleAndUnit.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIcmdWithoutParameter.hh \
- /home/ricca/SMRR/geant4_install/include/Geant4/G4UIcmdWithABool.hh
+ /home/ubuntu/SMRR/Exercises/mytask6/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIcmdWithAString.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIcmdWithADoubleAndUnit.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIcmdWithoutParameter.hh \
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIcmdWithABool.hh

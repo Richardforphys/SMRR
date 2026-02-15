@@ -1,8 +1,8 @@
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/examplemytask6.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/mytask6.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/edit_cache.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/rebuild_cache.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/list_install_components.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/install.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/install/local.dir
-/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/install/strip.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/examplemytask6.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/mytask6.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/edit_cache.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/list_install_components.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/install.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/install/local.dir
+/home/ubuntu/SMRR/Exercises/mytask6_build/CMakeFiles/install/strip.dir
