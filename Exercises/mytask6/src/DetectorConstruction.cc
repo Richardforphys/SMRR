@@ -110,7 +110,7 @@ void DetectorConstruction::DefineMaterials()
   if (!Ar_Mat)   G4cout << "Problems making Argon Material " << G4endl;
 
   /// 3 - Retrieving vacuum from G4NIST database
-  PE_Mat = Carbon;
+  //PE_Mat = Gold;
   vacuum  = man->FindOrBuildMaterial("G4_Galactic");
 }
  

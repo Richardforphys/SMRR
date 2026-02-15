@@ -1,1 +1,0 @@
-Lancio neutroni su carbonio a divese energie

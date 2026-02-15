@@ -8,7 +8,7 @@ ROOT.gROOT.SetBatch(True)  # niente GUI
 # CONFIGURAZIONE
 # =========================
 
-base_path = "/home/ubuntu/SMRR/Exercises/mytask6/MATERIALS/CARBON/Energy"
+base_path = "/home/ricca/SMRR/Exercises/mytask6/MATERIALS/CARBON/Distance"
 
 energy_dirs = [
     "0.1MeV",
@@ -20,13 +20,23 @@ energy_dirs = [
     "10MeV"
 ]
 
+dist_dirs = [
+    "0.1cm",
+    "0.5cm",
+    "1cm",
+    "3cm",
+    "5cm",
+    "7cm",
+    "10cm"
+]
+
 tree_name = "Gas_Tree;1"        # <-- cambia se il tuo TTree ha nome diverso
 branch_name = "edep"      # <-- cambia con il branch che vuoi plottare
 
 # binning istogrammi
 nbins = 100
-xmin = 10
-xmax = 1000
+xmin = 0
+xmax = 0.01
 
 # =========================
 # STILE "DA PAPER"
@@ -71,10 +81,8 @@ for e_dir in energy_dirs:
     entries_list.append(n_entries)
 
     # parsing energia numerica
-    if "KeV" in e_dir:
-        value = float(e_dir.replace("KeV","")) * 1e-3
-    elif "MeV" in e_dir:
-        value = float(e_dir.replace("MeV",""))
+    if "cm" in e_dir:
+        value = float(e_dir.replace("cm",""))
     else:
         value = 0
 
@@ -82,7 +90,7 @@ for e_dir in energy_dirs:
 
     h = ROOT.TH1D(
     f"h_{e_dir}",
-    f"{e_dir};{branch_name};Counts",
+    f"{e_dir};Energy [MeV];Counts",
     nbins, xmin, xmax
     )
 
@@ -104,7 +112,7 @@ graph = ROOT.TGraph(len(energies_numeric))
 for i in range(len(energies_numeric)):
     graph.SetPoint(i, energies_numeric[i], entries_list[i])
 
-graph.SetTitle(";Energy [MeV];Number of entries")
+graph.SetTitle(";Distance [cm];Number of entries")
 graph.SetMarkerStyle(20)
 graph.SetMarkerSize(1.2)
 graph.SetLineWidth(2)
@@ -112,19 +120,19 @@ graph.SetLineWidth(2)
 c1 = ROOT.TCanvas("c1", "", 800, 600)
 c1.SetLogx()
 graph.Draw("APL")
-c1.SaveAs("entries_vs_energy.pdf")
+c1.SaveAs("entries_vs_distance.pdf")
 
 
 # =========================
 # 2️⃣ Istogrammi singoli "da paper"
 # =========================
-
+'''
 for h in histograms:
     print(h.GetName())
     c = ROOT.TCanvas(f"c_{h.GetName()}", "", 800, 600)
     h.Draw("hist")
     c.SaveAs(f"{h.GetName()}.pdf")
-
+'''
 
 # =========================
 # 3️⃣ Matrice di istogrammi
