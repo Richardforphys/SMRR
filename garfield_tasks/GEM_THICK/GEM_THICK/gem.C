@@ -15,22 +15,21 @@
 #include <TGeoHalfSpace.h>
 #include <TGeoMatrix.h>
 #include <TGeoCompositeShape.h>
-
-#include "ComponentAnsys123.hh"
-#include "ViewField.hh"
-#include "MediumMagboltz.hh"
-#include "Sensor.hh"
-#include "AvalancheMicroscopic.hh"
-#include "AvalancheMC.hh"
-#include "Random.hh"
-#include "Plotting.hh"
+#include "Garfield/ViewDrift.hh"
+#include "Garfield/ComponentAnsys123.hh"
+#include "Garfield/ViewField.hh"
+#include "Garfield/MediumMagboltz.hh"
+#include "Garfield/Sensor.hh"
+#include "Garfield/AvalancheMicroscopic.hh"
+#include "Garfield/AvalancheMC.hh"
+#include "Garfield/Random.hh"
 
 using namespace Garfield;
 
 int main(int argc, char * argv[]) {
 
   TApplication app("app", &argc, argv);
-  plottingEngine.SetDefaultStyle();
+  //plottingEngine.SetDefaultStyle();
 
   const bool debug = true;
 
@@ -67,15 +66,15 @@ int main(int argc, char * argv[]) {
 
   // Setup the gas.
   MediumMagboltz* gas = new MediumMagboltz();
-  gas->SetComposition("ar", 90., "co2", 10.);
+  gas->SetComposition("ar", 70., "co2", 30.);
   gas->SetTemperature(293.15);
   gas->SetPressure(760.);
   gas->EnableDebugging();
-  gas->Initialise();  
+  gas->Initialise(true);  
   gas->DisableDebugging();
   // Set the Penning transfer efficiency.
   const double rPenning = 0.51;
-  const double lambdaPenning = 0.;
+  const double lambdaPenning = 0.3;
   gas->EnablePenningTransfer(rPenning, lambdaPenning, "ar");
   // Load the ion mobilities.
   gas->LoadIonMobility("IonMobility_Ar+_Ar.txt");
@@ -104,8 +103,8 @@ int main(int argc, char * argv[]) {
   const bool plotDrift = true;
   ViewDrift* driftView = new ViewDrift();
   if (plotDrift) {
-    driftView->SetArea(-2 * pitch, -2 * pitch, -0.02,
-                        2 * pitch,  2 * pitch,  0.02);
+    driftView->SetArea(-2 * pitch, -2 * pitch, -0.3,
+                        2 * pitch,  2 * pitch,  0.3);
     // Plot every 10 collisions (in microscopic tracking).
     aval->SetCollisionSteps(10); 
     aval->EnablePlotting(driftView);
@@ -139,14 +138,14 @@ int main(int argc, char * argv[]) {
   double sumElectronsOther = 0.;
   double sumElectronMultiplied=0.;
 
-  const int nEvents = 10;
+  const int nEvents = 200;
   for (int i = nEvents; i--;) { 
     if (debug || i % 10 == 0) std::cout << i << "/" << nEvents << "\n";
     // Randomize the initial position.
     const double smear = pitch / 2.; 
-    double x0 = 0.;//-smear + RndmUniform() * smear;
-    double y0 = 0.;//-smear + RndmUniform() * smear;
-    double z0 = -0.2; 
+    double x0 = 0 -smear + RndmUniform() * smear;
+    double y0 = 0 -smear + RndmUniform() * smear;
+    double z0 = -0.1; 
     double t0 = 0.;
     double e0 = 0.1;
     aval->AvalancheElectron(x0, y0, z0, t0, e0, 0., 0., 0.);
@@ -237,7 +236,7 @@ int main(int argc, char * argv[]) {
     TGeoMaterial* matCopper = new TGeoMaterial("Copper", 63, 29, 8.94);
     TGeoMedium* medCopper = new TGeoMedium("Copper", 3, matCopper);
     TGeoVolume* volTop = geoman->MakeBox("TOP", 
-                                         medVacuum, pitch, pitch, 0.02);
+                                         medVacuum, 3*pitch, 3*pitch, 0.02);
     volTop->SetVisibility(0);
     TGeoBBox* shpKapton = new TGeoBBox("K", pitch / 2., 
                                             pitch / 2., 
@@ -285,7 +284,7 @@ int main(int argc, char * argv[]) {
     geoman->CheckOverlaps(0.1e-4);
     geoman->SetNmeshPoints(100000);
     cD->cd();
-    geoman->GetTopVolume()->Draw("ogl");
+    geoman->GetTopVolume()->Draw("webgl");
   }
 
   if (plotDrift) {
