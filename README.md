@@ -42,6 +42,26 @@ $ cmake --build . -- install -j4 # if you have 4 cores available for compilation
 $ source ../root_install/bin/thisroot.sh # or thisroot.{fish,csh}
 ```
 ---
+### CERN Garfield++ install from source
+```bash
+# First install GSL
+$ sudo apt update
+$ sudo apt install libgsl-dev
+# Verify installation
+$ gsl-config --version
+# Modify basrc file
+$ nano ~/.bashrc
+# Insert this at the end of the file
+$ export GARFIELD_HOME=/home/mydir/garfield
+$ git clone https://gitlab.cern.ch/garfield/garfieldpp.git $GARFIELD_HOME
+$ cd $GARFIELD_HOME
+$ mkdir build && cd build
+$ make
+$ make install
+# Modify basrc file again, inserting the following line at the eof
+$ source $GARFIELD_HOME/install/share/Garfield/setupGarfield.sh
+```
+---
 ### Folder Structure 
 TaskNmr
 * TaskNmr --> prima sottocartella, contiene i file principali
