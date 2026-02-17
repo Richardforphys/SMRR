@@ -11,6 +11,7 @@ $ git clone https://gitlab.cern.ch/geant4/geant4.git
 $ mkdir geant4_install
 $ mkdir geant4_build && cd root_build
 $ cmake -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SMRR/geant4_install \
+      -DGEANT4_USE_GDML=ON \
       -DGEANT4_INSTALL_DATA=ON \
       -DGEANT4_USE_QT=ON \
       -DGEANT4_USE_OPENGL_X11=ON \
