@@ -61,6 +61,7 @@ $ export GARFIELD_HOME=/home/mydir/garfield
 $ git clone https://gitlab.cern.ch/garfield/garfieldpp.git $GARFIELD_HOME
 $ cd $GARFIELD_HOME
 $ mkdir build && cd build
+$ cmake $GARFIELD_HOME
 $ make
 $ make install
 # Modify basrc file again, inserting the following line at the eof
