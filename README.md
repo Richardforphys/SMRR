@@ -10,12 +10,13 @@ Visit https://www.boot.dev/lessons/3d1c6ce3-bcc3-43a9-b2ae-809a968d524a
 $ git clone https://gitlab.cern.ch/geant4/geant4.git
 $ mkdir geant4_install
 $ mkdir geant4_build && cd root_build
-$ cmake -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SMRR/geant4_install \
-      -DGEANT4_USE_GDML=ON \
-      -DGEANT4_INSTALL_DATA=ON \
-      -DGEANT4_USE_QT=ON \
-      -DGEANT4_USE_OPENGL_X11=ON \
-      /home/ubuntu/SMRR/geant4
+$ cmake \
+  -DCMAKE_INSTALL_PREFIX=/home/ubuntu/SMRR/geant4_install \
+  -DGEANT4_USE_GDML=ON \
+  -DGEANT4_INSTALL_DATA=ON \
+  -DGEANT4_USE_QT=ON \
+  -DGEANT4_USE_OPENGL_X11=ON \
+  /home/ubuntu/SMRR/geant4
 $ cmake --build . -- -j$(nproc)
 $ cmake --install .
 ```
