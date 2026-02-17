@@ -7,6 +7,9 @@ Visit https://www.boot.dev/lessons/3d1c6ce3-bcc3-43a9-b2ae-809a968d524a
 
 ### CERN Geant4 install from source
 ```bash
+# Make sure xerces is installed
+$ sudo apt-update
+$ sudo apt install libxerces-c-dev
 $ git clone https://gitlab.cern.ch/geant4/geant4.git
 $ mkdir geant4_install
 $ mkdir geant4_build && cd root_build
