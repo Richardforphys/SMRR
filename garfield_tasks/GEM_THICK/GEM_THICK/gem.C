@@ -18,6 +18,7 @@
 #include "Garfield/ViewDrift.hh"
 #include "Garfield/ComponentAnsys123.hh"
 #include "Garfield/ViewField.hh"
+#include "Garfield/ViewFEMesh.hh"
 #include "Garfield/MediumMagboltz.hh"
 #include "Garfield/Sensor.hh"
 #include "Garfield/AvalancheMicroscopic.hh"
@@ -50,8 +51,9 @@ int main(int argc, char * argv[]) {
   const double metal = 5.e-4;
   const double outdia = 0.02;
   const double middia = 0.0198;
+  ViewFEMesh meshView(fm);
 
-  const bool plotField = false;
+  const bool plotField = true;
   if (plotField) {
     ViewField* fieldView = new ViewField();
     fieldView->SetComponent(fm);
@@ -62,6 +64,12 @@ int main(int argc, char * argv[]) {
     TCanvas* cF = new TCanvas();
     fieldView->SetCanvas(cF);
     fieldView->PlotContour();
+    meshView.SetArea(-pitch / 2., -0.3, pitch / 2., 0.1);
+    meshView.SetCanvas(cF);
+    meshView.SetPlane(0, -1, 0, 0, 0, 0);
+    meshView.SetFillMesh(true);
+    meshView.SetColor(2, kGray);
+    meshView.Plot(true);
   }
 
   // Setup the gas.
@@ -74,7 +82,7 @@ int main(int argc, char * argv[]) {
   gas->DisableDebugging();
   // Set the Penning transfer efficiency.
   const double rPenning = 0.51;
-  const double lambdaPenning = 0.3;
+  const double lambdaPenning = 0;
   gas->EnablePenningTransfer(rPenning, lambdaPenning, "ar");
   // Load the ion mobilities.
   gas->LoadIonMobility("IonMobility_Ar+_Ar.txt");
@@ -120,6 +128,11 @@ int main(int argc, char * argv[]) {
   TH1F* hIons = new TH1F("hIons", "Number of ions",
                          nBinsGain, gmin, gmax);
 
+  TH1F* eEnergyHist = new TH1F("eEnergyHist", "Energy of electrons",
+                          nBinsGain, 0., 10.);
+  TH1F* iEnergyHist = new TH1F("iEnergyHist", "Energy of ions",
+                          nBinsGain, 0., 10.);
+
   int nBinsChrg = 100;
   TH1F* hChrgE = new TH1F("hChrgE", "Electrons on plastic",
                           nBinsChrg, -0.5e4 * kapton, 0.5e4 * kapton);
@@ -129,6 +142,8 @@ int main(int argc, char * argv[]) {
   double sumIonsTotal = 0.;
   double sumIonsDrift = 0.;
   double sumIonsPlastic = 0.;
+  double eEnergy = 0;
+  double iEnergy = 0;
 
   double sumElectronsTotal = 0.;
   double sumElectronsPlastic = 0.;
@@ -138,7 +153,7 @@ int main(int argc, char * argv[]) {
   double sumElectronsOther = 0.;
   double sumElectronMultiplied=0.;
 
-  const int nEvents = 200;
+  const int nEvents = 100;
   for (int i = nEvents; i--;) { 
     if (debug || i % 10 == 0) std::cout << i << "/" << nEvents << "\n";
     // Randomize the initial position.
@@ -156,15 +171,17 @@ int main(int argc, char * argv[]) {
     const int np = aval->GetNumberOfElectronEndpoints();
     double xe1, ye1, ze1, te1, e1;
     double xe2, ye2, ze2, te2, e2;
-    double xi1, yi1, zi1, ti1;
-    double xi2, yi2, zi2, ti2;
+    double xi1, yi1, zi1, ti1, ie1;
+    double xi2, yi2, zi2, ti2, ie2;
     int status;
     for (int j = np; j--;) 
     {
       aval->GetElectronEndpoint(j, xe1, ye1, ze1, te1, e1, 
                                    xe2, ye2, ze2, te2, e2, status);
+      eEnergyHist->Fill(e2);
       sumElectronsTotal += 1.;
-	  
+      eEnergy += e2;
+      iEnergy += ie2;
       if (ze2 > -kapton / 2. && ze2 < kapton / 2.) {
         hChrgE->Fill(ze2 * 1.e4);
         sumElectronsPlastic += 1.;
@@ -286,16 +303,38 @@ int main(int argc, char * argv[]) {
     cD->cd();
     geoman->GetTopVolume()->Draw("webgl");
   }
-
+  constexpr bool twod = true;
+  constexpr bool plotMesh = true;
   if (plotDrift) {
     driftView->SetCanvas(cD);
     driftView->Plot(true, true);
+    if (plotMesh) {
+      meshView.SetCanvas(cD);
+      meshView.SetComponent(fm);
+      constexpr bool twod = true;
+      // x-z projection.
+      meshView.SetPlane(0, -1, 0, 0, 0, 0);
+      if (twod) {
+        meshView.SetArea(-2 * pitch, -0.02, 2 * pitch, 0.02);
+      } else {
+        meshView.SetArea(-0.5 * pitch, -0.5 * pitch, -0.02, 0.5 * pitch,
+                         0.5 * pitch, 0.02);
+      }
+      meshView.SetFillMesh(true);
+      meshView.SetColor(0, kGray);
+      // Set the color of the kapton.
+      meshView.SetColor(2, kYellow + 3);
+      meshView.EnableAxes();
+      meshView.SetViewDrift(driftView);
+      const bool outline = twod ? false : true;
+      meshView.Plot(twod, outline);
+    }
   }
 
   const bool plotHistogram = true;
   if (plotHistogram) {
-    TCanvas* cH = new TCanvas("cH", "Histograms", 800, 700);
-    cH->Divide(2, 2);
+    TCanvas* cH = new TCanvas("cH", "Histograms", 1200, 1000);
+    cH->Divide(3, 3);
     cH->cd(1);
     hElectrons->Draw();
     cH->cd(2);
@@ -304,6 +343,9 @@ int main(int argc, char * argv[]) {
     hChrgE->Draw();
     cH->cd(4);
     hChrgI->Draw();
+    cH->cd(5);
+    eEnergyHist->Draw();
+
   }
 
   app.Run(kTRUE);
