@@ -113,7 +113,7 @@ void write_fit_results(double egamma,
                        double eff,
                        double fwhm_pois)
 {
-    std::ofstream file("fit_results_Ar.txt", std::ios::app); 
+    std::ofstream file("fit_results_Kr.txt", std::ios::app); 
 
     file.seekp(0, std::ios::end);
     if (file.tellp() == 0) {
@@ -142,11 +142,6 @@ void write_fit_results(double egamma,
 
     file.close();
 }
-
-
-
-
-
 
 int main(int argc, char * argv[])
 {
@@ -206,7 +201,7 @@ int main(int argc, char * argv[])
 
     // Histogram
     //TH1F hXe("hElectrons", "Number of electrons", nBins, -0.008, 0.036*3);;
-    const int nEvents = 5000;
+    const int nEvents = 50000;
     std::vector<Data_GEM> data_gem_arr;
     int stop=0;
     std::cout<<"I fotoni partono da z= "<<cathode_z+0.01<<std::endl;
@@ -230,16 +225,6 @@ int main(int argc, char * argv[])
         const double t0 = 0.;
         // Sample the photon energy, using the relative intensities according to XDB.
         const double r = 1. * RndmUniform();
-        //if(r< 0.5)
-        //{
-        //    egamma=4500;
-        //}
-        //else
-        //{
-         //   egamma=6000;
-        //}
-        //const double egamma = r < 100. ? 5898.8 : r < 150. ? 5887.6 : 6490.4;
-        //double egamma=10000.;
         int ne = 0;
         track.TransportPhoton(x0, y0, z0, t0, egamma, 0., 0., 1., ne);
 
@@ -302,7 +287,7 @@ int main(int argc, char * argv[])
     double eff=(hElectrons.GetEntries()/nEvents)*100;
     double fwhm_pois=(1/TMath::Sqrt(centro))*100;
 
-    /*write_fit_results(egamma,
+    write_fit_results(egamma,
                   ampiezza,
                   centro,
                   centro_err,
@@ -311,7 +296,7 @@ int main(int argc, char * argv[])
                   fwhm,
                   eff,
                   fwhm_pois);
-                  */
+                  
 
 
     std::cout << "*****************************************************" << std::endl;
