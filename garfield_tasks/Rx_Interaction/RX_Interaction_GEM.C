@@ -113,7 +113,7 @@ void write_fit_results(double egamma,
                        double eff,
                        double fwhm_pois)
 {
-    std::ofstream file("fit_results_Kr.txt", std::ios::app); 
+    std::ofstream file("fit_results_XeSF6.txt", std::ios::app); 
 
     file.seekp(0, std::ios::end);
     if (file.tellp() == 0) {
@@ -169,9 +169,7 @@ int main(int argc, char * argv[])
     std::cout<<"First GEM coordinate z"<<first_gem_z<<std::endl;
     // Make a gas medium.
     MediumMagboltz* gas = new MediumMagboltz();
-    gas->SetComposition("Kr", 70., "CO2", 30.);
-    //gas->SetComposition("Kr", 100.);
-    //gas->SetComposition("Xe", 100.);//, "CO2", 30.);
+    gas->SetComposition("Xe", 70., "SF6", 30.);
     gas->SetTemperature(293.15);
     gas->SetPressure(AtmosphericPressure);
 
@@ -272,7 +270,7 @@ int main(int argc, char * argv[])
     hElectrons.Draw();
     hElectrons.Fit("fitfunc","","",center_guess-100,center_guess+100);
 
-    std::string folder = "/home/ubuntu/SMRR/garfield_tasks/Rx_build/PNGS_Kr/";
+    std::string folder = "/home/ubuntu/SMRR/garfield_tasks/Rx_build/PNGS_Ar/";
     std::string filename = folder + "hElectrons_" +
                         std::to_string(static_cast<int>(egamma)) +
                         "eV.png";
