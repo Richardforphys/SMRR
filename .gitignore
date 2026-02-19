@@ -10,3 +10,9 @@
 /venv
 /Exercises/mytask6/RUNS
 /garfield
+/garfield_tasks/Rx_build/Outputs_Kr
+/garfield_tasks/Rx_build/Outputs_Ar
+/garfield_tasks/Rx_build/PNGS_Ar
+/garfield_tasks/Rx_build/ntuples.root
+/garfield_tasks/Rx_build/fit_results_Ar.txt
+/garfield_tasks/Rx_build/fit_results_Kr.txt

@@ -1,0 +1,278 @@
+
+#include <iostream>
+#include <fstream>
+#include <cmath>
+#include <vector>
+#include <TCanvas.h>
+#include <TROOT.h>
+#include <TApplication.h>
+#include <TH1F.h>
+#include <TF1.h>
+
+#include <TGeoManager.h>
+#include <TGeoMaterial.h>
+#include <TGeoMedium.h>
+#include <TGeoVolume.h>
+#include <TGeoBBox.h>
+#include <TGeoTube.h>
+#include <TGeoPcon.h>
+#include <TGeoHalfSpace.h>
+#include <TGeoMatrix.h>
+#include <TGeoCompositeShape.h>
+#include <TMath.h>
+
+#include <TFile.h>
+#include <TTree.h>
+#include <TNtuple.h>
+
+#include "Garfield/ComponentAnsys123.hh"
+#include "Garfield/ViewField.hh"
+#include "Garfield/MediumMagboltz.hh"
+#include "Garfield/Sensor.hh"
+#include "Garfield/AvalancheMicroscopic.hh"
+#include "Garfield/AvalancheMC.hh"
+#include "Garfield/Random.hh"
+//#include "Garfield/Plotting.hh"
+
+#include "Garfield/TrackHeed.hh"
+#include "Garfield/SolidTube.hh"
+#include "Garfield/GeometrySimple.hh"
+#include "Garfield/ComponentConstant.hh"
+#include "Garfield/Sensor.hh"
+#include "Garfield/FundamentalConstants.hh"
+#include "Garfield/SolidBox.hh"
+
+
+using namespace Garfield;
+
+
+class Data_GEM
+{
+public:
+    double xe;
+    double ye;
+    double ze;
+    int ii;
+    int rx_number;
+    Data_GEM()
+    {
+        xe=0;
+        ye=0;
+        ze=0;
+        ii=0;
+        rx_number=0;
+    }
+};
+
+
+
+
+void create_txt_singolo(double xe,double ye,double ze,int ii,int rx_number)
+{
+    //SCRIVO IL FILE TXT
+    FILE * pFile;
+    std::string title = "output.txt";
+    const char * path = title.c_str();
+    pFile = fopen (path,"a");
+    fprintf(pFile, "%d\t%d\t%f\t%f\t%f\n",rx_number,ii,xe,ye,ze);
+    fclose(pFile);
+}
+
+void create_txt_vector(std::vector<Data_GEM> &data_gem_arr)
+{
+    //SCRIVO IL FILE TXT
+    long long limit=data_gem_arr.size();
+    FILE * pFile;
+    std::string title = "output.txt";
+    const char * path = title.c_str();
+    pFile = fopen (path,"w");
+    for(long long ll=0; ll<limit-1; ll++)
+    {
+        fprintf(pFile, "%d\t%d\t%f\t%f\t%f\n",data_gem_arr[ll].rx_number,data_gem_arr[ll].ii,data_gem_arr[ll].xe,data_gem_arr[ll].ye,data_gem_arr[ll].ze);
+    }
+    fclose(pFile);
+}
+
+
+
+
+
+
+int main(int argc, char * argv[])
+{
+
+    //TApplication app("app", &argc, argv);
+    //plottingEngine.SetDefaultStyle();
+
+    //Construct the GEM
+    //Questi sono i parametri di ANSYS. Se cambi modello in ANSYS cambia i parametri anche qui
+    double pitch =  0.140*0.1;   // Distance between holes, in mm
+    double kapton = 0.050*0.1;   //Thickness of the kapton layer, in mm
+    double metal =  0.005*0.1;   //Thickness of the meta layers, in mm
+    double outdia = 0.070*0.1;   //Hole outer diameter, in mm
+    double middia = 0.050*0.1;   //Hole diameter in the centre, in mm
+    double drift =   3.0*0.1;    //Thickness of the drift region
+    double induct = 1.0*0.1;    //Thickness of the induction gap
+    double rim =    0.074*0.1;   //Rim diameter, in mm
+    double t1=1;
+    double t2=2;
+    double n_gem=3; //number of gem foil
+
+    //Calcolo le coordinate in z di anodo,catoro e prima gem
+    double cathode_z=-drift;
+    double anode_z=(t1+kapton+(2*metal))+(t2+kapton+(2*metal))+induct;
+    double first_gem_z=-kapton-metal;
+
+    std::cout<<"Cathode coordinate z"<<cathode_z<<std::endl;
+    std::cout<<"First GEM coordinate z"<<first_gem_z<<std::endl;
+    // Make a gas medium.
+    MediumMagboltz* gas = new MediumMagboltz();
+    gas->SetComposition("Kr", 70., "CO2", 30.);
+    //gas->SetComposition("Kr", 100.);
+    //gas->SetComposition("Xe", 100.);//, "CO2", 30.);
+    gas->SetTemperature(293.15);
+    gas->SetPressure(AtmosphericPressure);
+
+    // Gas gap [cm].
+    const double width = 10.;
+    SolidBox* box = new SolidBox(0., 0., (cathode_z+first_gem_z)/2., width / 2., width/2., (first_gem_z-cathode_z)/2.);
+    GeometrySimple* geo = new GeometrySimple();
+    geo->AddSolid(box, gas);
+
+
+    // Make a component with constant electric field.
+    ComponentConstant field;
+    field.SetGeometry(geo);
+    field.SetElectricField(0., 0., 300.);
+
+    // Make a sensor.
+    Sensor sensor;
+    sensor.AddComponent(&field);
+
+    // Use Heed for simulating the photon absorption.
+    TrackHeed track;
+    track.SetSensor(&sensor);
+    track.EnableElectricField();
+    TFile *f = new TFile("ntuples.root", "RECREATE");
+    //TNtuple* ntuple  = new TNtuple("ntuple","","xe1:ye1:ze1:te1:e1:xe2:ye2:ze2:te2:e2");
+    TNtuple* ntuple  = new TNtuple("ntuple","","rxn:epn:xe1:ye1:ze1:dxe1:dye1:dze1");
+
+    // Histogram
+    //TH1F hXe("hElectrons", "Number of electrons", nBins, -0.008, 0.036*3);;
+    const int nEvents = 100000;
+    std::vector<Data_GEM> data_gem_arr;
+    int stop=0;
+    std::cout<<"I fotoni partono da z= "<<cathode_z+0.01<<std::endl;
+    std::vector<int> ne_arr;
+    double egamma = argv[1] ? atof(argv[1]) : 6000.;
+    for (unsigned int i = 0; i < nEvents; ++i)
+    {
+        if (i % 1000 == 0) std::cout << i << "/" << nEvents << "\n";
+        // Initial coordinates of the photon.
+        const double x0 = 0.;
+        const double y0 = 0.;
+        const double z0 = cathode_z+0.01;
+        const double t0 = 0.;
+        // Sample the photon energy, using the relative intensities according to XDB.
+        const double r = 1. * RndmUniform();
+        //if(r< 0.5)
+        //{
+        //    egamma=4500;
+        //}
+        //else
+        //{
+         //   egamma=6000;
+        //}
+        //const double egamma = r < 100. ? 5898.8 : r < 150. ? 5887.6 : 6490.4;
+        //double egamma=10000.;
+        int ne = 0;
+        track.TransportPhoton(x0, y0, z0, t0, egamma, 0., 0., 1., ne);
+
+        if(ne>0)
+        {
+            for(int ii=0; ii<ne; ii++)
+            {
+                double xe;
+                double ye;
+                double ze;
+                double te;
+                double ee;
+                double dxe;
+                double dye;
+                double dze;
+                Data_GEM data_gem_act;
+                track.GetElectron(ii,xe,ye,ze,te,ee,dxe,dye,dze);
+                data_gem_act.ii=ii;
+                data_gem_act.rx_number=i;
+                data_gem_act.xe=xe;
+                data_gem_act.ye=ye;
+                data_gem_act.ze=ze;
+                data_gem_arr.push_back(data_gem_act);
+                ntuple->Fill(data_gem_act.rx_number,data_gem_act.ii,data_gem_act.xe,data_gem_act.ye,data_gem_act.ze,dxe,dye,dze);
+
+
+            }
+            ne_arr.push_back(ne);
+        }
+
+        //bool GetElectron(const int i, double& x, double& y, double& z, double& t,
+        //double& e, double& dx, double& dy, double& dz);
+
+
+
+
+    }
+    f->Write();
+
+    create_txt_vector(data_gem_arr);
+    
+    double vmean = 0;
+    double vsigma = 0;
+    for (size_t i = 0; i < ne_arr.size(); ++i) {
+        vmean += ne_arr[i];
+    }
+    vmean /= ne_arr.size();
+    for (size_t i = 0; i < ne_arr.size(); ++i) {
+        vsigma += (ne_arr[i] - vmean) * (ne_arr[i] - vmean);
+    }
+    vsigma = std::sqrt(vsigma / ne_arr.size());
+    TH1::StatOverflows(true);
+    int nBins = static_cast<int>(10 * vsigma);
+    std::string histoname = "hElectrons_" + std::to_string(static_cast<int>(egamma)) + "eV";
+    TH1F hElectrons(histoname.c_str(),
+                    "Number of electrons;N_{e};Entries",
+                    nBins,
+                    vmean - 5 * vsigma,
+                    vmean + 5 * vsigma);
+    TF1 fitfunc("fitfunc","gaus");
+    for (size_t i = 0; i < ne_arr.size(); ++i) {
+        hElectrons.Fill(ne_arr[i]);
+    }
+
+    TCanvas c("c", "", 600, 600);
+    c.cd();
+    hElectrons.SetLineColor(kBlack);
+    hElectrons.SetTitle("Number of electrons;N_{e};Entries");
+    hElectrons.SetLineWidth(2);
+    hElectrons.SetFillColorAlpha(kGray,0.5);
+    hElectrons.SetFillStyle(3005);
+    hElectrons.GetXaxis()->SetRangeUser(vmean-5*vsigma,vmean+5*vsigma);
+    hElectrons.Draw();
+    hElectrons.Fit("fitfunc","","",vmean-3*vsigma,vmean+3*vsigma);
+    c.SaveAs(("hElectrons_"+std::to_string(static_cast<int>(egamma))+"eV.png").c_str());
+    //double x_max = hElectrons.GetXaxis()->GetBinCenter(binmax);
+    double centro=fitfunc.GetParameter(1);
+    double sigma=fitfunc.GetParameter(2);
+    double sigma_err=fitfunc.GetParError(2);
+    double centro_err=fitfunc.GetParError(1);
+    double fwhm=((sigma*2.35)/centro)*100;
+    double eff=(hElectrons.GetEntries()/nEvents)*100;
+    double fwhm_pois=(1/TMath::Sqrt(centro))*100;
+    std::cout << "*****************************************************" << std::endl;
+    std::cout << "Center = " << centro<< " FWHM = "<<fwhm<<"%"<<" EFF = "<<eff<<"%" <<" FWHM poisson = " <<fwhm_pois<<"%"<< std::endl;
+    std::cout << "*****************************************************" << std::endl;
+    //hElectrons.SetFillColor(kBlue + 2);
+    //hElectrons.SetLineColor(kBlue + 2);
+    //hXe.Draw();
+    //app.Run(false);
+}
