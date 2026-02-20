@@ -1,5 +1,5 @@
-CMakeFiles/GEM_THICK.dir/gem.C.o: \
- /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C \
+CMakeFiles/Rx_Interaction.dir/RX_Interaction_GEM.C.o: \
+ /home/ubuntu/SMRR/garfield_tasks/Rx_Interaction/RX_Interaction_GEM.C \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -149,8 +149,16 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/fstream \
- /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/cmath \
@@ -175,8 +183,14 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/ubuntu/SMRR/ROOT/root_install/include/TApplication.h \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TCanvas.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TPad.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualPad.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TObject.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
@@ -196,15 +210,14 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGenericClassInfo.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaHelper.h \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
  /home/ubuntu/SMRR/ROOT/root_install/include/TIsAProxy.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualIsAProxy.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TStorage.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TVersionCheck.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/RVersion.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttLine.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttFill.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttPad.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TQObject.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TList.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TSeqCollection.h \
@@ -252,13 +265,6 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TApplicationImp.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TCanvas.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TPad.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualPad.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TAttLine.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TAttFill.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TAttPad.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/GuiTypes.h \
  /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
@@ -272,18 +278,7 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/Buttons.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TAttBBox2D.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TAttCanvas.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TH1F.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TH1.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TAxis.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TAttAxis.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArrayD.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArray.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TAttMarker.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArrayC.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArrayS.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArrayI.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArrayL64.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TArrayF.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TROOT.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TDirectory.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TClass.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TSchemaRule.h \
@@ -300,6 +295,20 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/Bytes.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/Byteswap.h \
  /usr/include/c++/13/cstdint \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TApplication.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TApplicationImp.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TH1F.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TH1.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAxis.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttAxis.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayD.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArray.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TAttMarker.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayC.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayS.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayI.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayL64.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TArrayF.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/Foption.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/EExecutionPolicy.hxx \
  /home/ubuntu/SMRR/ROOT/root_install/include/TVectorFfwd.h \
@@ -309,10 +318,26 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TF1.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RConfigure.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TFormula.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBits.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMath.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TError.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/DllImport.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Math/Types.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
+ /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
+ /usr/include/c++/13/bits/list.tcc \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMethodCall.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TF1AbsComposition.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDSymfwd.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Math/Types.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Math/ParamFunctor.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoManager.h \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/thread \
  /usr/include/c++/13/bits/std_thread.h \
@@ -343,9 +368,26 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoHalfSpace.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoMatrix.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoCompositeShape.h \
- /home/ubuntu/SMRR/garfield/install/include/Garfield/ViewDrift.hh \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TMath.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TFile.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/Compression.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConfig.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDirectoryFile.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TDatime.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TUrl.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/RConcurrentHashColl.hxx \
  /home/ubuntu/SMRR/ROOT/root_install/include/Rtypes.h \
- /home/ubuntu/SMRR/garfield/install/include/Garfield/ViewBase.hh \
+ /usr/include/c++/13/optional \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TRWSpinLock.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TSpinMutex.hxx \
+ /usr/include/c++/13/condition_variable \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TTree.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/ROOT/TIOFeatures.hxx \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TVirtualTreePlayer.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBranch.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TNtuple.h \
+ /home/ubuntu/SMRR/ROOT/root_install/include/TTree.h \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/ComponentAnsys123.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/ComponentFieldMap.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/Component.hh \
@@ -356,9 +398,6 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixD.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixT.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixTBase.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TError.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/DllImport.h \
- /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixFBasefwd.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDBasefwd.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixTUtils.h \
@@ -371,12 +410,10 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixTSparse.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixD.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDSym.h \
- /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDSymfwd.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDSparse.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDSparsefwd.h \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/ViewField.hh \
- /home/ubuntu/SMRR/garfield/install/include/Garfield/ViewFEMesh.hh \
- /home/ubuntu/SMRR/ROOT/root_install/include/TMatrixDfwd.h \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/ViewBase.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/MediumMagboltz.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/MagboltzInterface.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/MediumGas.hh \
@@ -389,4 +426,12 @@ CMakeFiles/GEM_THICK.dir/gem.C.o: \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/AvalancheMicroscopicTypes.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/MultiProcessInterface.hh \
  /home/ubuntu/SMRR/garfield/install/include/Garfield/AvalancheMC.hh \
- /home/ubuntu/SMRR/garfield/install/include/Garfield/Random.hh
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/Random.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/TrackHeed.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/Track.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/SolidTube.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/Solid.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/GeometrySimple.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/Geometry.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/ComponentConstant.hh \
+ /home/ubuntu/SMRR/garfield/install/include/Garfield/SolidBox.hh

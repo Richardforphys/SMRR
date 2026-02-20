@@ -1,3 +1,0 @@
-/home/ricca/SMRR/garfield_tasks/Rx_build/CMakeFiles/Rx_Interaction.dir
-/home/ricca/SMRR/garfield_tasks/Rx_build/CMakeFiles/edit_cache.dir
-/home/ricca/SMRR/garfield_tasks/Rx_build/CMakeFiles/rebuild_cache.dir

@@ -29,11 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ubuntu/SMRR/garfield/install/lib/cmake/neBEM/neBEMConfigVersion.cmake"
   "/home/ubuntu/SMRR/garfield/install/lib/cmake/neBEM/neBEMTargets-noconfig.cmake"
   "/home/ubuntu/SMRR/garfield/install/lib/cmake/neBEM/neBEMTargets.cmake"
-  "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/CMakeLists.txt"
-  "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/ELIST.lis"
-  "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/MPLIST.lis"
-  "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/NLIST.lis"
-  "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/PRNSOL.lis"
+  "/home/ubuntu/SMRR/garfield_tasks/Rx_Interaction/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
@@ -152,14 +148,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
-  "ELIST.lis"
-  "MPLIST.lis"
-  "NLIST.lis"
-  "PRNSOL.lis"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/GEM_THICK.dir/DependInfo.cmake"
+  "CMakeFiles/Rx_Interaction.dir/DependInfo.cmake"
   )

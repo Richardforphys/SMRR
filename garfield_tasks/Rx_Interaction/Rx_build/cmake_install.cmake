@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK
+# Install script for directory: /home/ubuntu/SMRR/garfield_tasks/Rx_Interaction
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/SMRR/garfield_tasks/Rx_Interaction/Rx_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
