@@ -74,7 +74,7 @@ int main(int argc, char * argv[]) {
 
   // Setup the gas.
   MediumMagboltz* gas = new MediumMagboltz();
-  gas->SetComposition("ar", 70., "co2", 30.);
+  gas->SetComposition("ar", 90., "co2", 10.);
   gas->SetTemperature(293.15);
   gas->SetPressure(760.);
   gas->EnableDebugging();
@@ -153,7 +153,7 @@ int main(int argc, char * argv[]) {
   double sumElectronsOther = 0.;
   double sumElectronMultiplied=0.;
 
-  const int nEvents = 100;
+  const int nEvents = 1000;
   for (int i = nEvents; i--;) { 
     if (debug || i % 10 == 0) std::cout << i << "/" << nEvents << "\n";
     // Randomize the initial position.

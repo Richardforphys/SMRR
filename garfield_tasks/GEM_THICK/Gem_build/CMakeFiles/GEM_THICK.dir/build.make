@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK
+CMAKE_SOURCE_DIR = /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build
+CMAKE_BINARY_DIR = /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GEM_THICK.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/GEM_THICK.dir/progress.make
 include CMakeFiles/GEM_THICK.dir/flags.make
 
 CMakeFiles/GEM_THICK.dir/gem.C.o: CMakeFiles/GEM_THICK.dir/flags.make
-CMakeFiles/GEM_THICK.dir/gem.C.o: /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C
+CMakeFiles/GEM_THICK.dir/gem.C.o: /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C
 CMakeFiles/GEM_THICK.dir/gem.C.o: CMakeFiles/GEM_THICK.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GEM_THICK.dir/gem.C.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GEM_THICK.dir/gem.C.o -MF CMakeFiles/GEM_THICK.dir/gem.C.o.d -o CMakeFiles/GEM_THICK.dir/gem.C.o -c /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GEM_THICK.dir/gem.C.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GEM_THICK.dir/gem.C.o -MF CMakeFiles/GEM_THICK.dir/gem.C.o.d -o CMakeFiles/GEM_THICK.dir/gem.C.o -c /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C
 
 CMakeFiles/GEM_THICK.dir/gem.C.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GEM_THICK.dir/gem.C.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C > CMakeFiles/GEM_THICK.dir/gem.C.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C > CMakeFiles/GEM_THICK.dir/gem.C.i
 
 CMakeFiles/GEM_THICK.dir/gem.C.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GEM_THICK.dir/gem.C.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C -o CMakeFiles/GEM_THICK.dir/gem.C.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C -o CMakeFiles/GEM_THICK.dir/gem.C.s
 
 # Object files for target GEM_THICK
 GEM_THICK_OBJECTS = \
@@ -92,32 +92,32 @@ GEM_THICK_EXTERNAL_OBJECTS =
 
 GEM_THICK: CMakeFiles/GEM_THICK.dir/gem.C.o
 GEM_THICK: CMakeFiles/GEM_THICK.dir/build.make
-GEM_THICK: /home/ubuntu/SMRR/garfield/install/lib/libGarfield.so.0.3
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libTree.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libGdml.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libGeom.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libXMLIO.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libGraf3d.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libGpad.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libGraf.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libHist.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libMatrix.so
-GEM_THICK: /home/ubuntu/SMRR/garfield/install/lib/libHeed.so
-GEM_THICK: /home/ubuntu/SMRR/garfield/install/lib/libGarfieldRandom.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libMathCore.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libImt.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libMultiProc.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libNet.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libRIO.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libThread.so
-GEM_THICK: /home/ubuntu/SMRR/ROOT/root_install/lib/libCore.so
-GEM_THICK: /home/ubuntu/SMRR/garfield/install/lib/libMagboltz.so.11.19
-GEM_THICK: /home/ubuntu/SMRR/garfield/install/lib/libneBEM.so
-GEM_THICK: /home/ubuntu/SMRR/garfield/install/lib/libDegrade.so.3.17
+GEM_THICK: /home/ricca/SMRR/garfield/install/lib/libGarfield.so.0.3
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libTree.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libGdml.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libGeom.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libXMLIO.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libGraf3d.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libGpad.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libGraf.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libHist.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libMatrix.so
+GEM_THICK: /home/ricca/SMRR/garfield/install/lib/libHeed.so
+GEM_THICK: /home/ricca/SMRR/garfield/install/lib/libGarfieldRandom.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libMathCore.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libImt.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libMultiProc.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libNet.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libRIO.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libThread.so
+GEM_THICK: /home/ricca/SMRR/ROOT/root_install/lib/libCore.so
+GEM_THICK: /home/ricca/SMRR/garfield/install/lib/libMagboltz.so.11.19
+GEM_THICK: /home/ricca/SMRR/garfield/install/lib/libneBEM.so
+GEM_THICK: /home/ricca/SMRR/garfield/install/lib/libDegrade.so.3.17
 GEM_THICK: /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so
 GEM_THICK: /usr/lib/x86_64-linux-gnu/libpthread.a
 GEM_THICK: CMakeFiles/GEM_THICK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GEM_THICK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GEM_THICK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GEM_THICK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/GEM_THICK.dir/clean:
 .PHONY : CMakeFiles/GEM_THICK.dir/clean
 
 CMakeFiles/GEM_THICK.dir/depend:
-	cd /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles/GEM_THICK.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles/GEM_THICK.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/GEM_THICK.dir/depend
 

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK
+CMAKE_SOURCE_DIR = /home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build
+CMAKE_BINARY_DIR = /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/GEM_THICK.dir/clean
 CMakeFiles/GEM_THICK.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GEM_THICK.dir/build.make CMakeFiles/GEM_THICK.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GEM_THICK.dir/build.make CMakeFiles/GEM_THICK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles --progress-num=1,2 "Built target GEM_THICK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles --progress-num=1,2 "Built target GEM_THICK"
 .PHONY : CMakeFiles/GEM_THICK.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GEM_THICK.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GEM_THICK.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/garfield_tasks/GEM_THICK/Gem_build/CMakeFiles 0
 .PHONY : CMakeFiles/GEM_THICK.dir/rule
 
 # Convenience name for target.

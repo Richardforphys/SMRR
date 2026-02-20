@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C" "CMakeFiles/GEM_THICK.dir/gem.C.o" "gcc" "CMakeFiles/GEM_THICK.dir/gem.C.o.d"
+  "/home/ricca/SMRR/garfield_tasks/GEM_THICK/GEM_THICK/gem.C" "CMakeFiles/GEM_THICK.dir/gem.C.o" "gcc" "CMakeFiles/GEM_THICK.dir/gem.C.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

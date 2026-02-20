@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROOT_SUPPORT_CLAD
 
-CXX_INCLUDES = -isystem /home/ubuntu/SMRR/garfield/install/include -isystem /home/ubuntu/SMRR/ROOT/root_install/include
+CXX_INCLUDES = -isystem /home/ricca/SMRR/garfield/install/include -isystem /home/ricca/SMRR/ROOT/root_install/include
 
 CXX_FLAGS = -fopenmp
 
