@@ -14,7 +14,7 @@ DetectorMessenger::DetectorMessenger(DetectorConstruction * det)
       detDir->SetGuidance("detector construction commands");
 
       dispCmd = new G4UIcmdWithADoubleAndUnit("/det/disp",this);
-      dispCmd->SetGuidance("Define x-shift of second sensor plane");
+      dispCmd->SetGuidance("Define z-shift of second sensor plane");
       dispCmd->SetParameterName("disp",true);
       dispCmd->SetDefaultValue(1.);
       dispCmd->SetUnitCategory("Length");

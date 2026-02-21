@@ -1,4 +1,4 @@
-# Install script for directory: /home/ricca/SMRR/Exercises/mytask6
+# Install script for directory: /home/ubuntu/SMRR/Exercises/Task6/task6
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,27 +43,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ricca/SMRR/Exercises/mytask6_build/examplemytask6")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/SMRR/Exercises/Task6/task6_build/exampletask6")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6"
-         OLD_RPATH "/home/ricca/SMRR/ROOT/root_install/lib:/home/ricca/SMRR/geant4_install/lib:"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6"
+         OLD_RPATH "/home/ubuntu/SMRR/ROOT/root_install/lib:/home/ubuntu/SMRR/geant4_install/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/examplemytask6")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask6")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles/examplemytask6.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles/exampletask6.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -74,5 +74,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ricca/SMRR/Exercises/mytask6_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/SMRR/Exercises/Task6/task6_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

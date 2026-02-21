@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ricca/SMRR/Exercises/mytask6
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/Task6/task6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ricca/SMRR/Exercises/mytask6_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/Task6/task6_build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/examplemytask6.dir/all
+all: CMakeFiles/exampletask6.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,61 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/examplemytask6.dir/clean
-clean: CMakeFiles/mytask6.dir/clean
+clean: CMakeFiles/exampletask6.dir/clean
+clean: CMakeFiles/task6.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/examplemytask6.dir
+# Target rules for target CMakeFiles/exampletask6.dir
 
 # All Build rule for target.
-CMakeFiles/examplemytask6.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target examplemytask6"
-.PHONY : CMakeFiles/examplemytask6.dir/all
+CMakeFiles/exampletask6.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target exampletask6"
+.PHONY : CMakeFiles/exampletask6.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/examplemytask6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 13
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/examplemytask6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 0
-.PHONY : CMakeFiles/examplemytask6.dir/rule
+CMakeFiles/exampletask6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exampletask6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles 0
+.PHONY : CMakeFiles/exampletask6.dir/rule
 
 # Convenience name for target.
-examplemytask6: CMakeFiles/examplemytask6.dir/rule
-.PHONY : examplemytask6
+exampletask6: CMakeFiles/exampletask6.dir/rule
+.PHONY : exampletask6
 
 # clean rule for target.
-CMakeFiles/examplemytask6.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/clean
-.PHONY : CMakeFiles/examplemytask6.dir/clean
+CMakeFiles/exampletask6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/clean
+.PHONY : CMakeFiles/exampletask6.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/mytask6.dir
+# Target rules for target CMakeFiles/task6.dir
 
 # All Build rule for target.
-CMakeFiles/mytask6.dir/all: CMakeFiles/examplemytask6.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytask6.dir/build.make CMakeFiles/mytask6.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytask6.dir/build.make CMakeFiles/mytask6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles --progress-num= "Built target mytask6"
-.PHONY : CMakeFiles/mytask6.dir/all
+CMakeFiles/task6.dir/all: CMakeFiles/exampletask6.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles --progress-num= "Built target task6"
+.PHONY : CMakeFiles/task6.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/mytask6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 13
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mytask6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 0
-.PHONY : CMakeFiles/mytask6.dir/rule
+CMakeFiles/task6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles 13
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles 0
+.PHONY : CMakeFiles/task6.dir/rule
 
 # Convenience name for target.
-mytask6: CMakeFiles/mytask6.dir/rule
-.PHONY : mytask6
+task6: CMakeFiles/task6.dir/rule
+.PHONY : task6
 
 # clean rule for target.
-CMakeFiles/mytask6.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytask6.dir/build.make CMakeFiles/mytask6.dir/clean
-.PHONY : CMakeFiles/mytask6.dir/clean
+CMakeFiles/task6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/clean
+.PHONY : CMakeFiles/task6.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

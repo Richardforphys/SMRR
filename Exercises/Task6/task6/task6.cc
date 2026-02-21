@@ -23,11 +23,11 @@
 #include "PrimaryGeneratorAction.hh"
 //#include "CopperPhysicsList.hh"
 #include "QGSP_BERT.hh"
-#include "QGSP_BERT_HP.hh" /////Physics Lits for low energy neutrons
+#include "QGSP_BERT_HP.hh" /////Physics List for low energy neutrons
 #include "G4HadronPhysicsQGSP_BERT_HP.hh"
 #include "EventAction.hh"
 #include "RunAction.hh"
-#include "QGSP_BIC_HP.hh" /////Physics Lits for low energy neutrons
+#include "QGSP_BIC_HP.hh" /////Physics List for low energy neutrons
 
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

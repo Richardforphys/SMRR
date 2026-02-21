@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ricca/SMRR/Exercises/mytask6
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/Task6/task6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ricca/SMRR/Exercises/mytask6_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/Task6/task6_build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles /home/ricca/SMRR/Exercises/mytask6_build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles /home/ubuntu/SMRR/Exercises/Task6/task6_build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ricca/SMRR/Exercises/mytask6_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/Task6/task6_build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,61 +162,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named examplemytask6
+# Target rules for targets named exampletask6
 
 # Build rule for target.
-examplemytask6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examplemytask6
-.PHONY : examplemytask6
+exampletask6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exampletask6
+.PHONY : exampletask6
 
 # fast build rule for target.
-examplemytask6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/build
-.PHONY : examplemytask6/fast
+exampletask6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/build
+.PHONY : exampletask6/fast
 
 #=============================================================================
-# Target rules for targets named mytask6
+# Target rules for targets named task6
 
 # Build rule for target.
-mytask6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mytask6
-.PHONY : mytask6
+task6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task6
+.PHONY : task6
 
 # fast build rule for target.
-mytask6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mytask6.dir/build.make CMakeFiles/mytask6.dir/build
-.PHONY : mytask6/fast
-
-mytask6.o: mytask6.cc.o
-.PHONY : mytask6.o
-
-# target to build an object file
-mytask6.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/mytask6.cc.o
-.PHONY : mytask6.cc.o
-
-mytask6.i: mytask6.cc.i
-.PHONY : mytask6.i
-
-# target to preprocess a source file
-mytask6.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/mytask6.cc.i
-.PHONY : mytask6.cc.i
-
-mytask6.s: mytask6.cc.s
-.PHONY : mytask6.s
-
-# target to generate assembly for a file
-mytask6.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/mytask6.cc.s
-.PHONY : mytask6.cc.s
+task6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task6.dir/build.make CMakeFiles/task6.dir/build
+.PHONY : task6/fast
 
 src/DetectorConstruction.o: src/DetectorConstruction.cc.o
 .PHONY : src/DetectorConstruction.o
 
 # target to build an object file
 src/DetectorConstruction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/DetectorConstruction.cc.o
 .PHONY : src/DetectorConstruction.cc.o
 
 src/DetectorConstruction.i: src/DetectorConstruction.cc.i
@@ -224,7 +200,7 @@ src/DetectorConstruction.i: src/DetectorConstruction.cc.i
 
 # target to preprocess a source file
 src/DetectorConstruction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/DetectorConstruction.cc.i
 .PHONY : src/DetectorConstruction.cc.i
 
 src/DetectorConstruction.s: src/DetectorConstruction.cc.s
@@ -232,7 +208,7 @@ src/DetectorConstruction.s: src/DetectorConstruction.cc.s
 
 # target to generate assembly for a file
 src/DetectorConstruction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/DetectorConstruction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/DetectorConstruction.cc.s
 .PHONY : src/DetectorConstruction.cc.s
 
 src/DetectorMessenger.o: src/DetectorMessenger.cc.o
@@ -240,7 +216,7 @@ src/DetectorMessenger.o: src/DetectorMessenger.cc.o
 
 # target to build an object file
 src/DetectorMessenger.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/DetectorMessenger.cc.o
 .PHONY : src/DetectorMessenger.cc.o
 
 src/DetectorMessenger.i: src/DetectorMessenger.cc.i
@@ -248,7 +224,7 @@ src/DetectorMessenger.i: src/DetectorMessenger.cc.i
 
 # target to preprocess a source file
 src/DetectorMessenger.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/DetectorMessenger.cc.i
 .PHONY : src/DetectorMessenger.cc.i
 
 src/DetectorMessenger.s: src/DetectorMessenger.cc.s
@@ -256,7 +232,7 @@ src/DetectorMessenger.s: src/DetectorMessenger.cc.s
 
 # target to generate assembly for a file
 src/DetectorMessenger.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/DetectorMessenger.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/DetectorMessenger.cc.s
 .PHONY : src/DetectorMessenger.cc.s
 
 src/EventAction.o: src/EventAction.cc.o
@@ -264,7 +240,7 @@ src/EventAction.o: src/EventAction.cc.o
 
 # target to build an object file
 src/EventAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/EventAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/EventAction.cc.o
 .PHONY : src/EventAction.cc.o
 
 src/EventAction.i: src/EventAction.cc.i
@@ -272,7 +248,7 @@ src/EventAction.i: src/EventAction.cc.i
 
 # target to preprocess a source file
 src/EventAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/EventAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/EventAction.cc.i
 .PHONY : src/EventAction.cc.i
 
 src/EventAction.s: src/EventAction.cc.s
@@ -280,7 +256,7 @@ src/EventAction.s: src/EventAction.cc.s
 
 # target to generate assembly for a file
 src/EventAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/EventAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/EventAction.cc.s
 .PHONY : src/EventAction.cc.s
 
 src/GasHit.o: src/GasHit.cc.o
@@ -288,7 +264,7 @@ src/GasHit.o: src/GasHit.cc.o
 
 # target to build an object file
 src/GasHit.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/GasHit.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/GasHit.cc.o
 .PHONY : src/GasHit.cc.o
 
 src/GasHit.i: src/GasHit.cc.i
@@ -296,7 +272,7 @@ src/GasHit.i: src/GasHit.cc.i
 
 # target to preprocess a source file
 src/GasHit.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/GasHit.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/GasHit.cc.i
 .PHONY : src/GasHit.cc.i
 
 src/GasHit.s: src/GasHit.cc.s
@@ -304,7 +280,7 @@ src/GasHit.s: src/GasHit.cc.s
 
 # target to generate assembly for a file
 src/GasHit.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/GasHit.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/GasHit.cc.s
 .PHONY : src/GasHit.cc.s
 
 src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
@@ -312,7 +288,7 @@ src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
 
 # target to build an object file
 src/PrimaryGeneratorAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/PrimaryGeneratorAction.cc.o
 .PHONY : src/PrimaryGeneratorAction.cc.o
 
 src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cc.i
@@ -320,7 +296,7 @@ src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cc.i
 
 # target to preprocess a source file
 src/PrimaryGeneratorAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/PrimaryGeneratorAction.cc.i
 .PHONY : src/PrimaryGeneratorAction.cc.i
 
 src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cc.s
@@ -328,7 +304,7 @@ src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cc.s
 
 # target to generate assembly for a file
 src/PrimaryGeneratorAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/PrimaryGeneratorAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/PrimaryGeneratorAction.cc.s
 .PHONY : src/PrimaryGeneratorAction.cc.s
 
 src/RootSaver.o: src/RootSaver.cc.o
@@ -336,7 +312,7 @@ src/RootSaver.o: src/RootSaver.cc.o
 
 # target to build an object file
 src/RootSaver.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/RootSaver.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/RootSaver.cc.o
 .PHONY : src/RootSaver.cc.o
 
 src/RootSaver.i: src/RootSaver.cc.i
@@ -344,7 +320,7 @@ src/RootSaver.i: src/RootSaver.cc.i
 
 # target to preprocess a source file
 src/RootSaver.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/RootSaver.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/RootSaver.cc.i
 .PHONY : src/RootSaver.cc.i
 
 src/RootSaver.s: src/RootSaver.cc.s
@@ -352,7 +328,7 @@ src/RootSaver.s: src/RootSaver.cc.s
 
 # target to generate assembly for a file
 src/RootSaver.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/RootSaver.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/RootSaver.cc.s
 .PHONY : src/RootSaver.cc.s
 
 src/RunAction.o: src/RunAction.cc.o
@@ -360,7 +336,7 @@ src/RunAction.o: src/RunAction.cc.o
 
 # target to build an object file
 src/RunAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/RunAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/RunAction.cc.o
 .PHONY : src/RunAction.cc.o
 
 src/RunAction.i: src/RunAction.cc.i
@@ -368,7 +344,7 @@ src/RunAction.i: src/RunAction.cc.i
 
 # target to preprocess a source file
 src/RunAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/RunAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/RunAction.cc.i
 .PHONY : src/RunAction.cc.i
 
 src/RunAction.s: src/RunAction.cc.s
@@ -376,7 +352,7 @@ src/RunAction.s: src/RunAction.cc.s
 
 # target to generate assembly for a file
 src/RunAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/RunAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/RunAction.cc.s
 .PHONY : src/RunAction.cc.s
 
 src/SensitiveDetector.o: src/SensitiveDetector.cc.o
@@ -384,7 +360,7 @@ src/SensitiveDetector.o: src/SensitiveDetector.cc.o
 
 # target to build an object file
 src/SensitiveDetector.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/SensitiveDetector.cc.o
 .PHONY : src/SensitiveDetector.cc.o
 
 src/SensitiveDetector.i: src/SensitiveDetector.cc.i
@@ -392,7 +368,7 @@ src/SensitiveDetector.i: src/SensitiveDetector.cc.i
 
 # target to preprocess a source file
 src/SensitiveDetector.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/SensitiveDetector.cc.i
 .PHONY : src/SensitiveDetector.cc.i
 
 src/SensitiveDetector.s: src/SensitiveDetector.cc.s
@@ -400,7 +376,7 @@ src/SensitiveDetector.s: src/SensitiveDetector.cc.s
 
 # target to generate assembly for a file
 src/SensitiveDetector.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/SensitiveDetector.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/SensitiveDetector.cc.s
 .PHONY : src/SensitiveDetector.cc.s
 
 src/StackingAction.o: src/StackingAction.cc.o
@@ -408,7 +384,7 @@ src/StackingAction.o: src/StackingAction.cc.o
 
 # target to build an object file
 src/StackingAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/StackingAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/StackingAction.cc.o
 .PHONY : src/StackingAction.cc.o
 
 src/StackingAction.i: src/StackingAction.cc.i
@@ -416,7 +392,7 @@ src/StackingAction.i: src/StackingAction.cc.i
 
 # target to preprocess a source file
 src/StackingAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/StackingAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/StackingAction.cc.i
 .PHONY : src/StackingAction.cc.i
 
 src/StackingAction.s: src/StackingAction.cc.s
@@ -424,7 +400,7 @@ src/StackingAction.s: src/StackingAction.cc.s
 
 # target to generate assembly for a file
 src/StackingAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/StackingAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/StackingAction.cc.s
 .PHONY : src/StackingAction.cc.s
 
 src/TrackParentParticle.o: src/TrackParentParticle.cc.o
@@ -432,7 +408,7 @@ src/TrackParentParticle.o: src/TrackParentParticle.cc.o
 
 # target to build an object file
 src/TrackParentParticle.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/TrackParentParticle.cc.o
 .PHONY : src/TrackParentParticle.cc.o
 
 src/TrackParentParticle.i: src/TrackParentParticle.cc.i
@@ -440,7 +416,7 @@ src/TrackParentParticle.i: src/TrackParentParticle.cc.i
 
 # target to preprocess a source file
 src/TrackParentParticle.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/TrackParentParticle.cc.i
 .PHONY : src/TrackParentParticle.cc.i
 
 src/TrackParentParticle.s: src/TrackParentParticle.cc.s
@@ -448,7 +424,7 @@ src/TrackParentParticle.s: src/TrackParentParticle.cc.s
 
 # target to generate assembly for a file
 src/TrackParentParticle.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/TrackParentParticle.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/TrackParentParticle.cc.s
 .PHONY : src/TrackParentParticle.cc.s
 
 src/TrackParticle.o: src/TrackParticle.cc.o
@@ -456,7 +432,7 @@ src/TrackParticle.o: src/TrackParticle.cc.o
 
 # target to build an object file
 src/TrackParticle.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/TrackParticle.cc.o
 .PHONY : src/TrackParticle.cc.o
 
 src/TrackParticle.i: src/TrackParticle.cc.i
@@ -464,7 +440,7 @@ src/TrackParticle.i: src/TrackParticle.cc.i
 
 # target to preprocess a source file
 src/TrackParticle.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/TrackParticle.cc.i
 .PHONY : src/TrackParticle.cc.i
 
 src/TrackParticle.s: src/TrackParticle.cc.s
@@ -472,8 +448,32 @@ src/TrackParticle.s: src/TrackParticle.cc.s
 
 # target to generate assembly for a file
 src/TrackParticle.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/examplemytask6.dir/build.make CMakeFiles/examplemytask6.dir/src/TrackParticle.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/src/TrackParticle.cc.s
 .PHONY : src/TrackParticle.cc.s
+
+task6.o: task6.cc.o
+.PHONY : task6.o
+
+# target to build an object file
+task6.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/task6.cc.o
+.PHONY : task6.cc.o
+
+task6.i: task6.cc.i
+.PHONY : task6.i
+
+# target to preprocess a source file
+task6.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/task6.cc.i
+.PHONY : task6.cc.i
+
+task6.s: task6.cc.s
+.PHONY : task6.s
+
+# target to generate assembly for a file
+task6.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask6.dir/build.make CMakeFiles/exampletask6.dir/task6.cc.s
+.PHONY : task6.cc.s
 
 # Help Target
 help:
@@ -487,11 +487,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... mytask6"
-	@echo "... examplemytask6"
-	@echo "... mytask6.o"
-	@echo "... mytask6.i"
-	@echo "... mytask6.s"
+	@echo "... task6"
+	@echo "... exampletask6"
 	@echo "... src/DetectorConstruction.o"
 	@echo "... src/DetectorConstruction.i"
 	@echo "... src/DetectorConstruction.s"
@@ -525,6 +522,9 @@ help:
 	@echo "... src/TrackParticle.o"
 	@echo "... src/TrackParticle.i"
 	@echo "... src/TrackParticle.s"
+	@echo "... task6.o"
+	@echo "... task6.i"
+	@echo "... task6.s"
 .PHONY : help
 
 
