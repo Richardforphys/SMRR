@@ -1,0 +1,27 @@
+Energy 0.5MeV
+  neutron      (      2112): 57
+
+Energy 1MeV
+  neutron      (      2112): 122
+
+Energy 2MeV
+  neutron      (      2112): 272
+  proton       (      2212): 9
+
+Energy 5MeV
+  gamma        (        22): 2
+  neutron      (      2112): 399
+  proton       (      2212): 15
+
+Energy 7MeV
+  e-           (        11): 1
+  gamma        (        22): 2
+  neutron      (      2112): 345
+  proton       (      2212): 5
+
+Energy 10MeV
+  e-           (        11): 1
+  gamma        (        22): 4
+  neutron      (      2112): 305
+  proton       (      2212): 3
+  unknown      (1000010020): 1

@@ -1,0 +1,31 @@
+## Macro file to generate 
+# data for the DUT setup
+# with rotated DUT
+# This macro file should be called
+# by dutsetupRotate.mac
+# To use it standalong
+# you have to un-comment 
+# line defining angle 
+# Sets some default verbose
+#
+/control/verbose 2
+/run/verbose 2
+
+#Set of runs with pi+ at different energies
+/gps/particle pi+
+/gps/energy 200 GeV
+
+#un-comment the following line to use 
+#this macro file standalone
+#/control/alias angle 0
+
+#Change angle of middle sensor and
+#update detector
+/det/secondSensor/DUTsetup true
+/det/secondSensor/theta {angle} deg
+/det/digi/crosstalk 0.05
+/det/update
+
+/run/beamOn {nevents}
+
+

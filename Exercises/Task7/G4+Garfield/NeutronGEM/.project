@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>NeutronGEM-Debug@NeutronGEM</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/gmake</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEM.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/NeutronGEM.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMDataManager.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMDataManager.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMDetectorConstruction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMDetectorConstruction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMEventAction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMEventAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMHistoManager.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMHistoManager.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMTrackingAction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMTrackingAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMPhysicsList.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMPhysicsList.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMPrimaryGeneratorAction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMRunAction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMRunAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMStackingAction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMStackingAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMSteppingAction.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMSteppingAction.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMUserScoreWriter.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMUserScoreWriter.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/GarfieldG4FastSimulationModel.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/GarfieldG4FastSimulationModel.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/GarfieldPhysics.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/GarfieldPhysics.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Source Files/NeutronGEMTrackInformation.cc</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/programming/NeutronGEM/src/NeutronGEMTrackInformation.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/TrackSrim.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/TrackSrim.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Numerics.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Numerics.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/OpticalData.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/OpticalData.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewGeometry.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewGeometry.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentElmer.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentElmer.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/TrackHeed.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/TrackHeed.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/FundamentalConstants.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/FundamentalConstants.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentAnalyticField.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentAnalyticField.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/TrackBichsel.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/TrackBichsel.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/TrackPAI.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/TrackPAI.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentNeBem2d.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentNeBem2d.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MagboltzInterface.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MagboltzInterface.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Plotting.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Plotting.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/TrackElectron.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/TrackElectron.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumConductor.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumConductor.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/AvalancheMC.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/AvalancheMC.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewDrift.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewDrift.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/GeometrySimple.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/GeometrySimple.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewSignal.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewSignal.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Solid.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Solid.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/GarfieldConstants.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/GarfieldConstants.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewMedium.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewMedium.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentConstant.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentConstant.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentCST.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentCST.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumGaAs.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumGaAs.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/AvalancheMicroscopic.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/AvalancheMicroscopic.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/TrackSimple.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/TrackSimple.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Random.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Random.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentVoxel.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentVoxel.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumMagboltz.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumMagboltz.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/SolidBox.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/SolidBox.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/DriftLineRKF.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/DriftLineRKF.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentTcad2d.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentTcad2d.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentTcad3d.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentTcad3d.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/GeometryBase.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/GeometryBase.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/PlottingEngine.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/PlottingEngine.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/PlottingEngineRoot.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/PlottingEngineRoot.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/SolidTube.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/SolidTube.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentBase.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentBase.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/GeometryRoot.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/GeometryRoot.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumPlastic.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumPlastic.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumSilicon.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumSilicon.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentUser.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentUser.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewFEMesh.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewFEMesh.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentAnsys121.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentAnsys121.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentFieldMap.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentFieldMap.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Track.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Track.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ComponentAnsys123.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ComponentAnsys123.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/RandomEngine.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/RandomEngine.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Sensor.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Sensor.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/RandomEngineRoot.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/RandomEngineRoot.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewCell.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewCell.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumGas.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumGas.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/ViewField.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/ViewField.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/MediumCdTe.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/MediumCdTe.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Header Files/Medium.hh</name>
+			<type>1</type>
+			<location>/afs/cern.ch/user/d/dpfeiffe/garfield/Include/Medium.hh</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] NeutronGEM/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

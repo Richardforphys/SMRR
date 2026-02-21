@@ -1,0 +1,27 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ubuntu/SMRR/Exercises/task2/task2b/src/DetectorConstruction.cc" "CMakeFiles/exampletask2b.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampletask2b.dir/src/DetectorConstruction.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/task2/task2b/src/DetectorMessenger.cc" "CMakeFiles/exampletask2b.dir/src/DetectorMessenger.cc.o" "gcc" "CMakeFiles/exampletask2b.dir/src/DetectorMessenger.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/task2/task2b/src/PhysicsList.cc" "CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/exampletask2b.dir/src/PhysicsList.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/task2/task2b/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampletask2b.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/task2/task2b/task2b.cc" "CMakeFiles/exampletask2b.dir/task2b.cc.o" "gcc" "CMakeFiles/exampletask2b.dir/task2b.cc.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

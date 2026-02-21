@@ -1,7 +1,0 @@
-===================================================
-Summary for run: 0
-Event processed: 20
-Average number of secondaries: 432
-Average energy in EM calo: 110.815 keV
-Average energy in Had calo: 409.298 keV
-===================================================

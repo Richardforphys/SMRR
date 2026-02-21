@@ -1,0 +1,24 @@
+====================================================================
+Summary for run: 100MeV
+Events processed: 5000
+Average secondaries: 282675
+Average energy in EM calo: 116.001 MeV
+Average energy in Had calo: 234.87 keV
+Average step length in EM calo: 80.0143 cm 
+
+====================================================================
+Summary for run: 50MeV
+Events processed: 5000
+Average secondaries: 261505
+Average energy in EM calo: 63.8488 MeV
+Average energy in Had calo: 174.411 keV
+Average step length in EM calo: 61.2734 cm 
+
+====================================================================
+Summary for run: 10MeV
+Events processed: 5000
+Average secondaries: -403746
+Average energy in EM calo: 17.8666 MeV
+Average energy in Had calo: 140.518 keV
+Average step length in EM calo: 34.1444 cm 
+====================================================================

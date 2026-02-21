@@ -1,0 +1,7 @@
+
+# Add gps macro commands
+
+...
+
+# Generate an event
+/run/beamOn 1

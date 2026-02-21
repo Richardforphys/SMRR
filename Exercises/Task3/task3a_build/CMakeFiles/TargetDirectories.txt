@@ -1,0 +1,8 @@
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/exampletask3a.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/task3a.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/edit_cache.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/list_install_components.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/install.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/install/local.dir
+/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles/install/strip.dir

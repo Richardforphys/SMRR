@@ -1,4 +1,0 @@
-/random/setSeeds 1 4
-/gps/particle deuteron
-/gps/energy 50 MeV
-/run/beamOn 1000000

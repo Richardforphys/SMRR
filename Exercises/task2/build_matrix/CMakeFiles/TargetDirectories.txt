@@ -1,8 +1,0 @@
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/exampletask2a.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/task2a.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/edit_cache.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/list_install_components.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/install.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/install/local.dir
-/home/ubuntu/SMRR/Exercises/task2/build_matrix/CMakeFiles/install/strip.dir

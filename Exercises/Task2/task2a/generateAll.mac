@@ -1,0 +1,17 @@
+#Macro file to genearte all data for DESY tutorial
+#Comment / uncomment section
+#Note each run will genearte a different ROOT file
+
+#Setup GPS
+/control/execute gps.mac
+
+#Set number of events for all runs (except noise)
+/control/alias nevents 100000
+#Noise Run
+/control/execute noise.mac
+
+#SiTelescope setup:scan in energy
+/control/execute sitelescope.mac
+
+#DUT setup: rotate DUT
+/control/execute dutsetupRotate.mac
