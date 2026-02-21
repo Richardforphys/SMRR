@@ -1,4 +1,5 @@
 /build
+/.vscode
 /ROOT
 /geant4
 /geant4_build
@@ -6,6 +7,7 @@
 /CLHEP
 /CLHEP_build
 /CLHEP_install
+/Lezioni/TOF_build
 /venv
 /Exercises/Task6/MATERIALS
 /garfield

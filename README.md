@@ -1,5 +1,13 @@
 # SMRR - Folder for "Simulazioni Montecarlo di Rivelatori di Radiazione" course
-To run any non Geant4 programm use the following command line "gdb -batch -ex "run" ./test1"
+Lezioni
+│   ├── TOF
+│   ├── TOF_build
+│   ├── LaBR3
+Esercizi
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── GNUmakefile
+│   │   │   ├── PY
+
 
 ### WSL install (linux subsystem with Ubuntu distr)
 Visit https://www.boot.dev/lessons/3d1c6ce3-bcc3-43a9-b2ae-809a968d524a
@@ -88,8 +96,7 @@ $ cmake -DCMAKE_PREFIX_PATH=/home/ubuntu/SMRR/geant4_install  /home/ubuntu/SMRR/
 $ make -j$(nproc) VERBOSE=1
 ```
 
-Nel caso in cui in fase di compilazione dovesse apparire il fatal error "ENSDATA.dat not found", 
-Comandi per risolvere ENSDATA.dat not found:
+To solve ENSDATA.dat not found:
 
 ```bash
 $ export G4ENSDFSTATEDATA=/home/ubuntu/SMRR/GEANT4/geant4_install/share/Geant4/data/G4ENSDFSTATE3.0
@@ -129,51 +136,4 @@ If it prints something sensible → ✅ done.
 ```bash
 $ cmake -DCMAKE_PREFIX_PATH="/home/ubuntu/SMRR/geant4_install;/home/ubuntu/SMRR/ROOT/root_install;/home/ubuntu/SMRR/CLHEP_install" /home/ubuntu/SMRR/Exercises/task2/task2a
 $ make -j$(nproc) VERBOSE=1
-```
-
----
-### CMakeLists.txt minimal content
-```bash
-cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
-project(LaBr3)
-
-# Options
-option(WITH_GEANT4_UIVIS "Build example with Geant4 UI and Vis drivers" ON)
-
-# ROOT setup
-set(ROOT_DIR "/home/ubuntu/SMRR/ROOT/root_install")
-find_package(ROOT REQUIRED COMPONENTS Core RIO)
-
-# Geant4 setup
-if(WITH_GEANT4_UIVIS)
-  find_package(Geant4 REQUIRED ui_all vis_all)
-else()
-  find_package(Geant4 REQUIRED)
-endif()
-
-# Include directories
-include_directories(
-    ${PROJECT_SOURCE_DIR}/include
-    ${Geant4_INCLUDE_DIR}
-    ${ROOT_INCLUDE_DIRS}
-)
-
-# Sources and headers
-file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
-file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
-
-# Executable
-add_executable(exampleLaBr3 LaBr3.cc ${sources} ${headers})
-
-# Link libraries
-target_link_libraries(exampleLaBr3 ${Geant4_LIBRARIES} ${ROOT_LIBRARIES})
-
-# Copy scripts
-set(EXAMPLELABR3_SCRIPTS vis.mac)
-foreach(_script ${EXAMPLELABR3_SCRIPTS})
-    configure_file(${PROJECT_SOURCE_DIR}/${_script} ${PROJECT_BINARY_DIR}/${_script} COPYONLY)
-endforeach()
-
-# Install target
-install(TARGETS exampleLaBr3 DESTINATION bin)
 ```
