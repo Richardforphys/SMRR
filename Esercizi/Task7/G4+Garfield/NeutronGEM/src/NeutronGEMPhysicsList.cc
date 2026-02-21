@@ -35,7 +35,7 @@
 #include "G4ProcessVector.hh"
 #include "G4HadronPhysicsQGSP_BIC_HP.hh"
 #include "G4EmLivermorePhysics.hh"
-#include "G4EmProcessOptions.hh"
+#include "G4EmParameters.hh"
 #include "G4UnitsTable.hh"
 #include "G4FastSimulationManagerProcess.hh"
 #include "G4PAIModel.hh"
@@ -71,11 +71,12 @@ void NeutronGEMPhysicsList::AddParameterisation() {
 	// -- Fast simulation manager process for "mass geometry":
 	G4FastSimulationManagerProcess* fastSimProcess_garfield =
 			new G4FastSimulationManagerProcess("G4FSMP_garfield");
+	auto particleIterator = GetParticleIterator();
+	particleIterator->reset();
 
-	theParticleIterator->reset();
-	while ((*theParticleIterator)()) {
+	while ((*particleIterator)()) {
 
-		G4ParticleDefinition* particle = theParticleIterator->value();
+		G4ParticleDefinition* particle = particleIterator->value();
 		G4ProcessManager* pmanager = particle->GetProcessManager();
 
 		if (fGarfieldPhysics->FindParticleName(particle->GetParticleName())) {
@@ -132,9 +133,9 @@ void NeutronGEMPhysicsList::ConstructParticle() {
 void NeutronGEMPhysicsList::ConstructProcess() {
 	G4VModularPhysicsList::ConstructProcess();
 	AddParameterisation();
-	G4EmProcessOptions emOptions;
-	emOptions.SetFluo(true);
-	emOptions.SetAuger(true);
-	emOptions.SetPIXE(true);
+	auto emParams = G4EmParameters::Instance();
+	emParams->SetFluo(true);
+	emParams->SetAuger(true);
+	emParams->SetPixe(true);
 }
 

@@ -41,12 +41,11 @@
 #include "G4SDManager.hh"
 #include "G4VisAttributes.hh"
 #include "G4UnitsTable.hh"
-#include "/home/g4user/g4/geant4.10.00.p02/source/persistency/gdml/include/G4GDMLParser.hh"
+#include "/home/ubuntu/SMRR/geant4/source/persistency/gdml/include/G4GDMLParser.hh"
 #include "G4LogicalVolumeStore.hh"
 #include "G4ProductionCuts.hh"
 #include <TGeoManager.h>
 #include <TCanvas.h>
-
 #include "G4ElectricField.hh"
 #include "G4EqMagElectricField.hh"
 #include "G4UniformElectricField.hh"
@@ -54,6 +53,7 @@
 #include "G4TransportationManager.hh"
 #include "G4Mag_UsualEqRhs.hh"
 #include "G4MagIntegratorStepper.hh"
+#include "G4IntegrationDriver.hh"
 #include "G4ChordFinder.hh"
 #include "G4ClassicalRK4.hh"
 
@@ -230,10 +230,10 @@ G4VPhysicalVolume* NeutronGEMDetectorConstruction::Construct() {
 
 	G4ElectricField* fEMfield;
 	G4EqMagElectricField* fEquation;
-	G4MagIntegratorStepper* fStepper;
+	G4ClassicalRK4* fStepper;
 	G4double fMinStep;
 	G4ChordFinder* fChordFinder;
-	G4MagInt_Driver* fIntgrDriver;
+	G4IntegrationDriver<G4ClassicalRK4>* fIntgrDriver;
 	G4FieldManager* fFieldMgr;
 
 	if (fDriftField > 0) {
@@ -246,10 +246,11 @@ G4VPhysicalVolume* NeutronGEMDetectorConstruction::Construct() {
 		G4int nvar = 8;
 		fStepper = new G4ClassicalRK4(fEquation, nvar);
 
-		fMinStep = 10 * CLHEP::nm;
+		fIntgrDriver = new G4IntegrationDriver<G4ClassicalRK4>(
+						fMinStep, fStepper,
+						fStepper->GetNumberOfVariables());
 
-		fIntgrDriver = new G4MagInt_Driver(fMinStep, fStepper,
-				fStepper->GetNumberOfVariables());
+		fMinStep = 10 * CLHEP::nm;
 		fChordFinder = new G4ChordFinder(fIntgrDriver);
 	}
 
@@ -315,7 +316,7 @@ G4VPhysicalVolume* NeutronGEMDetectorConstruction::Construct() {
 	}
 
 	//--------- Visualization attributes -------------------------------
-	fLogicalWorld->SetVisAttributes(G4VisAttributes::Invisible);
+	fLogicalWorld->SetVisAttributes(G4VisAttributes(false));
 
 	G4VisAttributes* CathodeVisAtt = new G4VisAttributes(
 			G4Colour(1.0, 0.0, 0.0));

@@ -157,8 +157,6 @@ void GarfieldPhysics::DoIt(std::string particleName, double ekin_keV,double time
 	int nsum = 0;
 
 	if (particleName == "e-" || particleName == "electron") {
-		if (ekin_keV >= 60) {
-
 			fTrackHeed->SetParticle(particleName);
 			fTrackHeed->SetKineticEnergy(eKin_eV);
 			fTrackHeed->NewTrack(x_cm, y_cm, z_cm, time, dx, dy, dz);
@@ -198,33 +196,7 @@ void GarfieldPhysics::DoIt(std::string particleName, double ekin_keV,double time
 				histoManager->fillHistogram(21,(double)(esum*0.001));
 
 			}
-		} else {
-			fTrackElectron->SetParticle(particleName);
-			fTrackElectron->SetKineticEnergy(eKin_eV);
-			fTrackElectron->NewTrack(x_cm, y_cm, z_cm, time, dx, dy, dz);
-			xc = 0.;
-			yc = 0;
-			zc = 0.;
-			tc = 0.;
-			nc = 0;
-			ec = 0.;
-			esum = 0.;
-			nsum = 0;
-
-			while (fTrackElectron->GetClusters(xc, yc, zc, tc, nc, ec, extra)) {
-				esum += ec;
-				nsum += nc;
-				histoManager->Fill3DEnergyElectrons(1,xc,yc,zc,ec);
-				for (int i = 0; i < nc; ++i) {
-					dataManager->increaseCounter(11);
-					histoManager->AddClustersConversionElectrons();
-				}
-				histoManager->fillHistogram(21, (double)(esum*0.001));
-
-			}
-
-		}
-	} else if (particleName == "gamma") {
+		} else if (particleName == "gamma") {
 		esum = 0.;
 		fTrackHeed->TransportPhoton(x_cm, y_cm, z_cm, time, eKin_eV, dx, dy, dz,
 				nsum);

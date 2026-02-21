@@ -35,13 +35,11 @@
 #include <map>
 #include <fstream>
 
-#ifdef G4ANALYSIS_USE
 #include "TH1D.h"
 #include "TH2D.h"
 #include "TH3D.h"
 #include "TFile.h"
 #include "TTree.h"
-#endif
 
 NeutronGEMUserScoreWriter::NeutronGEMUserScoreWriter(NeutronGEMDataManager* dataManager)
 	: G4VScoreWriter(), fDataManager(dataManager) {
@@ -97,8 +95,6 @@ void NeutronGEMUserScoreWriter::DumpQuantityToFile(const G4String & psName, cons
 	TH3D* histo3D;
 
 
-	MeshScoreMap fSMap = fScoringMesh->GetScoreMap();
-
 	G4ThreeVector v = fScoringMesh->GetSize();
 	G4int sizeX = v.getX();
 	G4int sizeY = v.getY();
@@ -119,13 +115,16 @@ void NeutronGEMUserScoreWriter::DumpQuantityToFile(const G4String & psName, cons
 	G4int scaleY = 2*sizeY/fNMeshSegments[1];
 	G4int scaleZ = 2*sizeZ/fNMeshSegments[2];
 
-	MeshScoreMap::const_iterator msMapItr = fSMap.find(psName);
+	auto fSMap = fScoringMesh->GetScoreMap();
+
+	auto msMapItr = fSMap.find(psName);
 	if(msMapItr == fSMap.end()) {
 		G4cerr << "ERROR : DumpToFile : Unknown quantity, \""
 			<< psName << "\"." << G4endl;
 		return;
 	}
-	std::map<G4int, G4double*> * score = msMapItr->second->GetMap();
+
+	auto score = msMapItr->second->GetMap();
 
 	histo3D = new TH3D(psName, msMapItr->first, fNMeshSegments[0], -sizeX, sizeX, fNMeshSegments[1], -sizeY, sizeY,fNMeshSegments[2],-sizeZ, sizeZ);
 	if (!histo3D) G4cout << "\n can't create histo3D" << G4endl;
@@ -133,10 +132,10 @@ void NeutronGEMUserScoreWriter::DumpQuantityToFile(const G4String & psName, cons
 		for(int y = 0; y < fNMeshSegments[1]; y++) {
 			for(int z = 0; z < fNMeshSegments[2]; z++) {
 				G4int idx = GetIndex(x, y, z);
-				std::map<G4int, G4double*>::iterator value = score->find(idx);
+				auto value = score->find(idx);
 				if(value != score->end()) 
 				{
-					double newVal = *(value->second);
+					double newVal = value->second->mean();
 					histo3D->Fill(-sizeX+x*scaleX,-sizeY + y*scaleY,-sizeZ + z*scaleZ,newVal/unitValue);
 				}
 			}
@@ -149,10 +148,10 @@ void NeutronGEMUserScoreWriter::DumpQuantityToFile(const G4String & psName, cons
 		for(int y = 0; y < fNMeshSegments[1]; y++) {
 			for(int z = 0; z < fNMeshSegments[2]; z++) {
 				G4int idx = GetIndex(x, y, z);
-				std::map<G4int, G4double*>::iterator value = score->find(idx);
+				auto value = score->find(idx);
 				if(value != score->end()) 
 				{
-					double newVal = *(value->second);
+					double newVal = value->second->mean();
 					histo2D[1]->Fill(-sizeX+x*scaleX,-sizeY + y*scaleY,newVal/unitValue);
 				}
 			}
@@ -171,10 +170,10 @@ void NeutronGEMUserScoreWriter::DumpQuantityToFile(const G4String & psName, cons
 		for(int z = 0; z < fNMeshSegments[2]; z++) {
 			for(int x = 0; x < fNMeshSegments[0]; x++) {
 				G4int idx = GetIndex(x, y, z);
-				std::map<G4int, G4double*>::iterator value = score->find(idx);
+				auto value = score->find(idx);
 				if(value != score->end()) 
 				{
-					double newVal = *(value->second);
+					double newVal = value->second->mean();
 					histo2D[2]->Fill(-sizeZ + z*scaleZ,-sizeY + y*scaleY,newVal/unitValue);
 				}
 			}
@@ -193,10 +192,10 @@ void NeutronGEMUserScoreWriter::DumpQuantityToFile(const G4String & psName, cons
 		for(int x = 0; x < fNMeshSegments[0]; x++) {
 			for(int y = 0; y < fNMeshSegments[1]; y++) {
 				G4int idx = GetIndex(x, y, z);
-				std::map<G4int, G4double*>::iterator value = score->find(idx);
+				auto value = score->find(idx);
 				if(value != score->end()) 
 				{
-					double newVal = *(value->second);
+					double newVal = value->second->mean();
 					histo2D[3]->Fill(-sizeZ + z*scaleZ,-sizeX + x*scaleX,newVal/unitValue);
 				}
 			}

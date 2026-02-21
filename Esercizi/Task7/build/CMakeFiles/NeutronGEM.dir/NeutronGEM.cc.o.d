@@ -1,5 +1,5 @@
 CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RunManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
@@ -503,10 +503,10 @@ CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VStateDependent.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/icomsdefs.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/Randomize.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMDetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMDetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMPhysicsList.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMPhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VModularPhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicsListHelper.hh \
@@ -521,29 +521,29 @@ CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialCutsCouple.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProductionCuts.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MCCIndexConversionTable.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMPrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMPrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMRunAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMRunAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserRunAction.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMEventAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMEventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMStackingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMStackingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserStackingAction.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMSteppingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMSteppingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserSteppingAction.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMHistoManager.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMHistoManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMTrackingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMTrackingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserTrackingAction.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMDataManager.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMDataManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMHistoManager.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/GarfieldG4FastSimulationModel.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMHistoManager.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/GarfieldG4FastSimulationModel.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VFastSimulationModel.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4FastStep.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4FastTrack.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4FastStep.icc \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
  /home/ubuntu/SMRR/garfield/Include/Garfield/Sensor.hh \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
  /home/ubuntu/SMRR/garfield/Include/Garfield/AvalancheMicroscopic.hh \
@@ -620,127 +620,4 @@ CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoMatrix.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoMaterial.h \
  /home/ubuntu/SMRR/garfield/Include/Garfield/Geometry.hh \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisExecutive.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisManager.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VVisManager.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GraphicsSystemList.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VGraphicsSystem.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ModelingParameters.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisExtent.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Point3D.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisAttributes.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/graphics_reps_defs.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Colour.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Color.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisAttributes.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ModelingParameters.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4NullModel.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VModel.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VModel.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SceneHandlerList.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSceneHandler.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VGraphicsScene.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ViewerList.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VViewer.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SceneTreeItem.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AttDef.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TypeKey.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AttValue.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ViewParameters.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Vector3D.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Plane3D.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Geometry/Plane3D.h \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VMarker.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Visible.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Visible.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VMarker.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ViewParameters.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PhysicalVolumeModel.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PseudoScene.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Box.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeomTypes.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeomConfig.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CSGSolid.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Polyhedron.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/HepPolyhedron.h \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TwoVector.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Normal3D.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Box.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Cons.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Cons.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Orb.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Orb.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Para.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Para.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Sphere.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Sphere.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Torus.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Torus.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Trap.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Trap.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Trd.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Trd.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Tubs.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Tubs.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Ellipsoid.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Ellipsoid.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Polycone.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VCSGfaceted.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PolyconeSide.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VCSGface.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PolyconeHistorical.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Polycone.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Polyhedra.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PolyhedraSide.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PolyhedraHistorical.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Polyhedra.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TessellatedSolid.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Voxelizer.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SurfBits.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SurfBits.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VFacet.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/windefs.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Voxelizer.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VViewer.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSceneHandler.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SceneList.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Scene.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Scene.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrajectoriesModel.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisManager.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisExecutive.icc \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HitFilterFactories.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VFilter.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VModelFactory.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DigiFilterFactories.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigi.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrajectoryFilterFactories.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrajectoryModelFactories.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTrajectoryModel.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ASCIITree.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTree.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DAWNFILE.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RayTracer.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VRML2File.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GMocrenFile.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ToolsSGOffscreen.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OpenGLImmediateX.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OpenGLStoredX.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OpenGLImmediateQt.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OpenGLQt.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4OpenGLStoredQt.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RayTracerQt.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ToolsSGX11GLES.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ToolsSGX11ZB.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ToolsSGQtGLES.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ToolsSGQtZB.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UImanager.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIsession.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4coutDestination.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIbatch.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIExecutive.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUIshell.hh
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh

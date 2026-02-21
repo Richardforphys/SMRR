@@ -1,7 +1,7 @@
 CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
  /usr/include/c++/13/map /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -321,7 +321,7 @@ CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoMatrix.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoVolume.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TGeoElement.h \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMDataManager.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMDataManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
@@ -355,7 +355,7 @@ CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMHistoManager.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/NeutronGEMHistoManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DataVector.icc \

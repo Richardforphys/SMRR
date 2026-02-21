@@ -1,5 +1,5 @@
 CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -150,7 +150,7 @@ CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/GarfieldG4FastSimulationModel.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/GarfieldG4FastSimulationModel.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VFastSimulationModel.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4FastStep.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleMomentum.hh \
@@ -385,7 +385,7 @@ CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VParticleChange.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VParticleChange.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4FastStep.icc \
- /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
+ /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/include/GarfieldPhysics.hh \
  /home/ubuntu/SMRR/garfield/Include/Garfield/Sensor.hh \
  /usr/include/c++/13/array /usr/include/c++/13/compare \
  /usr/include/c++/13/functional /usr/include/c++/13/unordered_map \

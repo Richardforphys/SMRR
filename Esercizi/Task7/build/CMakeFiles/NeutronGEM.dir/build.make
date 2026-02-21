@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/Task7/build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Esercizi/Task7/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NeutronGEM.dir/depend.make
@@ -70,214 +70,214 @@ include CMakeFiles/NeutronGEM.dir/progress.make
 include CMakeFiles/NeutronGEM.dir/flags.make
 
 CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc
+CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc
 CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o -MF CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o.d -o CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o -MF CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o.d -o CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc
 
 CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc > CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc > CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.i
 
 CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc -o CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/NeutronGEM.cc -o CMakeFiles/NeutronGEM.dir/NeutronGEM.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc
+CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc
 CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o -MF CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o -MF CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc
 
 CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc > CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc > CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc -o CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldG4FastSimulationModel.cc -o CMakeFiles/NeutronGEM.dir/src/GarfieldG4FastSimulationModel.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc
+CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc
 CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o -MF CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o -MF CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc
 
 CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc > CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc > CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc -o CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/GarfieldPhysics.cc -o CMakeFiles/NeutronGEM.dir/src/GarfieldPhysics.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDataManager.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDataManager.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMDetectorConstruction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMDetectorConstruction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMEventAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMEventAction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMHistoManager.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMHistoManager.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPhysicsList.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPhysicsList.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMPrimaryGeneratorAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMPrimaryGeneratorAction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMRunAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMRunAction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMStackingAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMStackingAction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMSteppingAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMSteppingAction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackInformation.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackInformation.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMTrackingAction.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMTrackingAction.cc.s
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o: CMakeFiles/NeutronGEM.dir/flags.make
-CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o: /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc
+CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o: /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o: CMakeFiles/NeutronGEM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o -c /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o -MF CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o.d -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.o -c /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc > CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.i
 
 CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM/src/NeutronGEMUserScoreWriter.cc -o CMakeFiles/NeutronGEM.dir/src/NeutronGEMUserScoreWriter.cc.s
 
 # Object files for target NeutronGEM
 NeutronGEM_OBJECTS = \
@@ -376,7 +376,7 @@ NeutronGEM: /home/ubuntu/SMRR/geant4_install/lib/libG4clhep.so
 NeutronGEM: /home/ubuntu/SMRR/geant4_install/lib/libG4ptl.so.3.0.0
 NeutronGEM: /home/ubuntu/SMRR/geant4_install/lib/libG4zlib.so
 NeutronGEM: CMakeFiles/NeutronGEM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable NeutronGEM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable NeutronGEM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeutronGEM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -388,6 +388,6 @@ CMakeFiles/NeutronGEM.dir/clean:
 .PHONY : CMakeFiles/NeutronGEM.dir/clean
 
 CMakeFiles/NeutronGEM.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/Task7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM /home/ubuntu/SMRR/Exercises/Task7/G4+Garfield/NeutronGEM /home/ubuntu/SMRR/Exercises/Task7/build /home/ubuntu/SMRR/Exercises/Task7/build /home/ubuntu/SMRR/Exercises/Task7/build/CMakeFiles/NeutronGEM.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/Esercizi/Task7/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM /home/ubuntu/SMRR/Esercizi/Task7/G4+Garfield/NeutronGEM /home/ubuntu/SMRR/Esercizi/Task7/build /home/ubuntu/SMRR/Esercizi/Task7/build /home/ubuntu/SMRR/Esercizi/Task7/build/CMakeFiles/NeutronGEM.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/NeutronGEM.dir/depend
 

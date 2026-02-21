@@ -7,14 +7,12 @@
 
 #include <iomanip>
 
-#ifdef G4ANALYSIS_USE
 #include "TH1D.h"
 #include "TH3D.h"
 #include "TH2D.h"
 #include "TBranch.h"
 #include "TFile.h"
 #include "TTree.h"
-#endif
 #include "G4SystemOfUnits.hh"
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
