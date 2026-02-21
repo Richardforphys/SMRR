@@ -7,7 +7,7 @@
 #include <iostream>
 #include "GarfieldG4FastSimulationModel.hh"
 #include "G4VPhysicalVolume.hh"
-#include "/home/g4user/g4/geant4.10.00.p02/source/persistency/gdml/include/G4GDMLParser.hh"
+#include "/home/ubuntu/SMRR/geant4/source/persistency/gdml/include/G4GDMLParser.hh"
 #include "G4Electron.hh"
 #include "G4Gamma.hh"
 

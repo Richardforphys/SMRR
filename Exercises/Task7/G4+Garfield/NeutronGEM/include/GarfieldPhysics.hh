@@ -12,13 +12,13 @@
 #include <vector>
 #include <iostream>
 
-#include "Sensor.hh"
-#include "AvalancheMicroscopic.hh"
-#include "ComponentConstant.hh"
-#include "TrackHeed.hh"
-#include "TrackElectron.hh"
-#include "MediumMagboltz.hh"
-#include "GeometryRoot.hh"
+#include "Garfield/Sensor.hh"
+#include "Garfield/AvalancheMicroscopic.hh"
+#include "Garfield/ComponentConstant.hh"
+#include "Garfield/TrackHeed.hh"
+#include "Garfield/TrackElectron.hh"
+#include "Garfield/MediumMagboltz.hh"
+#include "Garfield/GeometryRoot.hh"
 
 typedef std::pair<double, double> EnergyRange_keV;
 typedef std::map< const std::string, EnergyRange_keV> MapParticlesEnergy;

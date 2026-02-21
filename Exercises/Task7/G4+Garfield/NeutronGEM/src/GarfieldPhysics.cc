@@ -1,7 +1,7 @@
 #include "GarfieldPhysics.hh"
 
 #include "TGeoManager.h"
-#include "/home/g4user/root/root/geom/gdml/inc/TGDMLParse.h"
+#include "/home/ubuntu/SMRR/ROOT/root_src/geom/gdml/inc/TGDMLParse.h"
 #include "NeutronGEMDataManager.hh"
 #include "NeutronGEMHistoManager.hh"
 #include "TGeoBBox.h"
@@ -211,7 +211,7 @@ void GarfieldPhysics::DoIt(std::string particleName, double ekin_keV,double time
 			esum = 0.;
 			nsum = 0;
 
-			while (fTrackElectron->GetCluster(xc, yc, zc, tc, nc, ec, extra)) {
+			while (fTrackElectron->GetClusters(xc, yc, zc, tc, nc, ec, extra)) {
 				esum += ec;
 				nsum += nc;
 				histoManager->Fill3DEnergyElectrons(1,xc,yc,zc,ec);
