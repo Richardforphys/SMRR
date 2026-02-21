@@ -1,19 +1,22 @@
 # SMRR - Folder for "Simulazioni Montecarlo di Rivelatori di Radiazione" course
-Lezioni
-│   ├── TOF
-│   ├── TOF_build
-│   ├── LaBR3
-Esercizi
-│   │   │   ├── CMakeLists.txt
-│   │   │   ├── GNUmakefile
-│   │   │   ├── PY
+Lezioni --> Tutto ciò che non è legato all'esame \
+   ├── TOF (Legato a lezioni su CAD) \
+   ├── LaBr3 (Costruzione in classe rivelatore al bromuro di lantanio) \
+**Esercizi --> Esercizi di Geant4 da svolgere per l'esame**\
+   ├── Task1 \
+   ├── Task2 \
+   ├── Task3 \
+   ├── Task4 \
+   ├── Task6 \
+   ├── Task7 (Facoltativo, da non valutare)\
+**Garfield_tasks --> Esercizi di G++ da svolgere per l'esame** \
+   ├── GEM_THICK \
+   ├── Rx_Interaction 
 
-
-### WSL install (linux subsystem with Ubuntu distr)
+## WSL install (linux subsystem with Ubuntu distr)
 Visit https://www.boot.dev/lessons/3d1c6ce3-bcc3-43a9-b2ae-809a968d524a
----
 
-### CERN Geant4 install from source
+## CERN Geant4 install from source
 ```bash
 # Make sure xerces is installed
 $ sudo apt-update
@@ -32,7 +35,7 @@ $ cmake --build . -- -j$(nproc)
 $ cmake --install .
 ```
 ---
-### CERN CLHEP install from source
+## CERN CLHEP install from source
 ```bash
 # The latest stable branch gets updated automatically on each release.
 # You may update your local copy by issuing a `git pull` command from within `root_src/`.
@@ -44,7 +47,7 @@ $ make test
 $ make install
 ```
 ---
-### CERN Root install from source
+## CERN Root install from source
 ```bash
 # The latest stable branch gets updated automatically on each release.
 # You may update your local copy by issuing a `git pull` command from within `root_src/`.
@@ -55,7 +58,7 @@ $ cmake --build . -- install -j4 # if you have 4 cores available for compilation
 $ source ../root_install/bin/thisroot.sh # or thisroot.{fish,csh}
 ```
 ---
-### CERN Garfield++ install from source
+## CERN Garfield++ install from source
 ```bash
 # First install GSL
 $ sudo apt update
@@ -75,16 +78,6 @@ $ make install
 # Modify basrc file again, inserting the following line at the eof
 $ source $GARFIELD_HOME/install/share/Garfield/setupGarfield.sh
 ```
----
-### Folder Structure 
-TaskNmr
-* TaskNmr --> prima sottocartella, contiene i file principali
-    * include --> contains all .hh files
-    * src     --> contains all .cc files
-    * CMakeList.txt --> il programma CMake serve per fare creare l'eseguibile del programma.\
-    Per dirgli come farlo serve questo file di testo, che si ottiene tramite il build.
-* TaskNmr_build --> cartella necessaria per creare l'eseguibile 
-\\
 ---
 ### How to build a GEANT4 programme
 Follow this --> https://geant4.web.cern.ch/documentation/pipelines/master/bfad_html/ForApplicationDevelopers/GettingStarted/makeFile.html
