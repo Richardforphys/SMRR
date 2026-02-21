@@ -1,3 +1,0 @@
-/home/ubuntu/SMRR/TOF_build/CMakeFiles/TOF.dir
-/home/ubuntu/SMRR/TOF_build/CMakeFiles/edit_cache.dir
-/home/ubuntu/SMRR/TOF_build/CMakeFiles/rebuild_cache.dir
