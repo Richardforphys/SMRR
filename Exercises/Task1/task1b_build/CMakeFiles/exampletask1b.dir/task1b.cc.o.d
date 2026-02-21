@@ -1,5 +1,5 @@
 CMakeFiles/exampletask1b.dir/task1b.cc.o: \
- /home/ubuntu/SMRR/Exercises/task1/task1b/task1b.cc \
+ /home/ubuntu/SMRR/Exercises/Task1/task1b/task1b.cc \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RunManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
@@ -624,13 +624,13 @@ CMakeFiles/exampletask1b.dir/task1b.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIbatch.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIExecutive.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUIshell.hh \
- /home/ubuntu/SMRR/Exercises/task1/task1b/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Exercises/Task1/task1b/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ubuntu/SMRR/Exercises/task1/task1b/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Exercises/Task1/task1b/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/ubuntu/SMRR/Exercises/task1/task1b/include/PhysicsList.hh \
+ /home/ubuntu/SMRR/Exercises/Task1/task1b/include/PhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProductionCutsTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialCutsCouple.hh \

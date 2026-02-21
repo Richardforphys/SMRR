@@ -67,7 +67,7 @@
     visQt.mac
     )
   # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
-  # risultati delle simulaizoni e per il run delle stesse.
+  # risultati delle simulazioni e per il run delle stesse.
 
   foreach(_script ${EXAMPLEtask1b_SCRIPTS})
     configure_file(

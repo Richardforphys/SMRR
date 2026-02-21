@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/SMRR/Exercises/task1/task1b/src/DetectorConstruction.cc" "CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o.d"
-  "/home/ubuntu/SMRR/Exercises/task1/task1b/src/PhysicsList.cc" "CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o.d"
-  "/home/ubuntu/SMRR/Exercises/task1/task1b/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o.d"
-  "/home/ubuntu/SMRR/Exercises/task1/task1b/task1b.cc" "CMakeFiles/exampletask1b.dir/task1b.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/task1b.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/Task1/task1b/src/DetectorConstruction.cc" "CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/src/DetectorConstruction.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/Task1/task1b/src/PhysicsList.cc" "CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/src/PhysicsList.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/Task1/task1b/src/PrimaryGeneratorAction.cc" "CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "/home/ubuntu/SMRR/Exercises/Task1/task1b/task1b.cc" "CMakeFiles/exampletask1b.dir/task1b.cc.o" "gcc" "CMakeFiles/exampletask1b.dir/task1b.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
