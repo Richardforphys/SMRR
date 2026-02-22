@@ -1,5 +1,5 @@
 CMakeFiles/exampletask3b.dir/src/Analysis.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3b/src/Analysis.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/Analysis.cc \
  /usr/include/stdc-predef.h /usr/include/c++/13/cmath \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -85,7 +85,7 @@ CMakeFiles/exampletask3b.dir/src/Analysis.cc.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/allocator.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task3/task3b
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Esercizi/Task3/task3b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task3/task3b_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Esercizi/Task3/task3b_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampletask3b.dir/depend.make
@@ -70,130 +70,130 @@ include CMakeFiles/exampletask3b.dir/progress.make
 include CMakeFiles/exampletask3b.dir/flags.make
 
 CMakeFiles/exampletask3b.dir/task3b.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/task3b.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/task3b.cc
+CMakeFiles/exampletask3b.dir/task3b.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/task3b.cc
 CMakeFiles/exampletask3b.dir/task3b.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampletask3b.dir/task3b.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/task3b.cc.o -MF CMakeFiles/exampletask3b.dir/task3b.cc.o.d -o CMakeFiles/exampletask3b.dir/task3b.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/task3b.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampletask3b.dir/task3b.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/task3b.cc.o -MF CMakeFiles/exampletask3b.dir/task3b.cc.o.d -o CMakeFiles/exampletask3b.dir/task3b.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/task3b.cc
 
 CMakeFiles/exampletask3b.dir/task3b.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/task3b.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/task3b.cc > CMakeFiles/exampletask3b.dir/task3b.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/task3b.cc > CMakeFiles/exampletask3b.dir/task3b.cc.i
 
 CMakeFiles/exampletask3b.dir/task3b.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/task3b.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/task3b.cc -o CMakeFiles/exampletask3b.dir/task3b.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/task3b.cc -o CMakeFiles/exampletask3b.dir/task3b.cc.s
 
 CMakeFiles/exampletask3b.dir/src/Analysis.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/Analysis.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/Analysis.cc
+CMakeFiles/exampletask3b.dir/src/Analysis.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/Analysis.cc
 CMakeFiles/exampletask3b.dir/src/Analysis.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampletask3b.dir/src/Analysis.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/Analysis.cc.o -MF CMakeFiles/exampletask3b.dir/src/Analysis.cc.o.d -o CMakeFiles/exampletask3b.dir/src/Analysis.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/Analysis.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampletask3b.dir/src/Analysis.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/Analysis.cc.o -MF CMakeFiles/exampletask3b.dir/src/Analysis.cc.o.d -o CMakeFiles/exampletask3b.dir/src/Analysis.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/Analysis.cc
 
 CMakeFiles/exampletask3b.dir/src/Analysis.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/Analysis.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/Analysis.cc > CMakeFiles/exampletask3b.dir/src/Analysis.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/Analysis.cc > CMakeFiles/exampletask3b.dir/src/Analysis.cc.i
 
 CMakeFiles/exampletask3b.dir/src/Analysis.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/Analysis.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/Analysis.cc -o CMakeFiles/exampletask3b.dir/src/Analysis.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/Analysis.cc -o CMakeFiles/exampletask3b.dir/src/Analysis.cc.s
 
 CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/DetectorConstruction.cc
+CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/DetectorConstruction.cc
 CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/DetectorConstruction.cc
 
 CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/DetectorConstruction.cc > CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/DetectorConstruction.cc > CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/DetectorConstruction.cc -o CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/DetectorConstruction.cc -o CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/exampletask3b.dir/src/EventAction.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/EventAction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/EventAction.cc
+CMakeFiles/exampletask3b.dir/src/EventAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/EventAction.cc
 CMakeFiles/exampletask3b.dir/src/EventAction.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampletask3b.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/EventAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/EventAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/EventAction.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampletask3b.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/EventAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/EventAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/EventAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/EventAction.cc
 
 CMakeFiles/exampletask3b.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/EventAction.cc > CMakeFiles/exampletask3b.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/EventAction.cc > CMakeFiles/exampletask3b.dir/src/EventAction.cc.i
 
 CMakeFiles/exampletask3b.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/EventAction.cc -o CMakeFiles/exampletask3b.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/EventAction.cc -o CMakeFiles/exampletask3b.dir/src/EventAction.cc.s
 
 CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/PhysicsList.cc
+CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PhysicsList.cc
 CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PhysicsList.cc
 
 CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/PhysicsList.cc > CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PhysicsList.cc > CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.i
 
 CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/PhysicsList.cc -o CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PhysicsList.cc -o CMakeFiles/exampletask3b.dir/src/PhysicsList.cc.s
 
 CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/PrimaryGeneratorAction.cc
+CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/PrimaryGeneratorAction.cc > CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PrimaryGeneratorAction.cc > CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampletask3b.dir/src/RunAction.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/RunAction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/RunAction.cc
+CMakeFiles/exampletask3b.dir/src/RunAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/RunAction.cc
 CMakeFiles/exampletask3b.dir/src/RunAction.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampletask3b.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/RunAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/RunAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/RunAction.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampletask3b.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/RunAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/RunAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/RunAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/RunAction.cc
 
 CMakeFiles/exampletask3b.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/RunAction.cc > CMakeFiles/exampletask3b.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/RunAction.cc > CMakeFiles/exampletask3b.dir/src/RunAction.cc.i
 
 CMakeFiles/exampletask3b.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/RunAction.cc -o CMakeFiles/exampletask3b.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/RunAction.cc -o CMakeFiles/exampletask3b.dir/src/RunAction.cc.s
 
 CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/StackingAction.cc
+CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/StackingAction.cc
 CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/StackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/StackingAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/StackingAction.cc
 
 CMakeFiles/exampletask3b.dir/src/StackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/StackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/StackingAction.cc > CMakeFiles/exampletask3b.dir/src/StackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/StackingAction.cc > CMakeFiles/exampletask3b.dir/src/StackingAction.cc.i
 
 CMakeFiles/exampletask3b.dir/src/StackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/StackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/StackingAction.cc -o CMakeFiles/exampletask3b.dir/src/StackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/StackingAction.cc -o CMakeFiles/exampletask3b.dir/src/StackingAction.cc.s
 
 CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: CMakeFiles/exampletask3b.dir/flags.make
-CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Exercises/task3/task3b/src/SteppingAction.cc
+CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/SteppingAction.cc
 CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o: CMakeFiles/exampletask3b.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o -c /home/ubuntu/SMRR/Exercises/task3/task3b/src/SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o -MF CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o.d -o CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/SteppingAction.cc
 
 CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task3/task3b/src/SteppingAction.cc > CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/SteppingAction.cc > CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.i
 
 CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task3/task3b/src/SteppingAction.cc -o CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/SteppingAction.cc -o CMakeFiles/exampletask3b.dir/src/SteppingAction.cc.s
 
 # Object files for target exampletask3b
 exampletask3b_OBJECTS = \
@@ -232,6 +232,7 @@ exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4modeling.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4interfaces.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4mctruth.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4geomtext.so
+exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4gdml.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4analysis.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4error_propagation.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4readout.so
@@ -264,6 +265,7 @@ exampletask3b: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 exampletask3b: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 exampletask3b: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 exampletask3b: /usr/lib/x86_64-linux-gnu/libGL.so
+exampletask3b: /usr/lib/x86_64-linux-gnu/libxerces-c.so
 exampletask3b: /usr/lib/x86_64-linux-gnu/libexpat.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_hadronic.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_core.so
@@ -279,7 +281,7 @@ exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4clhep.so
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4ptl.so.3.0.0
 exampletask3b: /home/ubuntu/SMRR/geant4_install/lib/libG4zlib.so
 exampletask3b: CMakeFiles/exampletask3b.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable exampletask3b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable exampletask3b"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampletask3b.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -291,6 +293,6 @@ CMakeFiles/exampletask3b.dir/clean:
 .PHONY : CMakeFiles/exampletask3b.dir/clean
 
 CMakeFiles/exampletask3b.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/task3/task3b_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task3/task3b /home/ubuntu/SMRR/Exercises/task3/task3b /home/ubuntu/SMRR/Exercises/task3/task3b_build /home/ubuntu/SMRR/Exercises/task3/task3b_build /home/ubuntu/SMRR/Exercises/task3/task3b_build/CMakeFiles/exampletask3b.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/Esercizi/Task3/task3b_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Esercizi/Task3/task3b /home/ubuntu/SMRR/Esercizi/Task3/task3b /home/ubuntu/SMRR/Esercizi/Task3/task3b_build /home/ubuntu/SMRR/Esercizi/Task3/task3b_build /home/ubuntu/SMRR/Esercizi/Task3/task3b_build/CMakeFiles/exampletask3b.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/exampletask3b.dir/depend
 

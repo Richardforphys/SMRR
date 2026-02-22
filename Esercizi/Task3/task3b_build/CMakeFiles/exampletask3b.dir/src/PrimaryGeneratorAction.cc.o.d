@@ -1,9 +1,9 @@
 CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3b/src/PrimaryGeneratorAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -288,7 +288,7 @@ CMakeFiles/exampletask3b.dir/src/PrimaryGeneratorAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleMomentum.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeneralParticleSource.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SingleParticleSource.hh \

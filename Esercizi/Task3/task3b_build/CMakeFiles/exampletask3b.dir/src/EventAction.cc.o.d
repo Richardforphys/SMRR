@@ -1,7 +1,7 @@
 CMakeFiles/exampletask3b.dir/src/EventAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3b/src/EventAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/EventAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/EventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -384,5 +384,5 @@ CMakeFiles/exampletask3b.dir/src/EventAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserEventInformation.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.icc \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Run.hh

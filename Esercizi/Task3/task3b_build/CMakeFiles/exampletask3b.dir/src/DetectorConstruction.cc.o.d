@@ -1,7 +1,7 @@
 CMakeFiles/exampletask3b.dir/src/DetectorConstruction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3b/src/DetectorConstruction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3b/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3b/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
