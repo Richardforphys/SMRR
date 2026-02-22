@@ -33,8 +33,7 @@ void SteppingAction::UserSteppingAction(const G4Step* theStep)
     // =========================================================
     if (volCopyNum > 9 && volCopyNum < 100)   // EM calo step
     {
-        Analysis::GetInstance()
-            ->AddEDepEM(theStep->GetTotalEnergyDeposit());
+        Analysis::GetInstance()->AddEDepEM(theStep->GetTotalEnergyDeposit());
     }
 
     // =========================================================
@@ -44,8 +43,7 @@ void SteppingAction::UserSteppingAction(const G4Step* theStep)
     const G4ParticleDefinition* particle = track->GetParticleDefinition();
 
     // Selezione particella: muoni
-    if ( particle == G4MuonMinus::Definition() ||
-         particle == G4MuonPlus::Definition() )
+    if ( particle == G4MuonMinus::Definition() || particle == G4MuonPlus::Definition() )
     {
         // Selezione volume (esempio: aria)
         if (volName == "Air")

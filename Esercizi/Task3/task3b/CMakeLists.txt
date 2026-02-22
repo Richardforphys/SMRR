@@ -63,8 +63,9 @@
 
   #----------------------------------------------------------------------------
   set(EXAMPLEtask3b_SCRIPTS
-    vis.mac
-    visQt.mac
+    macros/vis.mac
+    macros/visQt.mac
+    macros/particle.mac
     )
   # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
   # risultati delle simulaizoni e per il run delle stesse.

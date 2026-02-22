@@ -51,7 +51,7 @@ void DetectorConstruction::DefineMaterials()
 	air     = man->FindOrBuildMaterial("G4_AIR");
 	silicon = man->FindOrBuildMaterial("G4_Si");//man->FindOrBuildMaterial("G4_Si");
 	//Em calo
-	pbw04   = silicon;//man->FindOrBuildMaterial("G4_PbWO4");
+	pbw04   = man->FindOrBuildMaterial("G4_PbWO4");
 	//Had calo
 	// Liquid Argon has a  X0 = 10.971 cm  and  lambda_I = 65.769 cm.
 	//G4double density = 1.4*g/cm3;
@@ -345,7 +345,7 @@ G4FieldManager* DetectorConstruction::GetLocalFieldManager()
 {
   // pure magnetic field
   G4MagneticField* fMagneticField = 
-    new G4UniformMagField(G4ThreeVector(0.035*tesla, 0., 0.)); //
+    new G4UniformMagField(G4ThreeVector(3.5*tesla, 0., 0.)); //
 
   // equation of motion with spin
   G4Mag_EqRhs* fEquation = new G4Mag_SpinEqRhs(fMagneticField);

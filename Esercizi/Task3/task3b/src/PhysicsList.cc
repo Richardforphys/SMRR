@@ -112,7 +112,7 @@ void PhysicsList::ConstructProcess()
 {
   AddTransportation();
 
-  ConstructDecay();
+  //ConstructDecay();
   ConstructEM();
 }
 

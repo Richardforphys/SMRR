@@ -129,10 +129,21 @@ void Analysis::EndOfRun(const G4Run* aRun)
 	G4cout<<"\t Average energy in EM calo: "<<G4BestUnit(thisRunTotEM/numEvents,"Energy")<<G4endl;
 	G4cout<<"================="<<G4endl;
 
-	//At the end of the run we can now save a ROOT file containing the histogram
-	char filename[256];
-	sprintf(filename,"run_%d.root",aRun->GetRunID() );
-	TFile* outfile = TFile::Open(filename,"recreate");
+	std::string basePath = "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Electrons/WITH_B/";
+	int fileIndex = 0;
+	std::string filename;
+	while (true)
+	{
+		std::ostringstream name;
+		name << basePath << "run_" << fileIndex << ".root";
+		filename = name.str();
+
+		std::ifstream f(filename.c_str());
+		if (!f.good()) break;  // file NON esiste → ok
+		fileIndex++;
+	}
+
+	TFile* outfile = TFile::Open(filename.c_str(), "recreate");
 	for (size_t i=0; i<histos.size();++i) 
 	  histos[i]->Write();
 	outfile->Close();

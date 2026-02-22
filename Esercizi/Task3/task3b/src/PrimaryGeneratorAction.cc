@@ -14,7 +14,6 @@
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
 
-
 PrimaryGeneratorAction::PrimaryGeneratorAction()
   : outfile(0)
 {
@@ -40,7 +39,7 @@ G4VPrimaryGenerator* PrimaryGeneratorAction::InitializeGPS()
 
   // particle type
   G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* pt = particleTable->FindParticle("pi-");  
+  G4ParticleDefinition* pt = particleTable->FindParticle("mu-");  
   gps->GetCurrentSource()->SetParticleDefinition(pt);
 
   // set energy distribution
