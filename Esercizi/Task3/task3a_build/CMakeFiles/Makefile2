@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task3/task3a
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Esercizi/Task3/task3a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task3/task3a_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Esercizi/Task3/task3a_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/task3a.dir/clean
 CMakeFiles/exampletask3a.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask3a.dir/build.make CMakeFiles/exampletask3a.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampletask3a.dir/build.make CMakeFiles/exampletask3a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target exampletask3a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3a_build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target exampletask3a"
 .PHONY : CMakeFiles/exampletask3a.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exampletask3a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Esercizi/Task3/task3a_build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exampletask3a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Esercizi/Task3/task3a_build/CMakeFiles 0
 .PHONY : CMakeFiles/exampletask3a.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/exampletask3a.dir/clean:
 CMakeFiles/task3a.dir/all: CMakeFiles/exampletask3a.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3a.dir/build.make CMakeFiles/task3a.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task3a.dir/build.make CMakeFiles/task3a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles --progress-num= "Built target task3a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ubuntu/SMRR/Esercizi/Task3/task3a_build/CMakeFiles --progress-num= "Built target task3a"
 .PHONY : CMakeFiles/task3a.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/task3a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Esercizi/Task3/task3a_build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/task3a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Exercises/task3/task3a_build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/SMRR/Esercizi/Task3/task3a_build/CMakeFiles 0
 .PHONY : CMakeFiles/task3a.dir/rule
 
 # Convenience name for target.

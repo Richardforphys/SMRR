@@ -1,7 +1,7 @@
 CMakeFiles/exampletask3a.dir/src/DetectorConstruction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3a/src/DetectorConstruction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -350,7 +350,7 @@ CMakeFiles/exampletask3a.dir/src/DetectorConstruction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Color.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisAttributes.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Colour.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GeometryManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SmartVoxelStat.hh \

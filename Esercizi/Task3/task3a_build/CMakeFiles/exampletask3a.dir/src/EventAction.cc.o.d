@@ -1,7 +1,7 @@
 CMakeFiles/exampletask3a.dir/src/EventAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3a/src/EventAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/EventAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/EventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -264,5 +264,5 @@ CMakeFiles/exampletask3a.dir/src/EventAction.cc.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserEventInformation.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh

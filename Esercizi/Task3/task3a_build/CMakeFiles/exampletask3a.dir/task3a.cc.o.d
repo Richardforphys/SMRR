@@ -1,5 +1,5 @@
 CMakeFiles/exampletask3a.dir/task3a.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3a/task3a.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/task3a.cc \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RunManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
@@ -624,22 +624,22 @@ CMakeFiles/exampletask3a.dir/task3a.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIbatch.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIExecutive.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUIshell.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/StackingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/StackingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserStackingAction.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/SteppingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/SteppingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserSteppingAction.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/EventAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/EventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/RunAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/RunAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserRunAction.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/PhysicsList.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/PhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProductionCutsTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialCutsCouple.hh \

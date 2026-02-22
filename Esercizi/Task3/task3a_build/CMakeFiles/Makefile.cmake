@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ubuntu/SMRR/Exercises/task3/task3a/CMakeLists.txt"
-  "/home/ubuntu/SMRR/Exercises/task3/task3a/vis.mac"
-  "/home/ubuntu/SMRR/Exercises/task3/task3a/visQt.mac"
+  "/home/ubuntu/SMRR/Esercizi/Task3/task3a/CMakeLists.txt"
+  "/home/ubuntu/SMRR/Esercizi/Task3/task3a/vis.mac"
+  "/home/ubuntu/SMRR/Esercizi/Task3/task3a/visQt.mac"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
@@ -248,6 +248,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.28/Modules/FindVulkan.cmake"
   "/usr/share/cmake-3.28/Modules/FindX11.cmake"
+  "/usr/share/cmake-3.28/Modules/FindXercesC.cmake"
   "/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
   "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake"
   "/usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake"

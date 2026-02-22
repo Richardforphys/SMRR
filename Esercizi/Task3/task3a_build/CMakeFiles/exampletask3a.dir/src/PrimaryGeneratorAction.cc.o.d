@@ -1,7 +1,7 @@
 CMakeFiles/exampletask3a.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3a/src/PrimaryGeneratorAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \

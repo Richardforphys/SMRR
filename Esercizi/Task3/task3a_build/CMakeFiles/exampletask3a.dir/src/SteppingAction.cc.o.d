@@ -1,7 +1,7 @@
 CMakeFiles/exampletask3a.dir/src/SteppingAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task3/task3a/src/SteppingAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/SteppingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/SteppingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -358,7 +358,7 @@ CMakeFiles/exampletask3a.dir/src/SteppingAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Track.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Step.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VTouchable.hh \
- /home/ubuntu/SMRR/Exercises/task3/task3a/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task3/task3a/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/Randomize.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Randomize.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/DualRand.h \
