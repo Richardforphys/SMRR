@@ -1,7 +1,7 @@
 CMakeFiles/exampletask4b.dir/src/HadCaloSensitiveDetector.cc.o: \
- /home/ubuntu/SMRR/Exercises/task4/task4b/src/HadCaloSensitiveDetector.cc \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/src/HadCaloSensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task4/task4b/include/HadCaloSensitiveDetector.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/include/HadCaloSensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CollectionNameVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
@@ -368,7 +368,7 @@ CMakeFiles/exampletask4b.dir/src/HadCaloSensitiveDetector.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HCtable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UnitsTable.icc \
- /home/ubuntu/SMRR/Exercises/task4/task4b/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \

@@ -1,7 +1,7 @@
 CMakeFiles/exampletask4b.dir/src/DetectorConstruction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task4/task4b/src/DetectorConstruction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task4/task4b/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -354,7 +354,7 @@ CMakeFiles/exampletask4b.dir/src/DetectorConstruction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Color.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisAttributes.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Colour.hh \
- /home/ubuntu/SMRR/Exercises/task4/task4b/include/HadCaloSensitiveDetector.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/include/HadCaloSensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CollectionNameVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HCofThisEvent.hh \

@@ -1,7 +1,7 @@
 CMakeFiles/exampletask4b.dir/src/StackingAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task4/task4b/src/StackingAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/src/StackingAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task4/task4b/include/StackingAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/include/StackingAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -357,7 +357,7 @@ CMakeFiles/exampletask4b.dir/src/StackingAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TrackVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Step.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Track.hh \
- /home/ubuntu/SMRR/Exercises/task4/task4b/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4b/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
