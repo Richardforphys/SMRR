@@ -81,16 +81,16 @@ int main(int argc,char** argv)
 #if  G4VERSION_NUMBER>=930
     G4UIExecutive * ui = new G4UIExecutive(argc,argv);
     if (ui->IsGUI()) 
-      UImanager->ApplyCommand("/control/execute visQt.mac");
+      UImanager->ApplyCommand("/control/execute macros/visQt.mac");
     else 
-      UImanager->ApplyCommand("/control/execute vis.mac");     
+      UImanager->ApplyCommand("/control/execute macros/vis.mac");     
 #else
   #ifdef G4UI_USE_TCSH
     G4UIsession * ui = new G4UIterminal(new G4UItcsh);      
   #else
     G4UIsession * ui = new G4UIterminal();
   #endif
-    UImanager->ApplyCommand("/control/execute vis.mac");     
+    UImanager->ApplyCommand("/control/execute macros/vis.mac");     
 #endif
     ui->SessionStart();
     delete ui;     

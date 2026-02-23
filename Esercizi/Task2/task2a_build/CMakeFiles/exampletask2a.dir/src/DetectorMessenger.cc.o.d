@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorMessenger.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorMessenger.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/DetectorMessenger.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/DetectorMessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -240,7 +240,7 @@ CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \

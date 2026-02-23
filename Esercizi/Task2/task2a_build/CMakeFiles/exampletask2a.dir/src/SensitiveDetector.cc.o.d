@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/SensitiveDetector.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SensitiveDetector.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CollectionNameVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
@@ -362,7 +362,7 @@ CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VReadOutGeometry.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSDFilter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \

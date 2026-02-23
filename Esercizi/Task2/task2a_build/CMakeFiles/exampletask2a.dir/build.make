@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task2/task2a
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Esercizi/Task2/task2a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task2/task2a_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Esercizi/Task2/task2a_build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampletask2a.dir/depend.make
@@ -70,228 +70,228 @@ include CMakeFiles/exampletask2a.dir/progress.make
 include CMakeFiles/exampletask2a.dir/flags.make
 
 CMakeFiles/exampletask2a.dir/task2a.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/task2a.cc
+CMakeFiles/exampletask2a.dir/task2a.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/task2a.cc
 CMakeFiles/exampletask2a.dir/task2a.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampletask2a.dir/task2a.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/task2a.cc.o -MF CMakeFiles/exampletask2a.dir/task2a.cc.o.d -o CMakeFiles/exampletask2a.dir/task2a.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/task2a.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampletask2a.dir/task2a.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/task2a.cc.o -MF CMakeFiles/exampletask2a.dir/task2a.cc.o.d -o CMakeFiles/exampletask2a.dir/task2a.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/task2a.cc
 
 CMakeFiles/exampletask2a.dir/task2a.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/task2a.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/task2a.cc > CMakeFiles/exampletask2a.dir/task2a.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/task2a.cc > CMakeFiles/exampletask2a.dir/task2a.cc.i
 
 CMakeFiles/exampletask2a.dir/task2a.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/task2a.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/task2a.cc -o CMakeFiles/exampletask2a.dir/task2a.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/task2a.cc -o CMakeFiles/exampletask2a.dir/task2a.cc.s
 
 CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/CrosstalkGenerator.cc
+CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/CrosstalkGenerator.cc
 CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o -MF CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o.d -o CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/CrosstalkGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o -MF CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o.d -o CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/CrosstalkGenerator.cc
 
 CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/CrosstalkGenerator.cc > CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/CrosstalkGenerator.cc > CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.i
 
 CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/CrosstalkGenerator.cc -o CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/CrosstalkGenerator.cc -o CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.s
 
 CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorConstruction.cc
+CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorConstruction.cc
 CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorConstruction.cc
 
 CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorConstruction.cc > CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorConstruction.cc > CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorConstruction.cc -o CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorConstruction.cc -o CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorMessenger.cc
+CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorMessenger.cc
 CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o -MF CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o.d -o CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o -MF CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o.d -o CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorMessenger.cc
 
 CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorMessenger.cc > CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorMessenger.cc > CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.i
 
 CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorMessenger.cc -o CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorMessenger.cc -o CMakeFiles/exampletask2a.dir/src/DetectorMessenger.cc.s
 
 CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/EventAction.cc
+CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/EventAction.cc
 CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampletask2a.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/EventAction.cc.o -MF CMakeFiles/exampletask2a.dir/src/EventAction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/EventAction.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampletask2a.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/EventAction.cc.o -MF CMakeFiles/exampletask2a.dir/src/EventAction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/EventAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/EventAction.cc
 
 CMakeFiles/exampletask2a.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/EventAction.cc > CMakeFiles/exampletask2a.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/EventAction.cc > CMakeFiles/exampletask2a.dir/src/EventAction.cc.i
 
 CMakeFiles/exampletask2a.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/EventAction.cc -o CMakeFiles/exampletask2a.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/EventAction.cc -o CMakeFiles/exampletask2a.dir/src/EventAction.cc.s
 
 CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/MeV2ChargeConverter.cc
+CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/MeV2ChargeConverter.cc
 CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o -MF CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o.d -o CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/MeV2ChargeConverter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o -MF CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o.d -o CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/MeV2ChargeConverter.cc
 
 CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/MeV2ChargeConverter.cc > CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/MeV2ChargeConverter.cc > CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.i
 
 CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/MeV2ChargeConverter.cc -o CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/MeV2ChargeConverter.cc -o CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.s
 
 CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/NoiseGenerator.cc
+CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/NoiseGenerator.cc
 CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o -MF CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o.d -o CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/NoiseGenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o -MF CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o.d -o CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/NoiseGenerator.cc
 
 CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/NoiseGenerator.cc > CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/NoiseGenerator.cc > CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.i
 
 CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/NoiseGenerator.cc -o CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/NoiseGenerator.cc -o CMakeFiles/exampletask2a.dir/src/NoiseGenerator.cc.s
 
 CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/PhysicsList.cc
+CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PhysicsList.cc
 CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PhysicsList.cc
 
 CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/PhysicsList.cc > CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PhysicsList.cc > CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.i
 
 CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/PhysicsList.cc -o CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PhysicsList.cc -o CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.s
 
 CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/PrimaryGeneratorAction.cc
+CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/PrimaryGeneratorAction.cc > CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PrimaryGeneratorAction.cc > CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/RootSaver.cc
+CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RootSaver.cc
 CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o -MF CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o.d -o CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/RootSaver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o -MF CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o.d -o CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RootSaver.cc
 
 CMakeFiles/exampletask2a.dir/src/RootSaver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/RootSaver.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/RootSaver.cc > CMakeFiles/exampletask2a.dir/src/RootSaver.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RootSaver.cc > CMakeFiles/exampletask2a.dir/src/RootSaver.cc.i
 
 CMakeFiles/exampletask2a.dir/src/RootSaver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/RootSaver.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/RootSaver.cc -o CMakeFiles/exampletask2a.dir/src/RootSaver.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RootSaver.cc -o CMakeFiles/exampletask2a.dir/src/RootSaver.cc.s
 
 CMakeFiles/exampletask2a.dir/src/RunAction.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/RunAction.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/RunAction.cc
+CMakeFiles/exampletask2a.dir/src/RunAction.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RunAction.cc
 CMakeFiles/exampletask2a.dir/src/RunAction.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/exampletask2a.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/RunAction.cc.o -MF CMakeFiles/exampletask2a.dir/src/RunAction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/RunAction.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/exampletask2a.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/RunAction.cc.o -MF CMakeFiles/exampletask2a.dir/src/RunAction.cc.o.d -o CMakeFiles/exampletask2a.dir/src/RunAction.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RunAction.cc
 
 CMakeFiles/exampletask2a.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/RunAction.cc > CMakeFiles/exampletask2a.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RunAction.cc > CMakeFiles/exampletask2a.dir/src/RunAction.cc.i
 
 CMakeFiles/exampletask2a.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/RunAction.cc -o CMakeFiles/exampletask2a.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RunAction.cc -o CMakeFiles/exampletask2a.dir/src/RunAction.cc.s
 
 CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/SensitiveDetector.cc
+CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SensitiveDetector.cc
 CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/SensitiveDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SensitiveDetector.cc
 
 CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/SensitiveDetector.cc > CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SensitiveDetector.cc > CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.i
 
 CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/SensitiveDetector.cc -o CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SensitiveDetector.cc -o CMakeFiles/exampletask2a.dir/src/SensitiveDetector.cc.s
 
 CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigi.cc
+CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigi.cc
 CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigi.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigi.cc
 
 CMakeFiles/exampletask2a.dir/src/SiDigi.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/SiDigi.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigi.cc > CMakeFiles/exampletask2a.dir/src/SiDigi.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigi.cc > CMakeFiles/exampletask2a.dir/src/SiDigi.cc.i
 
 CMakeFiles/exampletask2a.dir/src/SiDigi.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/SiDigi.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigi.cc -o CMakeFiles/exampletask2a.dir/src/SiDigi.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigi.cc -o CMakeFiles/exampletask2a.dir/src/SiDigi.cc.s
 
 CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizer.cc
+CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizer.cc
 CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizer.cc
 
 CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizer.cc > CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizer.cc > CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.i
 
 CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizer.cc -o CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizer.cc -o CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.s
 
 CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizerMessenger.cc
+CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizerMessenger.cc
 CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizerMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizerMessenger.cc
 
 CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizerMessenger.cc > CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizerMessenger.cc > CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.i
 
 CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizerMessenger.cc -o CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizerMessenger.cc -o CMakeFiles/exampletask2a.dir/src/SiDigitizerMessenger.cc.s
 
 CMakeFiles/exampletask2a.dir/src/SiHit.cc.o: CMakeFiles/exampletask2a.dir/flags.make
-CMakeFiles/exampletask2a.dir/src/SiHit.cc.o: /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiHit.cc
+CMakeFiles/exampletask2a.dir/src/SiHit.cc.o: /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiHit.cc
 CMakeFiles/exampletask2a.dir/src/SiHit.cc.o: CMakeFiles/exampletask2a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiHit.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiHit.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiHit.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiHit.cc.o -c /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/exampletask2a.dir/src/SiHit.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampletask2a.dir/src/SiHit.cc.o -MF CMakeFiles/exampletask2a.dir/src/SiHit.cc.o.d -o CMakeFiles/exampletask2a.dir/src/SiHit.cc.o -c /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiHit.cc
 
 CMakeFiles/exampletask2a.dir/src/SiHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampletask2a.dir/src/SiHit.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiHit.cc > CMakeFiles/exampletask2a.dir/src/SiHit.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiHit.cc > CMakeFiles/exampletask2a.dir/src/SiHit.cc.i
 
 CMakeFiles/exampletask2a.dir/src/SiHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampletask2a.dir/src/SiHit.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiHit.cc -o CMakeFiles/exampletask2a.dir/src/SiHit.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiHit.cc -o CMakeFiles/exampletask2a.dir/src/SiHit.cc.s
 
 # Object files for target exampletask2a
 exampletask2a_OBJECTS = \
@@ -344,6 +344,7 @@ exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4modeling.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4interfaces.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4mctruth.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4geomtext.so
+exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4gdml.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4analysis.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4error_propagation.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4readout.so
@@ -376,6 +377,7 @@ exampletask2a: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 exampletask2a: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 exampletask2a: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 exampletask2a: /usr/lib/x86_64-linux-gnu/libGL.so
+exampletask2a: /usr/lib/x86_64-linux-gnu/libxerces-c.so
 exampletask2a: /usr/lib/x86_64-linux-gnu/libexpat.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_hadronic.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4processes_core.so
@@ -391,7 +393,7 @@ exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4clhep.so
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4ptl.so.3.0.0
 exampletask2a: /home/ubuntu/SMRR/geant4_install/lib/libG4zlib.so
 exampletask2a: CMakeFiles/exampletask2a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable exampletask2a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable exampletask2a"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampletask2a.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -403,6 +405,6 @@ CMakeFiles/exampletask2a.dir/clean:
 .PHONY : CMakeFiles/exampletask2a.dir/clean
 
 CMakeFiles/exampletask2a.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/task2/task2a_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task2/task2a /home/ubuntu/SMRR/Exercises/task2/task2a /home/ubuntu/SMRR/Exercises/task2/task2a_build /home/ubuntu/SMRR/Exercises/task2/task2a_build /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/exampletask2a.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/Esercizi/Task2/task2a_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Esercizi/Task2/task2a /home/ubuntu/SMRR/Esercizi/Task2/task2a /home/ubuntu/SMRR/Esercizi/Task2/task2a_build /home/ubuntu/SMRR/Esercizi/Task2/task2a_build /home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles/exampletask2a.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/exampletask2a.dir/depend
 

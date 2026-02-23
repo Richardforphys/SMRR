@@ -1,5 +1,5 @@
 CMakeFiles/exampletask2a.dir/task2a.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/task2a.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/task2a.cc \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4RunManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
@@ -624,31 +624,31 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIbatch.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIExecutive.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUIshell.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleGun.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/PhysicsList.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/PhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProductionCutsTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MaterialCutsCouple.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ProductionCuts.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4MCCIndexConversionTable.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUPLSplitter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/EventAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/EventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/NoiseGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/NoiseGenerator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/Randomize.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/MeV2ChargeConverter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/RunAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/MeV2ChargeConverter.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/RunAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserRunAction.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/RootSaver.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/RootSaver.hh \
  /home/ubuntu/SMRR/ROOT/root_install/include/TTree.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/Compression.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
@@ -710,10 +710,10 @@ CMakeFiles/exampletask2a.dir/task2a.cc.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBranch.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBits.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TDigiCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh

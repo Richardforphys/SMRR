@@ -63,11 +63,10 @@
 
   #----------------------------------------------------------------------------
   set(EXAMPLEtask2a_SCRIPTS
-    vis.mac
-    visQt.mac
-    generateAll.mac
-    dutsetupRotate.mac
-    dutsetupRotateOnce.mac
+    macros/vis.mac
+    macros/visQt.mac
+    macros/dutsetupRotate.mac
+    macros/dutsetupRotateOnce.mac
     )
   # Stila un elenco di file macro di Geant4, necessari per la visualizzazione dei
   # risultati delle simulaizoni e per il run delle stesse.

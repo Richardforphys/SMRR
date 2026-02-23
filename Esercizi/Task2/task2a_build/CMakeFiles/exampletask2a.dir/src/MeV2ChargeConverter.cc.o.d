@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/MeV2ChargeConverter.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/MeV2ChargeConverter.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/MeV2ChargeConverter.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/MeV2ChargeConverter.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/MeV2ChargeConverter.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/13/complex \

@@ -1,5 +1,5 @@
 CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigitizer.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigitizer.cc \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DigiManager.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
@@ -232,16 +232,16 @@ CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4DCtable.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigitizer.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigitizer.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigitizerModule.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4TDigiCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigiCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/NoiseGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/NoiseGenerator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/Randomize.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Randomize.h \
@@ -308,15 +308,15 @@ CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.icc \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/MeV2ChargeConverter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/CrosstalkGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/MeV2ChargeConverter.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/CrosstalkGenerator.hh \
  /usr/include/CLHEP/Matrix/SymMatrix.h /usr/include/CLHEP/Matrix/defs.h \
  /usr/include/CLHEP/Matrix/GenMatrix.h \
  /usr/include/CLHEP/Matrix/GenMatrix.icc \
  /usr/include/CLHEP/Matrix/SymMatrix.icc \
  /usr/include/CLHEP/Matrix/Vector.h /usr/include/CLHEP/Matrix/Vector.icc \
  /usr/include/c++/13/stdlib.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigitizerMessenger.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigitizerMessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UImessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \
@@ -326,11 +326,11 @@ CMakeFiles/exampletask2a.dir/src/SiDigitizer.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIparameter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/NoiseGenerator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/MeV2ChargeConverter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/CrosstalkGenerator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/NoiseGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/MeV2ChargeConverter.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/CrosstalkGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \

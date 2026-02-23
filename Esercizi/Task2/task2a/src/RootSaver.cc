@@ -18,6 +18,7 @@
 #include <iostream>
 #include <cassert>
 #include "G4SystemOfUnits.hh"
+#include <filesystem>
 
 RootSaver::RootSaver() :
 	rootTree(0),
@@ -53,8 +54,9 @@ void RootSaver::CreateTree( const std::string& fileName , const std::string& tre
 		std::cerr<<"TTree already created, first call CloseTree"<<std::endl;
 		return;
 	}
+	std::string save_path = "/home/ubuntu/SMRR/Esercizi/Task2/task2a/Results_100MeV/";
 	std::ostringstream fn;
-	fn << fileName << "_run" << runCounter++ << ".root";
+	fn << save_path << fileName << "_run" << runCounter++ << ".root";
 	//Create a new file and open it for writing, if the file already exists the file
 	//is overwritten
 	TFile* rootFile = TFile::Open( fn.str().data() , "recreate" );

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Exercises/task2/task2a
+CMAKE_SOURCE_DIR = /home/ubuntu/SMRR/Esercizi/Task2/task2a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Exercises/task2/task2a_build
+CMAKE_BINARY_DIR = /home/ubuntu/SMRR/Esercizi/Task2/task2a_build
 
 # Utility rule file for task2a.
 
@@ -81,6 +81,6 @@ CMakeFiles/task2a.dir/clean:
 .PHONY : CMakeFiles/task2a.dir/clean
 
 CMakeFiles/task2a.dir/depend:
-	cd /home/ubuntu/SMRR/Exercises/task2/task2a_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Exercises/task2/task2a /home/ubuntu/SMRR/Exercises/task2/task2a /home/ubuntu/SMRR/Exercises/task2/task2a_build /home/ubuntu/SMRR/Exercises/task2/task2a_build /home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/task2a.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/SMRR/Esercizi/Task2/task2a_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/SMRR/Esercizi/Task2/task2a /home/ubuntu/SMRR/Esercizi/Task2/task2a /home/ubuntu/SMRR/Esercizi/Task2/task2a_build /home/ubuntu/SMRR/Esercizi/Task2/task2a_build /home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles/task2a.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/task2a.dir/depend
 

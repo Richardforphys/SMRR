@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/SiHit.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiHit.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiHit.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \

@@ -1,5 +1,5 @@
 CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/PhysicsList.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PhysicsList.cc \
  /usr/include/stdc-predef.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
@@ -225,7 +225,7 @@ CMakeFiles/exampletask2a.dir/src/PhysicsList.cc.o: \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/PhysicsList.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/PhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPhysicsList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleDefinition.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4PDefManager.hh \

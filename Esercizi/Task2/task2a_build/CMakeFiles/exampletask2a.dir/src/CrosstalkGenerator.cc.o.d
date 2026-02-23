@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/CrosstalkGenerator.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/CrosstalkGenerator.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/CrosstalkGenerator.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/CrosstalkGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/CrosstalkGenerator.hh \
  /usr/include/CLHEP/Matrix/SymMatrix.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

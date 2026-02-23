@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/SiDigi.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/SiDigi.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/SiDigi.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \

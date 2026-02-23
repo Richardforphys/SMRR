@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/PrimaryGeneratorAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ParticleGun.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \

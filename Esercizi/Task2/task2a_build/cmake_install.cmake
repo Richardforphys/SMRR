@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/SMRR/Exercises/task2/task2a
+# Install script for directory: /home/ubuntu/SMRR/Esercizi/Task2/task2a
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask2a"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/SMRR/Exercises/task2/task2a_build/exampletask2a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/exampletask2a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask2a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampletask2a")
     file(RPATH_CHANGE
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ubuntu/SMRR/Exercises/task2/task2a_build/CMakeFiles/exampletask2a.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/CMakeFiles/exampletask2a.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -74,5 +74,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/SMRR/Exercises/task2/task2a_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/SMRR/Esercizi/Task2/task2a_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

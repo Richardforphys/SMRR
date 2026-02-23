@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/EventAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/EventAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/EventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserEventAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -190,7 +190,7 @@ CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/13/iostream \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4String.icc \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/NoiseGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/NoiseGenerator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/Randomize.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/Randomize.h \
@@ -273,8 +273,8 @@ CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Random/RandStudentT.icc \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/MeV2ChargeConverter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/RootSaver.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/MeV2ChargeConverter.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/RootSaver.hh \
  /home/ubuntu/SMRR/ROOT/root_install/include/TTree.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/Compression.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/RtypesCore.h \
@@ -348,7 +348,7 @@ CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBranch.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBits.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
@@ -375,25 +375,25 @@ CMakeFiles/exampletask2a.dir/src/EventAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigiCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHitsCollection.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigitizer.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigitizer.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigitizerModule.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/CrosstalkGenerator.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/CrosstalkGenerator.hh \
  /usr/include/CLHEP/Matrix/SymMatrix.h /usr/include/CLHEP/Matrix/defs.h \
  /usr/include/CLHEP/Matrix/GenMatrix.h \
  /usr/include/CLHEP/Matrix/GenMatrix.icc \
  /usr/include/CLHEP/Matrix/SymMatrix.icc \
  /usr/include/CLHEP/Matrix/Vector.h /usr/include/CLHEP/Matrix/Vector.icc \
  /usr/include/c++/13/stdlib.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigitizerMessenger.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigitizerMessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UImessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \

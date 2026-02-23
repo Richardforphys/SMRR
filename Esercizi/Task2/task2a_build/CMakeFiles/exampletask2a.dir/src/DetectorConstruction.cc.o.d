@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/DetectorConstruction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/DetectorConstruction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/DetectorConstruction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
@@ -236,7 +236,7 @@ CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Utility/defs.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/DetectorMessenger.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/DetectorMessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UImessenger.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIdirectory.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UIcommand.hh \
@@ -358,7 +358,7 @@ CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VisAttributes.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Colour.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SensitiveDetector.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSensitiveDetector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4CollectionNameVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4HCofThisEvent.hh \
@@ -407,7 +407,7 @@ CMakeFiles/exampletask2a.dir/src/DetectorConstruction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VReadOutGeometry.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VSDFilter.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \

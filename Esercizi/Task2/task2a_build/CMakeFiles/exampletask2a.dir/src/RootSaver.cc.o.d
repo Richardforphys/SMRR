@@ -1,7 +1,7 @@
 CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: \
- /home/ubuntu/SMRR/Exercises/task2/task2a/src/RootSaver.cc \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/src/RootSaver.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/RootSaver.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/RootSaver.hh \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -267,7 +267,7 @@ CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBranch.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBranchCacheInfo.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TBits.h \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigi.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/globals.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ios.hh \
@@ -319,7 +319,7 @@ CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4AllocatorPool.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VDigiCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Allocator.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHit.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4ThreeVector.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.h \
@@ -327,8 +327,8 @@ CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4THitsCollection.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VHitsCollection.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiDigi.hh \
- /home/ubuntu/SMRR/Exercises/task2/task2a/include/SiHit.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiDigi.hh \
+ /home/ubuntu/SMRR/Esercizi/Task2/task2a/include/SiHit.hh \
  /home/ubuntu/SMRR/ROOT/root_install/include/TFile.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TDirectoryFile.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TDatime.h \
@@ -345,4 +345,7 @@ CMakeFiles/exampletask2a.dir/src/RootSaver.cc.o: \
  /usr/include/c++/13/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4SystemOfUnits.hh \
- /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h
+ /home/ubuntu/SMRR/geant4_install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /usr/include/c++/13/filesystem /usr/include/c++/13/bits/fs_fwd.h \
+ /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/codecvt \
+ /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h
