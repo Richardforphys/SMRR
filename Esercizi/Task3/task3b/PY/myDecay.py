@@ -97,7 +97,7 @@ def analyseDecay(fname, tag):
     #text.DrawLatex(0.65, 0.75, f"tau = {tau:.2f} ± {tau_err:.2f} #mus")
 
     # Salvataggio
-    save_path = r"/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Electrons_PNG/"
+    save_path = r"/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Pions_PNG/"
     os.makedirs(save_path, exist_ok=True)
     outname = f"decay_fit_{tag}_{os.path.basename(fname).replace('.root','')}.png"
     c.SaveAs(save_path + outname)
@@ -109,8 +109,8 @@ def analyseDecay(fname, tag):
 # ------------------ Paths ------------------
 
 datasets = {
-    "WITH_B":    "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Electrons/WITH_B",
-    "WITHOUT_B": "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Electrons/WITHOUT_B/"
+    "WITH_B":    "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Pions/WITH_B",
+    "WITHOUT_B": "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Pions/WITHOUT_B/"
 }
 
 # ------------------ Loop over all files ------------------
@@ -171,7 +171,7 @@ plt.axvspan(
 
 plt.xlabel(r'$\tau$ [$\mu$s]', fontsize=13)
 plt.ylabel('Counts', fontsize=13)
-plt.title('Electrons lifetime – all datasets', fontsize=14)
+plt.title('Pions lifetime – all datasets', fontsize=14)
 
 plt.grid(True, ls='--', alpha=0.4)
 plt.legend()
@@ -250,12 +250,12 @@ plt.axhline(
 # Labels & style
 plt.xlabel('Energy [MeV]', fontsize=13)
 plt.ylabel(r'$\tau$ [$\mu$s]', fontsize=13)
-plt.title('Electrons lifetime per run', fontsize=14)
+plt.title('Pions lifetime per run', fontsize=14)
 
 plt.grid(True, ls='--', alpha=0.4)
 plt.legend()
 plt.tight_layout()
 
-plt.savefig("tau_scatter_Electrons.png", dpi=300)
-plt.savefig("tau_scatter_Electrons.pdf")
+plt.savefig("tau_scatter_Pions.png", dpi=300)
+plt.savefig("tau_scatter_Pions.pdf")
 plt.show()

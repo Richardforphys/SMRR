@@ -129,7 +129,7 @@ void Analysis::EndOfRun(const G4Run* aRun)
 	G4cout<<"\t Average energy in EM calo: "<<G4BestUnit(thisRunTotEM/numEvents,"Energy")<<G4endl;
 	G4cout<<"================="<<G4endl;
 
-	std::string basePath = "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Electrons/WITH_B/";
+	std::string basePath = "/home/ubuntu/SMRR/Esercizi/Task3/task3b/Results_PbWO4/Pions/WITH_B/";
 	int fileIndex = 0;
 	std::string filename;
 	while (true)
