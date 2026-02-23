@@ -1,7 +1,7 @@
 CMakeFiles/exampletask4a.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task4/task4a/src/PrimaryGeneratorAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task4/task4a/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

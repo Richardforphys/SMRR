@@ -1,7 +1,7 @@
 CMakeFiles/exampletask4a.dir/src/RunAction.cc.o: \
- /home/ubuntu/SMRR/Exercises/task4/task4a/src/RunAction.cc \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/src/RunAction.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task4/task4a/include/RunAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/include/RunAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4UserRunAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Types.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4GlobalConfig.hh \
@@ -489,7 +489,7 @@ CMakeFiles/exampletask4a.dir/src/RunAction.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/rundefs.hh \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/list.tcc \
- /home/ubuntu/SMRR/Exercises/task4/task4a/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
  /home/ubuntu/SMRR/ROOT/root_install/include/TH1D.h \
  /home/ubuntu/SMRR/ROOT/root_install/include/TH1.h \

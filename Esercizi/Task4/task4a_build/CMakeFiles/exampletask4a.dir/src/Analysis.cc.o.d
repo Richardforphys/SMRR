@@ -1,7 +1,7 @@
 CMakeFiles/exampletask4a.dir/src/Analysis.cc.o: \
- /home/ubuntu/SMRR/Exercises/task4/task4a/src/Analysis.cc \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/src/Analysis.cc \
  /usr/include/stdc-predef.h \
- /home/ubuntu/SMRR/Exercises/task4/task4a/include/Analysis.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/include/Analysis.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4Event.hh \
  /usr/include/c++/13/set /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -581,7 +581,7 @@ CMakeFiles/exampletask4a.dir/src/Analysis.cc.o: \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/rundefs.hh \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/list.tcc \
- /home/ubuntu/SMRR/Exercises/task4/task4a/include/PrimaryGeneratorAction.hh \
+ /home/ubuntu/SMRR/Esercizi/Task4/task4a/include/PrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/geant4_install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/ubuntu/SMRR/ROOT/root_install/include/TSystem.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \

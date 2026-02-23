@@ -37,4 +37,4 @@
 #
 /gps/particle pi-
 /gps/energy 50 MeV
-/run/beamOn 10000
+/run/beamOn 3000
